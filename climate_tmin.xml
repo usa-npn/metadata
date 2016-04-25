@@ -25,7 +25,7 @@
         </citation>
         <descript>
             <abstract>Daily temperature minimums as expressed in degrees Fahrenheit for the current year to date, plus forecasts for the following six days. Data presented at 2.5km resolution. Values based on NOAA National Centers for Environmental Prediction (NCEP) Real-Time Mesoscale Analysis Products, NCEP Unrestricted Mesoscale Analysis Products; short-term temperature forecast products based on NOAA National Weather Service National Digital Forecast Database. Each night, the data are re-generated for the previous two days, the current day, and the next six days. This allows more stable data and better forecasts to be incorporated into each day's representation of the model. Because the short-term forecasts are adjusted daily, pixels values may vary from one day to the next.</abstract>
-            <purpose>These data were created to be used as input into various phenological and climitological models. However, they could be used for any general purpose.</purpose>
+            <purpose>These data were created to be used as input into various phenological and climatological models. However, they could be used for any general purpose.</purpose>
             <supplinf>The metadata record provides three DOIs. One is a generalized page providing further information about USA-National Phenology Network gridded data products, including further information about the workflow used to produce them, and specific instructions on how to access data. The other two DOIs provide direct access to the WMS and WCS services respectively.</supplinf>
         </descript>
         <timeperd>
