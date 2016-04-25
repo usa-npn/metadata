@@ -59,7 +59,7 @@
                 <themekey>atmospheric and climatic processes</themekey>
             </theme>
         </keywords>
-        <accconst>Public_TEST</accconst>
+        <accconst>Public</accconst>
         <useconst>Please cite these products as follows: USA National Phenology Network. Year of dataset access. ::name of data product::, USA-NPN, Tucson, Arizona, USA. Data set accessed YYYY-MM-DD at http://dx.doi.org/10.5066/F7707ZHR</useconst>
         <ptcontac>
             <cntinfo>
