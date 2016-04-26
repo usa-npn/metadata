@@ -4,7 +4,7 @@
             <citeinfo>
                 <origin>USA National Phenology Network</origin>
                 <pubdate>2016</pubdate>
-                <title>Temperature Minimums, Conterminous United States, Current Year</title>
+                <title>Daily Temperature Maximums, Conterminous United States, Current Year</title>
                 <geoform>Raster Digital Data Set</geoform>
                 <onlink>http://dx.doi.org/10.5066/F7707ZHR</onlink>
                 <onlink>http://dx.doi.org/10.5066/F73776TV</onlink>
@@ -62,7 +62,7 @@
             </place>
         </keywords>
         <accconst>Public</accconst>
-        <useconst>Please cite these products as follows: USA National Phenology Network. Year of dataset access. Temperature Maximums, Conterminous United States, Current Year, USA-NPN, Tucson, Arizona, USA. Data set accessed YYYY-MM-DD at http://dx.doi.org/10.5066/F7707ZHR</useconst>
+        <useconst>Please cite these products as follows: USA National Phenology Network. Year of dataset access. Daily Temperature Maximums, Conterminous United States, Current Year, USA-NPN, Tucson, Arizona, USA. Data set accessed YYYY-MM-DD at http://dx.doi.org/10.5066/F7707ZHR</useconst>
         <ptcontac>
             <cntinfo>
                 <cntorgp>
