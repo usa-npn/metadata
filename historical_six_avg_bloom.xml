@@ -24,8 +24,8 @@
             </citeinfo>
         </citation>
         <descript>
-            <abstract>Daily progression of the first bloom Extended Spring Index (SI-x). Each pixel is assigned a day of year value once the requirements for the SI-x have been met for that location. The Extended Spring Indices are mathematical models that predict the "start of spring" (timing of leaf out or bloom) at a particular location. These models were constructed using historical observations of the timing of first leaf and first bloom in purple common lilac (Syringa vulgaris), a cloned lilac cultivar (S. x chinensis 'Red Rothomagensis') and two cloned honeysuckle cultivars (Lonicera tatarica 'Arnold Red' and L. korolkowii 'Zabeli'). Primary inputs to the model are temperature events, beginning January 1 of each year. Layers are available for each year from 1981 to 2015. Input temperature data based on historical PRISM data, at 4km resolution, which has been  bilinearly interpolated to 2.5km to make the data comparable to other products in the USA-National Phenology Network's gridded data suite.</abstract>
-            <purpose>The Extended Spring Indices have been used as an indicator of climate change by both the Environmental Protection Agency and the National Climate Assessment. The gridded forecasts of first leaf and first bloom supports understanding of spatial patterns in the timing of spring, as well as short-term forecasts to support resource management.</purpose>
+            <abstract>Daily progression of the Extended Spring Bloom Index (SI-x). Each pixel is assigned a day of year value once the requirements for the Bloom Index have been met for that location. The Extended Spring Indices are mathematical models that predict the "start of spring" (timing of leaf out or bloom) at a particular location. These models were constructed using historical observations of the timing of first leaf and first bloom in purple common lilac (Syringa vulgaris), a cloned lilac cultivar (S. x chinensis 'Red Rothomagensis') and two cloned honeysuckle cultivars (Lonicera tatarica 'Arnold Red' and L. korolkowii 'Zabeli'). Primary inputs to the model are temperature events, beginning January 1 of each year. Layers are available for each year from 1981 to 2015. Input temperature data based on historical PRISM data, at 4km resolution, which has been  bilinearly interpolated to 2.5km to make the data comparable to other products in the USA-National Phenology Network's gridded data suite.</abstract>
+            <purpose>The Extended Spring Indices have been used as an indicator of climate change by both the Environmental Protection Agency and the National Climate Assessment. The gridded forecasts of first leaf and first bloom support understanding of spatial patterns in the timing of spring, as well as short-term forecasts to support resource management.</purpose>
             <supplinf>This metadata record provides three DOIs. One is a generalized page providing further information about USA-National Phenology Network gridded data products, including further information about the workflow used to produce them, and specific instructions on how to access data. The other two DOIs provide direct access to the WMS and WCS services respectively.</supplinf>
         </descript>
         <timeperd>
@@ -74,10 +74,10 @@
                     <address>1311 E 4th St</address>
                     <city>Tucson</city>
                     <state>AZ</state>
-                    <postal>85719</postal>
+                    <postal>85721</postal>
                     <country>USA</country>
                 </cntaddr>
-                <cntvoice>+1-520-626-3821</cntvoice>
+                <cntvoice>+1-520-621-8523</cntvoice>
                 <cntemail>theresa@usanpn.org</cntemail>
             </cntinfo>
         </ptcontac>
@@ -127,7 +127,7 @@
                 <srccontr>Used as base climate data from which to calculate the Spring Index values.</srccontr>
             </srcinfo>
             <procstep>
-                <procdesc>Download complete PRISM tmax and tmin datasets for 1980 - 2010.</procdesc>
+                <procdesc>Download complete PRISM Tmax and Tmin datasets for 1980 - 2010.</procdesc>
                 <procdate>20160115</procdate>
             </procstep>
             <procstep>
@@ -198,10 +198,10 @@
                     <address>1311 E 4th St</address>
                     <city>Tucson</city>
                     <state>AZ</state>
-                    <postal>85719</postal>
+                    <postal>85721</postal>
                     <country>USA</country>
                 </cntaddr>
-                <cntvoice>+1-520-626-3821</cntvoice>
+                <cntvoice>+1-520-621-8523</cntvoice>
                 <cntemail>theresa@usanpn.org</cntemail>
             </cntinfo>
         </distrib>
@@ -238,10 +238,10 @@
                     <address>1311 E 4th St</address>
                     <city>Tucson</city>
                     <state>AZ</state>
-                    <postal>85719</postal>
+                    <postal>85721</postal>
                     <country>USA</country>
                 </cntaddr>
-                <cntvoice>+1-520-626-3821</cntvoice>
+                <cntvoice>+1-520-621-8523</cntvoice>
                 <cntemail>lee@usanpn.org</cntemail>
             </cntinfo>
         </metc>

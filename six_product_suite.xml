@@ -72,10 +72,10 @@ This suite of gridded data products featuring the Extended Spring Indicies inclu
                     <address>1311 E 4th St</address>
                     <city>Tucson</city>
                     <state>AZ</state>
-                    <postal>85719</postal>
+                    <postal>85721</postal>
                     <country>USA</country>
                 </cntaddr>
-                <cntvoice>+1-520-626-3821</cntvoice>
+                <cntvoice>+1-520-621-8523</cntvoice>
                 <cntemail>theresa@usanpn.org</cntemail>
             </cntinfo>
         </ptcontac>
@@ -100,13 +100,13 @@ This suite of gridded data products featuring the Extended Spring Indicies inclu
             <srcinfo>
                 <srccite>
                     <citeinfo>
-                        <origin>National Center for Environmental Prediction</origin>
+                        <origin>NOAA National Centers for Environmental Prediction</origin>
                         <pubdate>2016</pubdate>
                         <title>RTMA - Conterminous United States Grid 184 - 2.5 km resolution</title>
                         <geoform>Raster Digital Data Set</geoform>
                         <pubinfo>
                             <pubplace>Internet</pubplace>
-                            <publish>National Center for Environmental Prediction</publish>
+                            <publish>NOAA National Centers for Environmental Prediction</publish>
                         </pubinfo>
                         <onlink>http://www.nco.ncep.noaa.gov/pmb/products/rtma/</onlink>
                     </citeinfo>
@@ -127,13 +127,13 @@ This suite of gridded data products featuring the Extended Spring Indicies inclu
             <srcinfo>
                 <srccite>
                     <citeinfo>
-                        <origin>National Center for Environmental Prediction</origin>
+                        <origin>NOAA National Centers for Environmental Prediction</origin>
                         <pubdate>2016</pubdate>
                         <title>URMA - Conterminous United States - Grid 184 - Conus - 2.5km resolution</title>
                         <geoform>Raster Digital Data Set</geoform>
                         <pubinfo>
                             <pubplace>Internet</pubplace>
-                            <publish>National Center for Environmental Prediction</publish>
+                            <publish>NOAA National Centers for Environmental Prediction</publish>
                         </pubinfo>
                         <onlink>http://www.nco.ncep.noaa.gov/pmb/products/rtma/#URMA</onlink>
                     </citeinfo>
@@ -243,10 +243,10 @@ This suite of gridded data products featuring the Extended Spring Indicies inclu
                     <address>1311 E 4th St</address>
                     <city>Tucson</city>
                     <state>AZ</state>
-                    <postal>85719</postal>
+                    <postal>85721</postal>
                     <country>USA</country>
                 </cntaddr>
-                <cntvoice>+1-520-626-3821</cntvoice>
+                <cntvoice>+1-520-621-8523</cntvoice>
                 <cntemail>theresa@usanpn.org</cntemail>
             </cntinfo>
         </distrib>
@@ -283,10 +283,10 @@ This suite of gridded data products featuring the Extended Spring Indicies inclu
                     <address>1311 E 4th St</address>
                     <city>Tucson</city>
                     <state>AZ</state>
-                    <postal>85719</postal>
+                    <postal>85721</postal>
                     <country>USA</country>
                 </cntaddr>
-                <cntvoice>+1-520-626-3821</cntvoice>
+                <cntvoice>+1-520-621-8523</cntvoice>
                 <cntemail>lee@usanpn.org</cntemail>
             </cntinfo>
         </metc>

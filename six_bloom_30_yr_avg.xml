@@ -76,10 +76,10 @@
                     <address>1311 E 4th St</address>
                     <city>Tucson</city>
                     <state>AZ</state>
-                    <postal>85719</postal>
+                    <postal>85721</postal>
                     <country>USA</country>
                 </cntaddr>
-                <cntvoice>+1-520-626-3821</cntvoice>
+                <cntvoice>+1-520-621-8523</cntvoice>
                 <cntemail>theresa@usanpn.org</cntemail>
             </cntinfo>
         </ptcontac>
@@ -129,7 +129,7 @@
                 <srccontr>Used as calculate 30 year average AGDD values.</srccontr>
             </srcinfo>
             <procstep>
-                <procdesc>Download complete PRISM tmax and tmin datasets for 1980 - 2010.</procdesc>
+                <procdesc>Download complete PRISM Tmax and Tmin datasets for 1980 - 2010.</procdesc>
                 <procdate>20160115</procdate>
             </procstep>
             <procstep>
@@ -200,10 +200,10 @@
                     <address>1311 E 4th St</address>
                     <city>Tucson</city>
                     <state>AZ</state>
-                    <postal>85719</postal>
+                    <postal>85721</postal>
                     <country>USA</country>
                 </cntaddr>
-                <cntvoice>+1-520-626-3821</cntvoice>
+                <cntvoice>+1-520-621-8523</cntvoice>
                 <cntemail>theresa@usanpn.org</cntemail>
             </cntinfo>
         </distrib>
@@ -240,10 +240,10 @@
                     <address>1311 E 4th St</address>
                     <city>Tucson</city>
                     <state>AZ</state>
-                    <postal>85719</postal>
+                    <postal>85721</postal>
                     <country>USA</country>
                 </cntaddr>
-                <cntvoice>+1-520-626-3821</cntvoice>
+                <cntvoice>+1-520-621-8523</cntvoice>
                 <cntemail>lee@usanpn.org</cntemail>
             </cntinfo>
         </metc>

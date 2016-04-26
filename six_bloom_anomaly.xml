@@ -24,7 +24,7 @@
             </citeinfo>
         </citation>
         <descript>
-            <abstract>Daily difference, in days, between the contemporary first bloom Extended Spring Index (SI-x) values and 30-year average Spring Index first bloom values. The layers show how advanced or lagged the day of year of the bloom index is for the current year, compared to long-term average conditions, such that negative values represent locations that have reached or are anticipated to reach the SI-x requirements earlier than average, and positive values represent locations that have reached or are anticipated to reach the SI-x requirements later than average. The Extended Spring Indices are mathematical models that predict the "start of spring" (timing of leaf out or bloom) at a particular location. These models were constructed using historical observations of the timing of first leaf and first bloom in purple common lilac (Syringa vulgaris), a cloned lilac cultivar (S. x chinensis 'Red Rothomagensis') and two cloned honeysuckle cultivars (Lonicera tatarica 'Arnold Red' and L. korolkowii 'Zabeli'). Primary inputs to the model are temperature events, beginning January 1 of each year. Layers are available for each day of the current year, plus six days into the future, at a 2.5km resolution. Input temperature data based on NOAA National Centers for Environmental Prediction (NCEP) Real-Time Mesoscale Analysis Products, NCEP Unrestricted Mesoscale Analysis Products; short-term temperature forecast products based on NOAA National Weather Service National Digital Forecast Database. Each night, the data are re-generated for the previous two days, the current day, and the next six days. This allows more stable data and better forecasts to be incorporated into each day's representation of the model. Because the short-term forecasts are adjusted daily, pixels values may vary from one day to the next.</abstract>
+            <abstract>Daily difference, in days, between the contemporary Extended Spring Bloom Index (SI-x) values and 30-year average Extended Spring Bloom Index values. The layers show how advanced or lagged the day of year of the bloom index is for the current year, compared to long-term average conditions, such that negative values represent locations that have reached or are anticipated to reach the SI-x requirements earlier than average, and positive values represent locations that have reached or are anticipated to reach the SI-x requirements later than average. The Extended Spring Indices are mathematical models that predict the "start of spring" (timing of leaf out or bloom) at a particular location. These models were constructed using historical observations of the timing of first leaf and first bloom in purple common lilac (Syringa vulgaris), a cloned lilac cultivar (S. x chinensis 'Red Rothomagensis') and two cloned honeysuckle cultivars (Lonicera tatarica 'Arnold Red' and L. korolkowii 'Zabeli'). Primary inputs to the model are temperature events, beginning January 1 of each year. Layers are available for each day of the current year, plus six days into the future, at a 2.5km resolution. Input temperature data based on NOAA National Centers for Environmental Prediction (NCEP) Real-Time Mesoscale Analysis Products, NCEP Unrestricted Mesoscale Analysis Products; short-term temperature forecast products based on NOAA National Weather Service National Digital Forecast Database. Each night, the data are re-generated for the previous two days, the current day, and the next six days. This allows more stable data and better forecasts to be incorporated into each day's representation of the model. Because the short-term forecasts are adjusted daily, pixels values may vary from one day to the next.</abstract>
             <purpose>The Extended Spring Indices have been used as an indicator of climate change by both the Environmental Protection Agency and the National Climate Assessment. The gridded forecasts anomalies of first leaf and first bloom supports understanding of spatial patterns in the timing of spring, as well as short-term forecasts, as compared to the long-term average, to support resource management.</purpose>
             <supplinf>This metadata record provides three DOIs. One is a generalized page providing further information about USA-National Phenology Network gridded data products, including further information about the workflow used to produce them, and specific instructions on how to access data. The other two DOIs provide direct access to the WMS and WCS services respectively.
             Please note that as the Spring Index is a composite value of three different species' predicted onset date, thusly the difference in onset date for any given location cannot be caluclated until all three species have achieved onset.</supplinf>
@@ -75,10 +75,10 @@
                     <address>1311 E 4th St</address>
                     <city>Tucson</city>
                     <state>AZ</state>
-                    <postal>85719</postal>
+                    <postal>85721</postal>
                     <country>USA</country>
                 </cntaddr>
-                <cntvoice>+1-520-626-3821</cntvoice>
+                <cntvoice>+1-520-621-8523</cntvoice>
                 <cntemail>theresa@usanpn.org</cntemail>
             </cntinfo>
         </ptcontac>
@@ -103,13 +103,13 @@
             <srcinfo>
                 <srccite>
                     <citeinfo>
-                        <origin>National Center for Environmental Prediction</origin>
+                        <origin>NOAA National Centers for Environmental Prediction</origin>
                         <pubdate>2016</pubdate>
                         <title>RTMA - Conterminous United States Grid 184 - 2.5 km resolution</title>
                         <geoform>Raster Digital Data Set</geoform>
                         <pubinfo>
                             <pubplace>Internet</pubplace>
-                            <publish>National Center for Environmental Prediction</publish>
+                            <publish>NOAA National Centers for Environmental Prediction</publish>
                         </pubinfo>
                         <onlink>http://www.nco.ncep.noaa.gov/pmb/products/rtma/</onlink>
                     </citeinfo>
@@ -130,13 +130,13 @@
             <srcinfo>
                 <srccite>
                     <citeinfo>
-                        <origin>National Center for Environmental Prediction</origin>
+                        <origin>NOAA National Centers for Environmental Prediction</origin>
                         <pubdate>2016</pubdate>
                         <title>URMA - Conterminous United States - Grid 184 - Conus - 2.5km resolution</title>
                         <geoform>Raster Digital Data Set</geoform>
                         <pubinfo>
                             <pubplace>Internet</pubplace>
-                            <publish>National Center for Environmental Prediction</publish>
+                            <publish>NOAA National Centers for Environmental Prediction</publish>
                         </pubinfo>
                         <onlink>http://www.nco.ncep.noaa.gov/pmb/products/rtma/#URMA</onlink>
                     </citeinfo>
@@ -269,10 +269,10 @@
                     <address>1311 E 4th St</address>
                     <city>Tucson</city>
                     <state>AZ</state>
-                    <postal>85719</postal>
+                    <postal>85721</postal>
                     <country>USA</country>
                 </cntaddr>
-                <cntvoice>+1-520-626-3821</cntvoice>
+                <cntvoice>+1-520-621-8523</cntvoice>
                 <cntemail>theresa@usanpn.org</cntemail>
             </cntinfo>
         </distrib>
@@ -309,10 +309,10 @@
                     <address>1311 E 4th St</address>
                     <city>Tucson</city>
                     <state>AZ</state>
-                    <postal>85719</postal>
+                    <postal>85721</postal>
                     <country>USA</country>
                 </cntaddr>
-                <cntvoice>+1-520-626-3821</cntvoice>
+                <cntvoice>+1-520-621-8523</cntvoice>
                 <cntemail>lee@usanpn.org</cntemail>
             </cntinfo>
         </metc>
