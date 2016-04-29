@@ -127,7 +127,7 @@
                     <srccurr>publication date</srccurr>
                 </srctime>
                 <srccitea>PRISM</srccitea>
-                <srccontr>Used as calculate 30 year average AGDD values.</srccontr>
+                <srccontr>Used to calculate 30 year average AGDD values.</srccontr>
             </srcinfo>
             <procstep>
                 <procdesc>Download complete PRISM tmax and tmin datasets for 1980 - 2010.</procdesc>

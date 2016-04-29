@@ -181,6 +181,33 @@
                 <srccitea>NDFD</srccitea>
                 <srccontr>Provides current day and next six day temperature forecasts</srccontr>
             </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <origin>PRISM Climate Group, Oregon State University</origin>
+                        <pubdate>2016</pubdate>
+                        <title>PRISM Recent Year Climate Data</title>
+                        <geoform>Raster Digital Data Set</geoform>
+                        <pubinfo>
+                            <pubplace>Internet</pubplace>
+                            <publish>Oregon State University</publish>
+                        </pubinfo>
+                        <onlink>http://prism.oregonstate.edu/</onlink>
+                    </citeinfo>
+                </srccite>
+                <typesrc>Digital and/or Hardcopy Resources</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <rngdates>
+                            <begdate>19810101</begdate>
+                            <enddate>20150901</enddate>
+                        </rngdates>
+                    </timeinfo>
+                    <srccurr>publication date</srccurr>
+                </srctime>
+                <srccitea>PRISM</srccitea>
+                <srccontr>Used to calculate 30 year average AGDD values for comparative purposes.</srccontr>
+            </srcinfo>			
             <procstep>
                 <procdesc>NCEP NDFD forecast data is retrieved for current day and the forthcoming six days and is used to populate those days with temperature values.</procdesc>
                 <procdate>Not complete</procdate>

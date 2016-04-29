@@ -25,7 +25,7 @@
             </citeinfo>
         </citation>
         <descript>
-            <abstract>The USA National Phenology Network has available a series of gridded products enabling researchers to analyze historical and contemporary data related to the Extended Spring Indicies. The Extended Spring Indices are mathematical models that predict the "start of spring" (timing of leaf out or bloom) at a particular location (Schwartz 1997, Schwartz et al. 2006, Schwartz et al. 2013). These models were constructed using historical observations of the timing of leaf-out and bloom in purple common lilac (Syringa vulgaris), a cloned lilac cultivar (S. x chinensis 'Red Rothomagensis') and two cloned honeysuckle cultivars (Lonicera tatarica 'Arnold Red' and L. korolkowii 'Zabeli'). Primary inputs to the model are temperature and weather events, beginning January 1 of each year (Ault et al. 2015). The model output is the day of year that a particular location met the requirements of one of the Spring Index models (leaf or bloom).
+            <abstract>The USA National Phenology Network has available a series of gridded products enabling researchers to analyze historical and contemporary data related to the Extended Spring Indicies. The Extended Spring Indices are mathematical models that predict the "start of spring" (timing of leaf out or bloom) at a particular location (Schwartz 1997, Schwartz et al. 2006, Schwartz et al. 2013). These models were constructed using historical observations of the timing of leaf-out and bloom in purple common lilac (Syringa vulgaris), a cloned lilac cultivar (S. x chinensis 'Red Rothomagensis') and two cloned honeysuckle cultivars (Lonicera tatarica 'Arnold Red' and L. korolkowii 'Zabelii'). Primary inputs to the model are temperature and weather events, beginning January 1 of each year (Ault et al. 2015). The model output is the day of year that a particular location met the requirements of one of the Spring Index models (leaf or bloom).
 As the Extended Spring Index models are based on individual models for each of three calibration species (common and cloned lilacs are treated as a single species), model output is available for each of these species individually, or as an average of the three species. The original Spring Indices (Schwartz 1997) included a chilling requirement. In a more recent version of the model (Schwartz et al. 2013), referred to as the Extended Spring Indices, the chilling requirement was excluded, allowing the index to be extended across the entire U.S. The USA National Phenology Network's gridded data product suite are based on the Extended Spring Indices.</abstract>
             <purpose>The Extended Spring Indices have been used as an indicator of climate change by both the Environmental Protection Agency and the National Climate Assessment. The product suite supports understanding of spatial patterns in the timing of spring, including short-term forecasts to support resource management.</purpose>
             <supplinf>The Spring Index model does not incorporate new data into the model after day 240. 
@@ -203,7 +203,7 @@ This suite of gridded data products featuring the Extended Spring Indices includ
                     <srccurr>publication date</srccurr>
                 </srctime>
                 <srccitea>PRISM</srccitea>
-                <srccontr>Used as calculate 30 year average SI-x values.</srccontr>
+                <srccontr>Used to calculate 30 year average SI-x values.</srccontr>
             </srcinfo>    
         </lineage>
     </dataqual>
