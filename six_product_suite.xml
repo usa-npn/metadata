@@ -25,11 +25,11 @@
             </citeinfo>
         </citation>
         <descript>
-            <abstract>The USA National Phenology Network has available a series of gridded products enabling researchers to analyze historical and contemporary data related to the Extended Spring Indicies. The Extended Spring Indices are mathematical models that predict the "start of spring" (timing of leaf out or bloom) at a particular location (Schwartz 1997, Schwartz et al. 2006, Schwartz et al. 2013). These models were constructed using historical observations of the timing of leaf-out and bloom in purple common lilac (Syringa vulgaris), a cloned lilac cultivar (S. x chinensis 'Red Rothomagensis') and two cloned honeysuckle cultivars (Lonicera tatarica 'Arnold Red' and L. korolkowii 'Zabelii'). Primary inputs to the model are temperature and weather events, beginning January 1 of each year (Ault et al. 2015). The model output is the day of year that a particular location met the requirements of one of the Spring Index models (leaf or bloom).
-As the Extended Spring Index models are based on individual models for each of three calibration species (common and cloned lilacs are treated as a single species), model output is available for each of these species individually, or as an average of the three species. The original Spring Indices (Schwartz 1997) included a chilling requirement. In a more recent version of the model (Schwartz et al. 2013), referred to as the Extended Spring Indices, the chilling requirement was excluded, allowing the index to be extended across the entire U.S. The USA National Phenology Network's gridded data product suite are based on the Extended Spring Indices.</abstract>
+            <abstract>The USA National Phenology Network has available a series of gridded products enabling researchers to analyze historical and contemporary data related to the Extended Spring Indicies. The Extended Spring Indices are mathematical models that predict the "start of spring" (timing of leaf out or bloom for species active in early spring) at a particular location (Schwartz 1997, Schwartz et al. 2006, Schwartz et al. 2013). These models were constructed using historical observations of the timing of first leaf and first bloom in common lilac (Syringa vulgaris), a cloned lilac cultivar (S. x chinensis 'Red Rothomagensis') and two cloned honeysuckle cultivars (Lonicera tatarica 'Arnold Red' and L. korolkowii 'Zabelii'). Primary inputs to the model are temperature and weather events, beginning January 1 of each year (Ault et al. 2015). The model output is the day of year that a particular location met the requirements of one of the Spring Index models (First Leaf or First Bloom).
+As the Extended Spring Index models are based on individual models for each of three calibration species (common and cloned lilacs are treated as a single species), model output is available for each of these species individually, or as an average of the three species. The original Spring Indices (Schwartz 1997) included a chilling requirement. In a more recent version of the model (Schwartz et al. 2013), referred to as the Extended Spring Indices, the chilling requirement was excluded, allowing the index to be extended across the entire U.S. Spring index products in the USA National Phenology Network's gridded data product suite are based on the Extended Spring Indices.</abstract>
             <purpose>The Extended Spring Indices have been used as an indicator of climate change by both the Environmental Protection Agency and the National Climate Assessment. The product suite supports understanding of spatial patterns in the timing of spring, including short-term forecasts to support resource management.</purpose>
             <supplinf>The Spring Index model does not incorporate new data into the model after day 240. 
-This suite of gridded data products featuring the Extended Spring Indices includes: annual historical Spring Index maps from 1981 on, daily contemporary maps, 30-year average maps and daily anomaly maps.</supplinf>
+This suite of gridded data products featuring the Extended Spring Indices includes: annual historical Spring Index maps since 1981, daily maps for the current year, 30-year average maps and daily anomaly maps for the current year.</supplinf>
         </descript>
         <timeperd>
             <timeinfo>
@@ -102,7 +102,7 @@ This suite of gridded data products featuring the Extended Spring Indices includ
                     <citeinfo>
                         <origin>NOAA National Centers for Environmental Prediction</origin>
                         <pubdate>2016</pubdate>
-                        <title>RTMA - Conterminous United States Grid 184 - 2.5 km resolution</title>
+                        <title>RTMA - Contiguous United States Grid 184 - 2.5 km resolution</title>
                         <geoform>Raster Digital Data Set</geoform>
                         <pubinfo>
                             <pubplace>Internet</pubplace>
@@ -129,7 +129,7 @@ This suite of gridded data products featuring the Extended Spring Indices includ
                     <citeinfo>
                         <origin>NOAA National Centers for Environmental Prediction</origin>
                         <pubdate>2016</pubdate>
-                        <title>URMA - Conterminous United States - Grid 184 - Conus - 2.5km resolution</title>
+                        <title>URMA - Contiguous United States - Grid 184 - Conus - 2.5km resolution</title>
                         <geoform>Raster Digital Data Set</geoform>
                         <pubinfo>
                             <pubplace>Internet</pubplace>
@@ -250,7 +250,7 @@ This suite of gridded data products featuring the Extended Spring Indices includ
                 <cntemail>theresa@usanpn.org</cntemail>
             </cntinfo>
         </distrib>
-        <distliab>These data are preliminary or provisional and are subject to revision. They are being provided to meet the need for timely best science. The data have not received final approval by the U.S. Geological Survey USGS and are provided on the condition that neither the USGS nor the U.S. Government shall be held liable for any damages resulting from the authorized or unauthorized use of the data.</distliab>
+        <distliab>These data are preliminary or provisional and are subject to revision. They are being provided to meet the need for timely best science. The data have not received final approval by the U.S. Geological Survey (USGS) and are provided on the condition that neither the USGS nor the U.S. Government shall be held liable for any damages resulting from the authorized or unauthorized use of the data.</distliab>
         <stdorder>
             <digform>
                 <digtinfo>

@@ -4,7 +4,7 @@
             <citeinfo>
                 <origin>USA National Phenology Network</origin>
                 <pubdate>2016</pubdate>
-                <title>Historical Annual Lilac Spring Bloom Index, Conterminous United States, 1981-2015</title>
+                <title>Historical Annual Lilac First Bloom Index, Contiguous United States, 1981-2015</title>
                 <geoform>Raster Digital Data Set</geoform>
                 <onlink>http://dx.doi.org/10.5066/F7707ZHR</onlink>
                 <onlink>http://dx.doi.org/10.5066/F73776TV</onlink>
@@ -24,7 +24,7 @@
             </citeinfo>
         </citation>
         <descript>
-            <abstract>Historical values for the Extended Spring Bloom Index (SI-x), lilac sub-model. Each pixel is assigned a day of year value for the Bloom Index. The Extended Spring Indices are mathematical models that predict the "start of spring" (timing of leaf out or bloom) at a particular location. This model was constructed using historical observations of the timing of first leaf and first bloom in purple common lilac (Syringa vulgaris) and a cloned lilac cultivar (S. x chinensis 'Red Rothomagensis'). Primary inputs to the model are temperature events, beginning January 1 of each year. Layers are available for each year from 1981 to 2015. Input temperature data based on historical PRISM data, at 4km resolution, which has been  bilinearly interpolated to 2.5km to make the data comparable to other products in the USA-National Phenology Network's gridded data suite.</abstract>
+            <abstract>Historical values for the Extended Spring Index (SI-x) of First Bloom, lilac sub-model. Each pixel is assigned a day of year value for the First Bloom Index. The Extended Spring Indices are mathematical models that predict the "start of spring" (timing of leaf out or bloom for species active in early spring) at a particular location. This model was constructed using historical observations of the timing of first bloom in common lilac (Syringa vulgaris) and a cloned lilac cultivar (S. x chinensis 'Red Rothomagensis'). Primary inputs to the model are temperature events, beginning January 1 of each year. Layers are available for each year from 1981 to 2015. Input temperature data based on historical PRISM data, at 4km resolution, which has been  bilinearly interpolated to 2.5km to make the data comparable to other products in the USA-National Phenology Network's gridded data suite.</abstract>
             <purpose>The Extended Spring Indices have been used as an indicator of climate change by both the Environmental Protection Agency and the National Climate Assessment. The historical values of first leaf and first bloom support understanding of spatial patterns in the timing of spring.</purpose>
             <supplinf>This metadata record provides three DOIs. One is a generalized page providing further information about USA-National Phenology Network gridded data products, including further information about the workflow used to produce them, and specific instructions on how to access data. The other two DOIs provide direct access to the WMS and WCS services respectively.</supplinf>
         </descript>
@@ -61,7 +61,7 @@
             </place>
         </keywords>
         <accconst>Public</accconst>
-        <useconst>Please cite these products as follows: USA National Phenology Network. Year of dataset access. Historical Annual Lilac Spring Bloom Index, Conterminous United States, 1981-2015, USA-NPN, Tucson, Arizona, USA. Data set accessed YYYY-MM-DD at http://dx.doi.org/10.5066/F7707ZHR</useconst>
+        <useconst>Please cite these products as follows: USA National Phenology Network. Year of dataset access. Historical Annual Lilac First Bloom Index, Contiguous United States, 1981-2015, USA-NPN, Tucson, Arizona, USA. Data set accessed YYYY-MM-DD at http://dx.doi.org/10.5066/F7707ZHR</useconst>
         <ptcontac>
             <cntinfo>
                 <cntorgp>
@@ -205,7 +205,7 @@
                 <cntemail>theresa@usanpn.org</cntemail>
             </cntinfo>
         </distrib>
-        <distliab>These data are preliminary or provisional and are subject to revision. They are being provided to meet the need for timely best science. The data have not received final approval by the U.S. Geological Survey USGS and are provided on the condition that neither the USGS nor the U.S. Government shall be held liable for any damages resulting from the authorized or unauthorized use of the data.</distliab>
+        <distliab>These data are preliminary or provisional and are subject to revision. They are being provided to meet the need for timely best science. The data have not received final approval by the U.S. Geological Survey (USGS) and are provided on the condition that neither the USGS nor the U.S. Government shall be held liable for any damages resulting from the authorized or unauthorized use of the data.</distliab>
         <stdorder>
             <digform>
                 <digtinfo>

@@ -4,7 +4,7 @@
             <citeinfo>
                 <origin>USA National Phenology Network</origin>
                 <pubdate>2016</pubdate>
-                <title>Daily Contemporary and Forecasted Temperature Accumulations - 50 Base Temperature, Conterminous United States, Current Year</title>
+                <title>Daily Contemporary and Forecasted Temperature Accumulations - 50 Base Temperature, Contiguous United States, Current Year</title>
                 <geoform>Raster Digital Data Set</geoform>
                 <onlink>http://dx.doi.org/10.5066/F7707ZHR</onlink>
                 <onlink>http://dx.doi.org/10.5066/F73776TV</onlink>
@@ -24,7 +24,7 @@
             </citeinfo>
         </citation>
         <descript>
-            <abstract>Daily temperature accumulation, as expressed in Fahrenheit and based on a 50F base temperature. Available for each day of the current year, plus six days into the future, at a 2.5km resolution. Grid cell values begin at 0 on January 1st, and increase as Growing Degree Days (averaged daily Tmin/Tmax minus the base temperature) accumulate. Input temperature data based on NOAA National Centers for Environmental Prediction (NCEP) Real-Time Mesoscale Analysis Products, NCEP Unrestricted Mesoscale Analysis Products; short-term temperature forecast products based on NOAA National Weather Service National Digital Forecast Database. Each night, the data are re-generated for the previous two days, the current day, and the next six days. This allows more stable data and better forecasts to be incorporated into each day's representation of the model. Because the short-term forecasts are adjusted daily, pixels values may vary from one day to the next.</abstract>
+            <abstract>Daily temperature accumulation, as expressed in Fahrenheit and based on a 50F base temperature. Available for each day of the current year, plus six days into the future, at a 2.5km resolution. Grid cell values begin at 0 on January 1st, and increase as Growing Degree Days (averaged daily Tmin/Tmax minus the base temperature) accumulate. Input temperature data based on NOAA National Centers for Environmental Prediction (NCEP) Real-Time Mesoscale Analysis Products, NCEP Unrestricted Mesoscale Analysis Products; short-term temperature forecast products based on NOAA National Weather Service National Digital Forecast Database. Each night, the data are re-generated for the previous two days, the current day, and the next six days. This allows more stable data and better forecasts to be incorporated into each day's representation of the model. Because the short-term forecasts are adjusted daily, pixel values may vary from one day to the next.</abstract>
             <purpose>These data were created to be used as input into various phenological analyses. However, they could be used for any general purpose requiring Accumulated Growing Degree Days (AGDD) as an input.</purpose>
             <supplinf>This metadata record provides three DOIs. One is a generalized page providing further information about USA-National Phenology Network gridded data products, including further information about the workflow used to produce them, and specific instructions on how to access data. The other two DOIs provide direct access to the WMS and WCS services respectively.</supplinf>
         </descript>
@@ -62,7 +62,7 @@
             </place>
         </keywords>
         <accconst>Public</accconst>
-        <useconst>Please cite these products as follows: USA National Phenology Network. Year of dataset access. Daily Contemporary and Forecasted Temperature Accumulations - 50 Base Temperature, Conterminous United States, Current Year, USA-NPN, Tucson, Arizona, USA. Data set accessed YYYY-MM-DD at http://dx.doi.org/10.5066/F7707ZHR</useconst>
+        <useconst>Please cite these products as follows: USA National Phenology Network. Year of dataset access. Daily Contemporary and Forecasted Temperature Accumulations - 50 Base Temperature, Contiguous United States, Current Year, USA-NPN, Tucson, Arizona, USA. Data set accessed YYYY-MM-DD at http://dx.doi.org/10.5066/F7707ZHR</useconst>
         <ptcontac>
             <cntinfo>
                 <cntorgp>
@@ -105,7 +105,7 @@
                     <citeinfo>
                         <origin>NOAA National Centers for Environmental Prediction</origin>
                         <pubdate>2016</pubdate>
-                        <title>RTMA - Conterminous United States Grid 184 - 2.5 km resolution</title>
+                        <title>RTMA - Contiguous United States Grid 184 - 2.5 km resolution</title>
                         <geoform>Raster Digital Data Set</geoform>
                         <pubinfo>
                             <pubplace>Internet</pubplace>
@@ -132,7 +132,7 @@
                     <citeinfo>
                         <origin>NOAA National Centers for Environmental Prediction</origin>
                         <pubdate>2016</pubdate>
-                        <title>URMA - Conterminous United States - Grid 184 - Conus - 2.5km resolution</title>
+                        <title>URMA - Contiguous United States - Grid 184 - Conus - 2.5km resolution</title>
                         <geoform>Raster Digital Data Set</geoform>
                         <pubinfo>
                             <pubplace>Internet</pubplace>
@@ -194,7 +194,7 @@
                 <procdate>Not complete</procdate>
             </procstep>
             <procstep>
-                <procdesc>Daily Tmin is generated for the previous four days from the retrieved URMA and RTMA hourly data. In this step URMA data is always given preference, and RTMA is only used for hours where URMA is not yet available.</procdesc>
+                <procdesc>Daily Tmin/Tmax is generated for the previous four days from the retrieved URMA and RTMA hourly data. In this step URMA data is always given preference, and RTMA is only used for hours where URMA is not yet available.</procdesc>
                 <procdate>Not complete</procdate>
             </procstep>
             <procstep>
@@ -272,7 +272,7 @@
                 <cntemail>theresa@usanpn.org</cntemail>
             </cntinfo>
         </distrib>
-        <distliab>These data are preliminary or provisional and are subject to revision. They are being provided to meet the need for timely best science. The data have not received final approval by the U.S. Geological Survey USGS and are provided on the condition that neither the USGS nor the U.S. Government shall be held liable for any damages resulting from the authorized or unauthorized use of the data.</distliab>
+        <distliab>These data are preliminary or provisional and are subject to revision. They are being provided to meet the need for timely best science. The data have not received final approval by the U.S. Geological Survey (USGS) and are provided on the condition that neither the USGS nor the U.S. Government shall be held liable for any damages resulting from the authorized or unauthorized use of the data.</distliab>
         <stdorder>
             <digform>
                 <digtinfo>

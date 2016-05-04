@@ -102,7 +102,7 @@
                     <citeinfo>
                         <origin>NOAA National Centers for Environmental Prediction</origin>
                         <pubdate>2016</pubdate>
-                        <title>RTMA - Conterminous United States Grid 184 - 2.5 km resolution</title>
+                        <title>RTMA - Contiguous United States Grid 184 - 2.5 km resolution</title>
                         <geoform>Raster Digital Data Set</geoform>
                         <pubinfo>
                             <pubplace>Internet</pubplace>
@@ -129,7 +129,7 @@
                     <citeinfo>
                         <origin>NOAA National Centers for Environmental Prediction</origin>
                         <pubdate>2016</pubdate>
-                        <title>URMA - Conterminous United States - Grid 184 - Conus - 2.5km resolution</title>
+                        <title>URMA - Contiguous United States - Grid 184 - Conus - 2.5km resolution</title>
                         <geoform>Raster Digital Data Set</geoform>
                         <pubinfo>
                             <pubplace>Internet</pubplace>
@@ -250,7 +250,7 @@
                 <cntemail>theresa@usanpn.org</cntemail>
             </cntinfo>
         </distrib>
-        <distliab>These data are preliminary or provisional and are subject to revision. They are being provided to meet the need for timely best science. The data have not received final approval by the U.S. Geological Survey USGS and are provided on the condition that neither the USGS nor the U.S. Government shall be held liable for any damages resulting from the authorized or unauthorized use of the data.</distliab>
+        <distliab>These data are preliminary or provisional and are subject to revision. They are being provided to meet the need for timely best science. The data have not received final approval by the U.S. Geological Survey (USGS) and are provided on the condition that neither the USGS nor the U.S. Government shall be held liable for any damages resulting from the authorized or unauthorized use of the data.</distliab>
         <stdorder>
             <digform>
                 <digtinfo>

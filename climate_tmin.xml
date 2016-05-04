@@ -4,7 +4,7 @@
             <citeinfo>
                 <origin>USA National Phenology Network</origin>
                 <pubdate>2016</pubdate>
-                <title>Daily Temperature Minimums, Conterminous United States, Current Year</title>
+                <title>Daily Temperature Minimums, Contiguous United States, Current Year</title>
                 <geoform>Raster Digital Data Set</geoform>
                 <onlink>http://dx.doi.org/10.5066/F7707ZHR</onlink>
                 <onlink>http://dx.doi.org/10.5066/F73776TV</onlink>
@@ -62,7 +62,7 @@
             </place>
         </keywords>
         <accconst>Public</accconst>
-        <useconst>Please cite these products as follows: USA National Phenology Network. Year of dataset access. Daily Temperature Mimimums, Conterminous United States, 2016, USA-NPN, Tucson, Arizona, USA. Data set accessed YYYY-MM-DD at http://dx.doi.org/10.5066/F7707ZHR</useconst>
+        <useconst>Please cite these products as follows: USA National Phenology Network. Year of dataset access. Daily Temperature Mimimums, Contiguous United States, Current Year, USA-NPN, Tucson, Arizona, USA. Data set accessed YYYY-MM-DD at http://dx.doi.org/10.5066/F7707ZHR</useconst>
         <ptcontac>
             <cntinfo>
                 <cntorgp>
@@ -105,7 +105,7 @@
                     <citeinfo>
                         <origin>NOAA National Centers for Environmental Prediction</origin>
                         <pubdate>2016</pubdate>
-                        <title>RTMA - Conterminous United States Grid 184 - 2.5 km resolution</title>
+                        <title>RTMA - Contiguous United States Grid 184 - 2.5 km resolution</title>
                         <geoform>Raster Digital Data Set</geoform>
                         <pubinfo>
                             <pubplace>Internet</pubplace>
@@ -132,7 +132,7 @@
                     <citeinfo>
                         <origin>NOAA National Centers for Environmental Prediction</origin>
                         <pubdate>2016</pubdate>
-                        <title>URMA - Conterminous United States - Grid 184 - Conus - 2.5km resolution</title>
+                        <title>URMA - Contiguous United States - Grid 184 - Conus - 2.5km resolution</title>
                         <geoform>Raster Digital Data Set</geoform>
                         <pubinfo>
                             <pubplace>Internet</pubplace>
@@ -232,7 +232,7 @@
             </enttyp>
             <attr>
                 <attrlabl>Value</attrlabl>
-                <attrdef>temperature minimum</attrdef>
+                <attrdef>Temperature Minimum</attrdef>
                 <attrdefs>Producer defined</attrdefs>
                 <attrdomv>
                     <rdom>
