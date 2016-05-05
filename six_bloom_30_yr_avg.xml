@@ -6,7 +6,7 @@
                 <pubdate>2016</pubdate>
                 <title>30-Year Average for First Bloom Index, Contiguous United States, 1981 - 2010</title>
                 <geoform>Raster Digital Data Set</geoform>
-                <onlink>http://dx.doi.org/10.5066/F7707ZHR</onlink>
+                <onlink>http://dx.doi.org/10.5066/F7XD0ZRK</onlink>
                 <onlink>http://dx.doi.org/10.5066/F73776TV</onlink>
                 <onlink>http://dx.doi.org/10.5066/F7ZK5DRW</onlink>
                 <lworkcit>
@@ -63,7 +63,7 @@
             </place>
         </keywords>
         <accconst>Public</accconst>
-        <useconst>Please cite these products as follows: USA National Phenology Network. Year of dataset access. 30-Year Average for First Bloom Index, Contiguous United States, 1981 - 2010, USA-NPN, Tucson, Arizona, USA. Data set accessed YYYY-MM-DD at http://dx.doi.org/10.5066/F7707ZHR</useconst>
+        <useconst>Please cite these products as follows: USA National Phenology Network. Year of dataset access. 30-Year Average for First Bloom Index, Contiguous United States, 1981 - 2010, USA-NPN, Tucson, Arizona, USA. Data set accessed YYYY-MM-DD at http://dx.doi.org/10.5066/F7XD0ZRK</useconst>
         <ptcontac>
             <cntinfo>
                 <cntorgp>
@@ -171,7 +171,7 @@
             </enttyp>
             <attr>
                 <attrlabl>Value</attrlabl>
-                <attrdef>Averaged Extended Spring Index Value for onset day of bloom</attrdef>
+                <attrdef>Averaged Extended Spring Index Value for predicted day of first bloom</attrdef>
                 <attrdefs>Producer defined</attrdefs>
                 <attrdomv>
                     <rdom>
@@ -217,7 +217,7 @@
                     <onlinopt>
                         <computer>
                             <networka>
-                                <networkr>http://dx.doi.org/10.5066/F7707ZHR</networkr>
+                                <networkr>http://dx.doi.org/10.5066/F7XD0ZRK</networkr>
                             </networka>
                         </computer>
                     </onlinopt>

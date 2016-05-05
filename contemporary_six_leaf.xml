@@ -6,7 +6,7 @@
                 <pubdate>2016</pubdate>
                 <title>Daily Contemporary First Leaf Index, Contiguous United States, Current Year</title>
                 <geoform>Raster Digital Data Set</geoform>
-                <onlink>http://dx.doi.org/10.5066/F7707ZHR</onlink>
+                <onlink>http://dx.doi.org/10.5066/F7XD0ZRK</onlink>
                 <onlink>http://dx.doi.org/10.5066/F73776TV</onlink>
                 <onlink>http://dx.doi.org/10.5066/F7ZK5DRW</onlink>
                 <lworkcit>
@@ -61,7 +61,7 @@
             </place>
         </keywords>
         <accconst>Public</accconst>
-        <useconst>Please cite these products as follows: USA National Phenology Network. Year of dataset access. Daily Contemporary First Leaf Index, Contiguous United States, Current Year, USA-NPN, Tucson, Arizona, USA. Data set accessed YYYY-MM-DD at http://dx.doi.org/10.5066/F7707ZHR</useconst>
+        <useconst>Please cite these products as follows: USA National Phenology Network. Year of dataset access. Daily Contemporary First Leaf Index, Contiguous United States, Current Year, USA-NPN, Tucson, Arizona, USA. Data set accessed YYYY-MM-DD at http://dx.doi.org/10.5066/F7XD0ZRK</useconst>
         <ptcontac>
             <cntinfo>
                 <cntorgp>
@@ -235,7 +235,7 @@
             </enttyp>
             <attr>
                 <attrlabl>Value</attrlabl>
-                <attrdef>Extended Spring Index Value, predicting onset day of leafing</attrdef>
+                <attrdef>Extended Spring Index Value, predicting day of first leaf</attrdef>
                 <attrdefs>Producer defined</attrdefs>
                 <attrdomv>
                     <rdom>
@@ -281,7 +281,7 @@
                     <onlinopt>
                         <computer>
                             <networka>
-                                <networkr>http://dx.doi.org/10.5066/F7707ZHR</networkr>
+                                <networkr>http://dx.doi.org/10.5066/F7XD0ZRK</networkr>
                             </networka>
                         </computer>
                     </onlinopt>

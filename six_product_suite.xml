@@ -6,7 +6,7 @@
                 <pubdate>2016</pubdate>
                 <title>Extended Spring Indices, Contiguous United States, 1981 - Current Year</title>
                 <geoform>Raster Digital Data Set</geoform>
-                <onlink>http://dx.doi.org/10.5066/F7707ZHR</onlink>
+                <onlink>http://dx.doi.org/10.5066/F7XD0ZRK</onlink>
                 <onlink>http://dx.doi.org/10.5066/F73776TV</onlink>
                 <onlink>http://dx.doi.org/10.5066/F7ZK5DRW</onlink>
                 <lworkcit>
@@ -19,7 +19,7 @@
                             <pubplace>Internet</pubplace>
                             <publish>USA National Phenology Network</publish>
                         </pubinfo>
-                        <onlink>http://dx.doi.org/10.5066/F7707ZHR</onlink>
+                        <onlink>http://dx.doi.org/10.5066/F7XD0ZRK</onlink>
                     </citeinfo>
                 </lworkcit>
             </citeinfo>
@@ -60,13 +60,14 @@ This suite of gridded data products featuring the Extended Spring Indices includ
             </theme>
         </keywords>
         <accconst>Public</accconst>
-        <useconst>Please cite these products as follows: USA National Phenology Network. Year of dataset access. Name of data product, USA-NPN, Tucson, Arizona, USA. Data set accessed YYYY-MM-DD at http://dx.doi.org/10.5066/F7707ZHR</useconst>
+        <useconst>Please cite these products as follows: USA National Phenology Network. Year of dataset access. Name of data product, USA-NPN, Tucson, Arizona, USA. Data set accessed YYYY-MM-DD at http://dx.doi.org/10.5066/F7XD0ZRK</useconst>
         <ptcontac>
             <cntinfo>
                 <cntorgp>
                     <cntorg>USA National Phenology Network</cntorg>
                     <cntper>Theresa Crimmins</cntper>
                 </cntorgp>
+				<cntpos>Assistant Director</cntpos>
                 <cntaddr>
                     <addrtype>Mailing and Physical</addrtype>
                     <address>1311 E 4th St</address>
@@ -238,6 +239,7 @@ This suite of gridded data products featuring the Extended Spring Indices includ
                     <cntorg>USA National Phenology Network</cntorg>
                     <cntper>Theresa Crimmins</cntper>
                 </cntorgp>
+				<cntpos>Assistant Director</cntpos>
                 <cntaddr>
                     <addrtype>Mailing and Physical</addrtype>
                     <address>1311 E 4th St</address>
@@ -260,7 +262,7 @@ This suite of gridded data products featuring the Extended Spring Indices includ
                     <onlinopt>
                         <computer>
                             <networka>
-                                <networkr>http://dx.doi.org/10.5066/F7707ZHR</networkr>
+                                <networkr>http://dx.doi.org/10.5066/F7XD0ZRK</networkr>
                             </networka>
                         </computer>
                     </onlinopt>
