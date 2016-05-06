@@ -236,7 +236,7 @@
 			</enttyp>
 			<attr>
 				<attrlabl>Value</attrlabl>
-				<attrdef>Extended Spring Index Value, predicting day of first leaf for Syringa chinensis</attrdef>
+				<attrdef>Extended Spring Index Value, predicting day of first leaf for Syringa vulgaris and Syringa x chinensis 'Red Rothomagensis'</attrdef>
 				<attrdefs>Producer defined</attrdefs>
 				<attrdomv>
 					<rdom>
