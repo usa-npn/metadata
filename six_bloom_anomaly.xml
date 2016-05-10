@@ -8,8 +8,6 @@
                 <title>Daily First Bloom Index Anomaly, Contiguous United States, Current Year</title>
                 <geoform>Raster Digital Data Set</geoform>
                 <onlink>http://dx.doi.org/10.5066/F7XD0ZRK</onlink>
-                <onlink>http://dx.doi.org/10.5066/F73776TV</onlink>
-                <onlink>http://dx.doi.org/10.5066/F7ZK5DRW</onlink>
                 <lworkcit>
                     <citeinfo>
                         <origin>USA National Phenology Network</origin>
@@ -27,7 +25,7 @@
         <descript>
             <abstract>Daily difference, in days, between the contemporary Extended Spring Index (SI-x) of First Bloom values and the 30-year average for First Bloom Index values. The layers show how advanced or lagged the day of year of the bloom index is for the current year, compared to long-term average conditions, such that negative values represent locations that have reached or are anticipated to reach the SI-x requirements earlier than average, and positive values represent locations that have reached or are anticipated to reach the SI-x requirements later than average. The Extended Spring Indices are mathematical models that predict the "start of spring" (timing of leaf out or bloom for species active in early spring) at a particular location. These models were constructed using historical observations of the timing of first leaf and first bloom in  common lilac (Syringa vulgaris), a cloned lilac cultivar (S. x chinensis 'Red Rothomagensis') and two cloned honeysuckle cultivars (Lonicera tatarica 'Arnold Red' and L. korolkowii 'Zabelii'). Primary inputs to the model are temperature events, beginning January 1 of each year. Layers are available for each day of the current year, plus six days into the future, at a 2.5km resolution. Input temperature data based on NOAA National Centers for Environmental Prediction (NCEP) Real-Time Mesoscale Analysis Products, NCEP Unrestricted Mesoscale Analysis Products; short-term temperature forecast products based on NOAA National Weather Service National Digital Forecast Database. Each night, the data are re-generated for the previous two days, the current day, and the next six days. This allows more stable data and better forecasts to be incorporated into each day's representation of the model. Because the short-term forecasts are adjusted daily, pixels values may vary from one day to the next.</abstract>
             <purpose>The Extended Spring Indices have been used as an indicator of climate change by both the Environmental Protection Agency and the National Climate Assessment. The gridded forecast anomalies of first leaf and first bloom support understanding of spatial patterns in the timing of spring.</purpose>
-            <supplinf>This metadata record provides three DOIs. One is a generalized page providing further information about USA-National Phenology Network gridded data products, including further information about the workflow used to produce them, and specific instructions on how to access data. The other two DOIs provide direct access to the WMS and WCS services respectively.
+            <supplinf>
             Please note that as the Spring Index is a composite value of three different species' predicted onset date, the difference in onset date for any given location cannot be calculated until all three species models’ requirements are met.</supplinf>
         </descript>
         <timeperd>
@@ -281,7 +279,7 @@
         <stdorder>
             <digform>
                 <digtinfo>
-                    <formname>Raster Digital Data Set</formname>
+                    <formname>Raster Digital Data Set Landing Page</formname>
                 </digtinfo>
                 <digtopt>
                     <onlinopt>
@@ -293,7 +291,35 @@
                     </onlinopt>
                 </digtopt>
             </digform>
-            <fees>None</fees>
+            <digform>
+                <digtinfo>
+                    <formname>Raster Digital Data Set Machine Accessible WMS Endpoint</formname>
+                </digtinfo>
+                <digtopt>
+                    <onlinopt>
+                        <computer>
+                            <networka>
+                                <networkr>http://geoserver.usanpn.org/geoserver/wms?request=GetCapabilities</networkr>
+                            </networka>
+                        </computer>
+                    </onlinopt>
+                </digtopt>
+            </digform>
+            <digform>
+                <digtinfo>
+                    <formname>Raster Digital Data Set Machine Accessible WCS Endpoint</formname>
+                </digtinfo>
+                <digtopt>
+                    <onlinopt> 
+                        <computer>
+                            <networka>
+                                <networkr>http://geoserver.usanpn.org/geoserver/wcs?request=GetCapabilities</networkr>
+                            </networka>
+                        </computer>
+                    </onlinopt>
+                </digtopt>
+            </digform>
+            <fees>None.</fees>
         </stdorder>
     </distinfo>
     <metainfo>

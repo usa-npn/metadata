@@ -8,8 +8,6 @@
                 <title>Daily Contemporary and Forecasted Temperature Accumulations - 50 Base Temperature, Contiguous United States, Current Year</title>
                 <geoform>Raster Digital Data Set</geoform>
                 <onlink>http://dx.doi.org/10.5066/F7SN0723</onlink>
-                <onlink>http://dx.doi.org/10.5066/F73776TV</onlink>
-                <onlink>http://dx.doi.org/10.5066/F7ZK5DRW</onlink>
                 <lworkcit>
                     <citeinfo>
                         <origin>USA National Phenology Network</origin>
@@ -27,7 +25,7 @@
         <descript>
             <abstract>Daily temperature accumulation, as expressed in Fahrenheit and based on a 50F base temperature. Available for each day of the current year, plus six days into the future, at a 2.5km resolution. Grid cell values begin at 0 on January 1st, and increase as Growing Degree Days (averaged daily Tmin/Tmax minus the base temperature) accumulate. Input temperature data based on NOAA National Centers for Environmental Prediction (NCEP) Real-Time Mesoscale Analysis Products, NCEP Unrestricted Mesoscale Analysis Products; short-term temperature forecast products based on NOAA National Weather Service National Digital Forecast Database. Each night, the data are re-generated for the previous two days, the current day, and the next six days. This allows more stable data and better forecasts to be incorporated into each day's representation of the model. Because the short-term forecasts are adjusted daily, pixel values may vary from one day to the next.</abstract>
             <purpose>These data were created to be used as input into various phenological analyses. However, they could be used for any general purpose requiring Accumulated Growing Degree Days (AGDD) as an input.</purpose>
-            <supplinf>This metadata record provides three DOIs. One is a generalized page providing further information about USA-National Phenology Network gridded data products, including further information about the workflow used to produce them, and specific instructions on how to access data. The other two DOIs provide direct access to the WMS and WCS services respectively.</supplinf>
+            <supplinf></supplinf>
         </descript>
         <timeperd>
             <timeinfo>
@@ -277,7 +275,7 @@
         <stdorder>
             <digform>
                 <digtinfo>
-                    <formname>Raster Digital Data Set</formname>
+                    <formname>Raster Digital Data Set Landing Page</formname>
                 </digtinfo>
                 <digtopt>
                     <onlinopt>
@@ -289,7 +287,35 @@
                     </onlinopt>
                 </digtopt>
             </digform>
-            <fees>None</fees>
+            <digform>
+                <digtinfo>
+                    <formname>Raster Digital Data Set Machine Accessible WMS Endpoint</formname>
+                </digtinfo>
+                <digtopt>
+                    <onlinopt>
+                        <computer>
+                            <networka>
+                                <networkr>http://geoserver.usanpn.org/geoserver/wms?request=GetCapabilities</networkr>
+                            </networka>
+                        </computer>
+                    </onlinopt>
+                </digtopt>
+            </digform>
+            <digform>
+                <digtinfo>
+                    <formname>Raster Digital Data Set Machine Accessible WCS Endpoint</formname>
+                </digtinfo>
+                <digtopt>
+                    <onlinopt> 
+                        <computer>
+                            <networka>
+                                <networkr>http://geoserver.usanpn.org/geoserver/wcs?request=GetCapabilities</networkr>
+                            </networka>
+                        </computer>
+                    </onlinopt>
+                </digtopt>
+            </digform>
+            <fees>None.</fees>
         </stdorder>
     </distinfo>
     <metainfo>

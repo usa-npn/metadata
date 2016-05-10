@@ -7,8 +7,6 @@
                 <pubdate>2016</pubdate>
                 <title>Daily Temperature Maximums, Contiguous United States, Current Year</title>
                 <geoform>Raster Digital Data Set</geoform>                
-                <onlink>http://dx.doi.org/10.5066/F73776TV</onlink>
-                <onlink>http://dx.doi.org/10.5066/F7ZK5DRW</onlink>
                 <lworkcit>
                     <citeinfo>
                         <origin>USA National Phenology Network</origin>
@@ -26,7 +24,7 @@
         <descript>
             <abstract>Daily grids of temperature maximums in degrees Fahrenheit for every day of the current year up through the current day, plus forecasts for the coming six days. Data presented at 2.5km resolution. Values based on NOAA National Centers for Environmental Prediction (NCEP) Real-Time Mesoscale Analysis Products, NCEP Unrestricted Mesoscale Analysis Products; short-term temperature forecast products based on NOAA National Weather Service National Digital Forecast Database. Each night, the data are re-generated for the previous two days, the current day, and the next six days. Because the short-term forecasts are adjusted daily, pixels values may vary from one day to the next until the date in question has passed, and values are replaced with observed maximum temperature values.</abstract>
             <purpose>These data were created to be used as input into various phenological and climatological models. However, they could be used for any general purpose.</purpose>
-            <supplinf>The metadata record provides three DOIs. One is a generalized page providing further information about USA-National Phenology Network gridded data products, including further information about the workflow used to produce them, and specific instructions on how to access data. The other two DOIs provide direct access to the WMS and WCS services respectively.</supplinf>
+            <supplinf></supplinf>
         </descript>
         <timeperd>
             <timeinfo>
@@ -272,19 +270,47 @@
         <stdorder>
             <digform>
                 <digtinfo>
-                    <formname>Raster Digital Data Set</formname>
+                    <formname>Raster Digital Data Set Landing Page</formname>
                 </digtinfo>
                 <digtopt>
                     <onlinopt>
                         <computer>
                             <networka>
-                                <networkr>http://dx.doi.org/10.5066/F73776TV</networkr>
+                                <networkr>http://dx.doi.org/10.5066/F7707ZHR</networkr>
                             </networka>
                         </computer>
                     </onlinopt>
                 </digtopt>
             </digform>
-            <fees>None</fees>
+            <digform>
+                <digtinfo>
+                    <formname>Raster Digital Data Set Machine Accessible WMS Endpoint</formname>
+                </digtinfo>
+                <digtopt>
+                    <onlinopt>
+                        <computer>
+                            <networka>
+                                <networkr>http://geoserver.usanpn.org/geoserver/wms?request=GetCapabilities</networkr>
+                            </networka>
+                        </computer>
+                    </onlinopt>
+                </digtopt>
+            </digform>
+            <digform>
+                <digtinfo>
+                    <formname>Raster Digital Data Set Machine Accessible WCS Endpoint</formname>
+                </digtinfo>
+                <digtopt>
+                    <onlinopt> 
+                        <computer>
+                            <networka>
+                                <networkr>http://geoserver.usanpn.org/geoserver/wcs?request=GetCapabilities</networkr>
+                            </networka>
+                        </computer>
+                    </onlinopt>
+                </digtopt>
+            </digform>
+            <fees>None.</fees>
         </stdorder>
     </distinfo>
     <metainfo>

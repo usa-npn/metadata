@@ -8,8 +8,6 @@
                 <title>30-Year Average for First Leaf Index, Contiguous United States, 1981 - 2010</title>
                 <geoform>Raster Digital Data Set</geoform>
                 <onlink>http://dx.doi.org/10.5066/F7XD0ZRK</onlink>
-                <onlink>http://dx.doi.org/10.5066/F73776TV</onlink>
-                <onlink>http://dx.doi.org/10.5066/F7ZK5DRW</onlink>
                 <lworkcit>
                     <citeinfo>
                         <origin>USA National Phenology Network</origin>
@@ -27,8 +25,7 @@
         <descript>
             <abstract>Progression of the Extended Spring Index (SI-x) of First Leaf, averaged over 30 years of data, 1981-2010. Each pixel is assigned a value representing the average day of year of the predicted onset of leafing. The Extended Spring Indices are mathematical models that predict the "start of spring" (timing of leaf out or bloom for species active in early spring) at a particular location. This model was constructed using historical observations of the timing of first leaf in common lilac (Syringa vulgaris), a cloned lilac cultivar (S. x chinensis 'Red Rothomagensis') and two cloned honeysuckle cultivars (Lonicera tatarica 'Arnold Red' and L. korolkowii 'Zabelii'). Primary inputs to the model are temperature events, beginning January 1 of each year. Input temperature data based on historical PRISM data, at 4km resolution, which has been  bilinearly interpolated to 2.5km to make the data comparable to other products in the USA-National Phenology Network's gridded data suite.</abstract>
             <purpose>The Extended Spring Indices have been used as an indicator of climate change by both the Environmental Protection Agency and the National Climate Assessment. The gridded first leaf and first bloom 30 year averages support understanding of spatial and temporal patterns in the timing of spring to support resource management.</purpose>
-            <supplinf>This metadata record provides three DOIs. One is a generalized page providing further information about USA-National Phenology Network gridded data products, including further information about the workflow used to produce them, and specific instructions on how to access data. The other two DOIs provide direct access to the WMS and WCS services respectively. 
-            Please note that this product is based on day of year values, thus December 31st was excluded in calculations in leap years.
+            <supplinf>Please note that this product is based on day of year values, thus December 31st was excluded in calculations in leap years.
             Also note that users attempting to access this data via WMS/WCS must manipulate the 'elevation' variable in requests to the server to specify a day of year value, as 'day of year' is not a parameter accepted in the OGC standards.</supplinf>
         </descript>
         <timeperd>
@@ -212,7 +209,7 @@
         <stdorder>
             <digform>
                 <digtinfo>
-                    <formname>Raster Digital Data Set</formname>
+                    <formname>Raster Digital Data Set Landing Page</formname>
                 </digtinfo>
                 <digtopt>
                     <onlinopt>
@@ -224,7 +221,35 @@
                     </onlinopt>
                 </digtopt>
             </digform>
-            <fees>None</fees>
+            <digform>
+                <digtinfo>
+                    <formname>Raster Digital Data Set Machine Accessible WMS Endpoint</formname>
+                </digtinfo>
+                <digtopt>
+                    <onlinopt>
+                        <computer>
+                            <networka>
+                                <networkr>http://geoserver.usanpn.org/geoserver/wms?request=GetCapabilities</networkr>
+                            </networka>
+                        </computer>
+                    </onlinopt>
+                </digtopt>
+            </digform>
+            <digform>
+                <digtinfo>
+                    <formname>Raster Digital Data Set Machine Accessible WCS Endpoint</formname>
+                </digtinfo>
+                <digtopt>
+                    <onlinopt> 
+                        <computer>
+                            <networka>
+                                <networkr>http://geoserver.usanpn.org/geoserver/wcs?request=GetCapabilities</networkr>
+                            </networka>
+                        </computer>
+                    </onlinopt>
+                </digtopt>
+            </digform>
+            <fees>None.</fees>
         </stdorder>
     </distinfo>
     <metainfo>
