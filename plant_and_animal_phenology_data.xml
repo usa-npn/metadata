@@ -24,14 +24,14 @@
             </citeinfo>
         </citation>
         <descript>
-            <abstract>This suite of datasets consists of phenology data on over 1100 species of plants and animals (2009-present) and data on lilacs and honeysuckles (1956-present), across the United States. The data were collected by over 8,000 citizen and professional observers, and archived and distributed by the USA National Phenology Network (www.usanpn.org). Protocols are available in Denny et al, 2014.  This collection represents a suite of three data products: 1) Status and Intensity Data (phenophase status records of presence (“yes”) or absence (“no”) of the phenophase, as well as information about the intensity with which the phenophase was expressed for each individual plant or species of animal at a site, on each visit by an observer), 2) Individual Phenometrics (estimates of the dates of phenophase onset and end for individual plants and for animal species at a site during a user-defined time period) and 3) Site Phenometrics (estimates of the dates of phenophase onset and end, averaged across individuals of the same species at a site, during a user-defined time period). </abstract>
+            <abstract>This suite of datasets consists of phenology data on over 1000 species of plants and animals (2009-present) and data on lilacs and honeysuckles (1956-present), across the United States. The data were collected by citizen and professional observers, and archived and distributed by the USA National Phenology Network (www.usanpn.org). Protocols are available in Denny et al, 2014.  This collection represents a suite of three data products: 1) Status and Intensity Data (phenophase status records of presence or absence of the phenophase, as well as information about the intensity with which the phenophase was expressed for each individual plant or species of animal at a site, on each visit by an observer), 2) Individual Phenometrics (estimates of the dates of phenophase onset and end for individual plants and for animal species at a site during a user-defined time period) and 3) Site Phenometrics (estimates of the dates of phenophase onset and end, averaged across individuals of the same species at a site, during a user-defined time period).</abstract>
             <purpose>Datasets were developed by the USA National Phenology Network to better understand the response of plant and animal species to environmental variation and climate change, and to develop a baseline against which future phenological change may be measured.</purpose>
             <supplinf>Please find datafield metadata (attribute information) at [placeholder for URL]</supplinf>
         </descript>
         <timeperd>
             <timeinfo>
                 <rngdates>
-                    <begdate>20090101</begdate>
+                    <begdate>19560101</begdate>
                     <enddate>PRESENT</enddate>
                 </rngdates>
             </timeinfo>
@@ -98,26 +98,26 @@
             <srcinfo>
                 <srccite>
                     <citeinfo>
-                        <origin>USA National Phenology Network</origin>
-                        <pubdate>2016</pubdate>
-                        <title>Plant and Animal Phenology Data</title>
-                        <geoform>Point</geoform>
+                        <origin></origin>
+                        <pubdate></pubdate>
+                        <title></title>
+                        <geoform></geoform>
                         <pubinfo>
-                            <pubplace>Tucson, AZ USA</pubplace>
+                            <pubplace></pubplace>
                             <publish></publish>
                         </pubinfo>
-                        <onlink>http://dx.doi.org/10.5066/F78S4N1V</onlink>
+                        <onlink></onlink>
                     </citeinfo>
                 </srccite>
-                <typesrc>Digital</typesrc>
+                <typesrc></typesrc>
                 <srctime>
                     <timeinfo>
                         <rngdates>
-                            <begdate>20090101</begdate>
-                            <enddate>Present</enddate>
+                            <begdate></begdate>
+                            <enddate></enddate>
                         </rngdates>
                     </timeinfo>
-                    <srccurr>Ground condition</srccurr>
+                    <srccurr></srccurr>
                 </srctime>
                 <srccitea></srccitea>
                 <srccontr></srccontr>
@@ -192,7 +192,7 @@
                     <onlinopt>
                         <computer>
                             <networka>
-                                <networkr>http://www.usanpn.org/npn_portal/observations/getAllObservationsForSpecies.json</networkr>
+                                <networkr>http://www.usanpn.org/npn_portal/observations/getObservations.json</networkr>
                             </networka>
                         </computer>
                     </onlinopt>
@@ -200,13 +200,13 @@
             </digform>
             <digform>
                 <digtinfo>
-                    <formname>Raster Digital Data Set Machine Accessible REST Endpoint</formname>
+                    <formname></formname>
                 </digtinfo>
                 <digtopt>
                     <onlinopt>
                         <computer>
                             <networka>
-                                <networkr>REST URL Placeholder</networkr>
+                                <networkr></networkr>
                             </networka>
                         </computer>
                     </onlinopt>
