@@ -175,7 +175,7 @@
                 <attrdomv>
                     <rdom>
                         <rdommin>0</rdommin>
-                        <rdommax>1500</rdommax>
+                        <rdommax>25000</rdommax>
                         <attrunit>Fahrenheit</attrunit>
                     </rdom>
                 </attrdomv>
