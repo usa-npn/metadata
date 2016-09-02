@@ -5,22 +5,9 @@
             <citeinfo>
                 <origin>USA National Phenology Network</origin>
                 <pubdate>2016</pubdate>
-                <title>Plant and Animal Phenology Data</title>
-                <geoform>Point Digital Data Set</geoform>
+                <title>Phenology Observation Data</title>
+                <geoform>Tabular Digital Data</geoform>
                 <onlink>http://dx.doi.org/10.5066/F78S4N1V</onlink>
-                <lworkcit>
-                    <citeinfo>
-                        <origin></origin>
-                        <pubdate></pubdate>
-                        <title></title>
-                        <geoform></geoform>
-                        <pubinfo>
-                            <pubplace></pubplace>
-                            <publish></publish>
-                        </pubinfo>
-                        <onlink></onlink>
-                    </citeinfo>
-                </lworkcit>
             </citeinfo>
         </citation>
         <descript>
@@ -57,7 +44,7 @@
             </theme>
         </keywords>
         <accconst>Public</accconst>
-        <useconst>Please cite these products as follows: USA National Phenology Network. Plant and Animal Phenology Data: Sub-product Name [Status and Intensity Data, Individual Phenometrics or Site Phenometrics], USA-NPN, Tucson, Arizona, USA. Data set accessed YYYY-MM-DD at http://dx.doi.org/10.5066/F78S4N1V</useconst>
+        <useconst>Please cite these products as follows: USA National Phenology Network. Phenology Observation Data: Sub-product Name [Status and Intensity Data, Individual Phenometrics or Site Phenometrics], USA-NPN, Tucson, Arizona, USA. Data set accessed YYYY-MM-DD at http://dx.doi.org/10.5066/F78S4N1V</useconst>
         <ptcontac>
             <cntinfo>
                 <cntorgp>
@@ -77,7 +64,7 @@
                 <cntemail>alyssa@usanpn.org</cntemail>
             </cntinfo>
         </ptcontac>
-        <datacred>United States Geological Survey</datacred>
+        <datacred>Data were provided by the USA National Phenology Network, with funding and leadership from the United States Geological Survey, and contributions from many partners and Nature’s Notebook observers. </datacred>
         <native></native>
     </idinfo>
     <dataqual>
@@ -95,59 +82,77 @@
             </vertacc>
         </posacc>
         <lineage>
-            <srcinfo>
-                <srccite>
-                    <citeinfo>
-                        <origin></origin>
-                        <pubdate></pubdate>
-                        <title></title>
-                        <geoform></geoform>
-                        <pubinfo>
-                            <pubplace></pubplace>
-                            <publish></publish>
-                        </pubinfo>
-                        <onlink></onlink>
-                    </citeinfo>
-                </srccite>
-                <typesrc></typesrc>
-                <srctime>
-                    <timeinfo>
-                        <rngdates>
-                            <begdate></begdate>
-                            <enddate></enddate>
-                        </rngdates>
-                    </timeinfo>
-                    <srccurr></srccurr>
-                </srctime>
-                <srccitea></srccitea>
-                <srccontr></srccontr>
-            </srcinfo>
+            <procstep>
+                <procdesc>Processing is described in a forthcoming Techniques and Methods report [ADD LINK TO DRAFT?]</procdesc>
+                <procdate>Ongoing</procdate>
+            </procstep>
         </lineage>
     </dataqual>
     <spdoinfo>
-        <direct></direct>
-        <rastinfo>
-            <rasttype></rasttype>
-            <rowcount></rowcount>
-            <colcount></colcount>
-            <vrtcount></vrtcount>
-        </rastinfo>
+        <direct>Point</direct>
+        <ptvctinf>
+            <sdtsterm>
+                <sdtstype>Point</sdtstype>
+                <ptvctcnt></ptvctcnt>
+            </sdtsterm>
+        </ptvctinf>
     </spdoinfo>
-    <spref>
-        <horizsys>
-            <geograph>
-                <latres></latres>
-                <longres></longres>
-                <geogunit></geogunit>
-            </geograph>
-            <geodetic>
-                <horizdn></horizdn>
-                <ellips></ellips>
-                <semiaxis></semiaxis>
-                <denflat></denflat>
-            </geodetic>
-        </horizsys>
-    </spref>
+    <eainfo>
+        <detailed>
+            <enttyp>
+                <enttypl>[CSV Name - copy enttyp for each CSV]</enttypl>
+                <enttypd>[CSV Definition]</enttypd>
+                <enttypds>[Definition source or 'Producer defined']</enttypds>
+            </enttyp>
+            <attr>
+                <attrlabl>[Attribute label e.g. column header]</attrlabl>
+                <attrdef>[Attribute definition]</attrdef>
+                <attrdefs>[Attribute definition source or 'Producer defined']</attrdefs>
+                <attrdomv>
+                    <udom>[Use this element for domain values that are "unrepresentable" to describe the values in the column and reasons why they cannot be represented]</udom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>[Attribute label e.g. column header]</attrlabl>
+                <attrdef>[Attribute definition]</attrdef>
+                <attrdefs>[Attribute definition source or 'Producer defined']</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>[Minimum value of the domain - Use this element for domain values that are represented by a range of valid values.]</rdommin>
+                        <rdommax>[Maximum value of the domain]</rdommax>
+                        <attrunit>[Units for the attribute]</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>[Attribute label e.g. column header]</attrlabl>
+                <attrdef>[Attribute definition]</attrdef>
+                <attrdefs>[Attribute definition source or 'Producer defined']</attrdefs>
+                <attrdomv>
+                    <edom>
+                        <edomv>[Name or label of a member of an enumerated domain or set of applicable values. (edom can be repeated unlimited times)]</edomv>
+                        <edomvd>[Description of the value]</edomvd>
+                        <edomvds>[Definition source or 'Producer defined']</edomvds>
+                    </edom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>[Attribute label e.g. column header]</attrlabl>
+                <attrdef>[Attribute definition]</attrdef>
+                <attrdefs>[Attribute definition source or 'Producer defined']</attrdefs>
+                <attrdomv>
+                    <codesetd>
+                        <codesetn>[Title of the codeset - Use codesetd to reference a standard or list which contains the members of an established set of valid values.]</codesetn>
+                        <codesets>[Authority for the codeset]</codesets>
+                    </codesetd>
+                </attrdomv>
+            </attr>
+        </detailed>
+        <overview>
+            <eaover>[If you have a published data dictionary defining column headers and expected values describe here and cite it below. Otherwise you can delete this section]</eaover>
+            <eadetcit>[Add citation to the data dictionary here]</eadetcit>
+        </overview>
+    </eainfo>
     <distinfo>
         <distrib>
             <cntinfo>
@@ -172,7 +177,7 @@
         <stdorder>
             <digform>
                 <digtinfo>
-                    <formname>Point Digital Data Set Landing Page</formname>
+                    <formname>https://www.usanpn.org/results/data</formname>
                 </digtinfo>
                 <digtopt>
                     <onlinopt>
@@ -186,7 +191,7 @@
             </digform>
             <digform>
                 <digtinfo>
-                    <formname>Point Digital Data Set Machine Accessible JSON Endpoint</formname>
+                    <formname>Machine accessible JSON endpoint for Phenology Observation Data: Status and Intensity Data</formname>
                 </digtinfo>
                 <digtopt>
                     <onlinopt>
@@ -195,20 +200,37 @@
                                 <networkr>http://www.usanpn.org/npn_portal/observations/getObservations.json</networkr>
                             </networka>
                         </computer>
+                        <accinstr>Instructions provided at: https://docs.google.com/document/d/1yNjupricKOAXn6tY1sI7-EwkcfwdGUZ7lxYv7fcPjO8/edit</accinstr>
                     </onlinopt>
                 </digtopt>
             </digform>
             <digform>
                 <digtinfo>
-                    <formname></formname>
+                    <formname>Machine accessible JSON endpoint for Phenology Observation Data: Individual Phenometrics</formname>
                 </digtinfo>
                 <digtopt>
                     <onlinopt>
                         <computer>
                             <networka>
-                                <networkr></networkr>
+                                <networkr>http://www.usanpn.org/npn_portal/observations/getSummarizedData.json</networkr>
                             </networka>
                         </computer>
+                        <accinstr>Instructions provided at: https://docs.google.com/document/d/1yNjupricKOAXn6tY1sI7-EwkcfwdGUZ7lxYv7fcPjO8/edit</accinstr>
+                    </onlinopt>
+                </digtopt>
+            </digform>
+            <digform>
+                <digtinfo>
+                    <formname>Machine accessible JSON endpoint for Phenology Observation Data: Site Phenometrics</formname>
+                </digtinfo>
+                <digtopt>
+                    <onlinopt>
+                        <computer>
+                            <networka>
+                                <networkr>http://www.usanpn.org/npn_portal/observations/getSiteSummarizedData.json</networkr>
+                            </networka>
+                        </computer>
+                        <accinstr>Instructions provided at: https://docs.google.com/document/d/1yNjupricKOAXn6tY1sI7-EwkcfwdGUZ7lxYv7fcPjO8/edit</accinstr>
                     </onlinopt>
                 </digtopt>
             </digform>
@@ -233,7 +255,7 @@
                     <country>USA</country>
                 </cntaddr>
                 <cntvoice>+1-520-621-8571</cntvoice>
-                <cntemail>lee@usanpn.org</cntemail>
+                <cntemail>alyssa@usanpn.org</cntemail>
             </cntinfo>
         </metc>
         <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
