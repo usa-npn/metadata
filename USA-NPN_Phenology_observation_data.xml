@@ -11,9 +11,9 @@
             </citeinfo>
         </citation>
         <descript>
-            <abstract>This suite of datasets consists of phenology data on over 1000 species of plants and animals (2009-present) and data on lilacs and honeysuckles (1956-present), across the United States. The data were collected by citizen and professional observers, and archived and distributed by the USA National Phenology Network (www.usanpn.org). Protocols are available in Denny et al, 2014 and datum is WGS84.  This collection represents a suite of three data products: 1) Status and Intensity Data (phenophase status records of presence or absence of the phenophase, as well as information about the intensity with which the phenophase was expressed for each individual plant or species of animal at a site, on each visit by an observer), 2) Individual Phenometrics (estimates of the dates of phenophase onset and end for individual plants and for animal species at a site during a user-defined time period) and 3) Site Phenometrics (estimates of the dates of phenophase onset and end, averaged across individuals of the same species at a site, during a user-defined time period).</abstract>
+            <abstract>This suite of datasets consists of phenology data on over 1000 species of plants and animals (2009-present) and data on lilacs and honeysuckles (1956-present), across the United States. The data were collected by citizen and professional observers, and archived and distributed by the USA National Phenology Network (www.usanpn.org). Protocols are available in Denny et al, 2014 and datum is WGS84.  This collection represents a suite of three data products: 1) Status and Intensity Data (phenophase status records of presence or absence of the phenophase, as well as information about the intensity with which the phenophase was expressed for each individual plant or species of animal at a site, on each visit by an observer), 2) Individual Phenometrics (estimates of the dates of all onsets and ends of a phenophase for individual plants and for animal species at a site during a user-defined time period) and 3) Site Phenometrics (estimates of the dates of first onset and last end for a phenophase, averaged across individuals of the same species at a site, during a user-defined time period).</abstract>
             <purpose>Datasets were developed by the USA National Phenology Network to better understand the response of plant and animal species to environmental variation and climate change, and to develop a baseline against which future phenological change may be measured.</purpose>
-            <supplinf>Please find datafield metadata (a data dictionary with entity and attribute information) at www.usanpn.org/files/metadata/all_datafield_descriptions.xlsx</supplinf>
+            <supplinf>Please find datafield metadata (entity and attribute information) at www.usanpn.org/files/metadata/all_datafield_descriptions.xlsx</supplinf>
         </descript>
         <timeperd>
             <timeinfo>
@@ -83,7 +83,7 @@
         </posacc>
         <lineage>
             <procstep>
-                <procdesc>Processing is described in a forthcoming Techniques and Methods report [ADD LINK TO DRAFT?]</procdesc>
+                <procdesc>Processing is described in a forthcoming Techniques and Methods report.</procdesc>
                 <procdate>Ongoing</procdate>
             </procstep>
         </lineage>
@@ -98,59 +98,10 @@
         </ptvctinf>
     </spdoinfo>
     <eainfo>
-        <detailed>
-            <enttyp>
-                <enttypl>[CSV Name - copy enttyp for each CSV]</enttypl>
-                <enttypd>[CSV Definition]</enttypd>
-                <enttypds>[Definition source or 'Producer defined']</enttypds>
-            </enttyp>
-            <attr>
-                <attrlabl>[Attribute label e.g. column header]</attrlabl>
-                <attrdef>[Attribute definition]</attrdef>
-                <attrdefs>[Attribute definition source or 'Producer defined']</attrdefs>
-                <attrdomv>
-                    <udom>[Use this element for domain values that are "unrepresentable" to describe the values in the column and reasons why they cannot be represented]</udom>
-                </attrdomv>
-            </attr>
-            <attr>
-                <attrlabl>[Attribute label e.g. column header]</attrlabl>
-                <attrdef>[Attribute definition]</attrdef>
-                <attrdefs>[Attribute definition source or 'Producer defined']</attrdefs>
-                <attrdomv>
-                    <rdom>
-                        <rdommin>[Minimum value of the domain - Use this element for domain values that are represented by a range of valid values.]</rdommin>
-                        <rdommax>[Maximum value of the domain]</rdommax>
-                        <attrunit>[Units for the attribute]</attrunit>
-                    </rdom>
-                </attrdomv>
-            </attr>
-            <attr>
-                <attrlabl>[Attribute label e.g. column header]</attrlabl>
-                <attrdef>[Attribute definition]</attrdef>
-                <attrdefs>[Attribute definition source or 'Producer defined']</attrdefs>
-                <attrdomv>
-                    <edom>
-                        <edomv>[Name or label of a member of an enumerated domain or set of applicable values. (edom can be repeated unlimited times)]</edomv>
-                        <edomvd>[Description of the value]</edomvd>
-                        <edomvds>[Definition source or 'Producer defined']</edomvds>
-                    </edom>
-                </attrdomv>
-            </attr>
-            <attr>
-                <attrlabl>[Attribute label e.g. column header]</attrlabl>
-                <attrdef>[Attribute definition]</attrdef>
-                <attrdefs>[Attribute definition source or 'Producer defined']</attrdefs>
-                <attrdomv>
-                    <codesetd>
-                        <codesetn>[Title of the codeset - Use codesetd to reference a standard or list which contains the members of an established set of valid values.]</codesetn>
-                        <codesets>[Authority for the codeset]</codesets>
-                    </codesetd>
-                </attrdomv>
-            </attr>
-        </detailed>
+        <detailed></detailed>
         <overview>
-            <eaover>[If you have a published data dictionary defining column headers and expected values describe here and cite it below. Otherwise you can delete this section]</eaover>
-            <eadetcit>[Add citation to the data dictionary here]</eadetcit>
+            <eaover>Data dictionaries are temporarily available at www.usanpn.org/files/metadata/all_datafield_descriptions.xlsx and www.usanpn.org/files/metadata/ancillary_datafield_descriptions.xlsx and will be included in forthcoming  Techniques and Methods report.</eaover>
+            <eadetcit>Citation pending.</eadetcit>
         </overview>
     </eainfo>
     <distinfo>
