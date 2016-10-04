@@ -65,7 +65,6 @@
             </cntinfo>
         </ptcontac>
         <datacred>Data were provided by the USA National Phenology Network, with funding and leadership from the United States Geological Survey, and contributions from many partners and Nature’s Notebook observers. </datacred>
-        <native></native>
     </idinfo>
     <dataqual>
         <attracc>
@@ -93,12 +92,10 @@
         <ptvctinf>
             <sdtsterm>
                 <sdtstype>Point</sdtstype>
-                <ptvctcnt></ptvctcnt>
             </sdtsterm>
         </ptvctinf>
     </spdoinfo>
     <eainfo>
-        <detailed></detailed>
         <overview>
             <eaover>Data dictionaries are temporarily available at www.usanpn.org/files/metadata/all_datafield_descriptions.xlsx and www.usanpn.org/files/metadata/ancillary_datafield_descriptions.xlsx and will be included in forthcoming  Techniques and Methods report.</eaover>
             <eadetcit>Citation pending.</eadetcit>
