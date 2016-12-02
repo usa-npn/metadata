@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <metadata>
     <idinfo>
         <citation>
@@ -24,8 +24,7 @@
         </citation>
         <descript>
             <abstract>Historical values for the Extended Spring Index (SI-x) of First Leaf. Each pixel is assigned a day of year value for the First Leaf Index. The Extended Spring Indices are mathematical models that predict the "start of spring" (timing of leaf out or bloom for species active in early spring) at a particular location. This model was constructed using historical observations of the timing of first leaf in common lilac (Syringa vulgaris), a cloned lilac cultivar (S. x chinensis 'Red Rothomagensis') and two cloned honeysuckle cultivars (Lonicera tatarica 'Arnold Red' and L. korolkowii 'Zabelii'). Primary inputs to the model are temperature events, beginning January 1 of each year. Layers are available for each year from 1880 to 2013. Input temperature data based on historical BEST data at 1 degree resolution.</abstract>
-            <purpose>The Extended Spring Indices have been used as an indicator of climate change by both the Environmental Protection Agency and the National Climate Assessment. The historical
-			values of first leaf and first bloom support understanding of spatial patterns in the timing of spring.</purpose>
+            <purpose>The Extended Spring Indices have been used as an indicator of climate change by both the Environmental Protection Agency and the National Climate Assessment. The historical values of first leaf and first bloom support understanding of spatial patterns in the timing of spring.</purpose>
             <supplinf></supplinf>
         </descript>
         <timeperd>
@@ -42,12 +41,12 @@
             <update>Annually</update>
         </status>
         <spdom>
-			<bounding>
-				<westbc>-180.0</westbc>
-				<eastbc>0.0</eastbc>
-				<northbc>90.0</northbc>
-				<southbc>0.0</southbc>
-			</bounding>
+            <bounding>
+                <westbc>-180.0</westbc>
+                <eastbc>0.0</eastbc>
+                <northbc>90.0</northbc>
+                <southbc>0.0</southbc>
+            </bounding>
         </spdom>
         <keywords>
             <theme>
@@ -58,8 +57,8 @@
             <place>
                 <placekt>Common geographic areas</placekt>
                 <placekey>United States</placekey>
-				<placekey>Canada</placekey>
-				<placekey>Mexico</placekey>
+                <placekey>Canada</placekey>
+                <placekey>Mexico</placekey>
             </place>
         </keywords>
         <accconst>Public</accconst>
@@ -140,28 +139,28 @@
     </dataqual>
     <spdoinfo>
         <direct>Raster</direct>
-		<rastinfo>
-			<rasttype>Grid Cell</rasttype>
-			<rowcount>90</rowcount>
-			<colcount>180</colcount>
-			<vrtcount>1</vrtcount>
-		</rastinfo>
+        <rastinfo>
+            <rasttype>Grid Cell</rasttype>
+            <rowcount>90</rowcount>
+            <colcount>180</colcount>
+            <vrtcount>1</vrtcount>
+        </rastinfo>
     </spdoinfo>
-	<spref>
-		<horizsys>
-			<geograph>
-				<latres>1.0</latres>
-				<longres>1.0</longres>
-				<geogunit>Decimal seconds</geogunit>
-			</geograph>
-			<geodetic>
-				<horizdn>D_North_American_1983</horizdn>
-				<ellips>GRS_1980</ellips>
-				<semiaxis>6378137.0</semiaxis>
-				<denflat>298.257222101</denflat>
-			</geodetic>
-		</horizsys>
-	</spref>
+    <spref>
+        <horizsys>
+            <geograph>
+                <latres>1.0</latres>
+                <longres>1.0</longres>
+                <geogunit>Decimal seconds</geogunit>
+            </geograph>
+            <geodetic>
+                <horizdn>D_North_American_1983</horizdn>
+                <ellips>GRS_1980</ellips>
+                <semiaxis>6378137.0</semiaxis>
+                <denflat>298.257222101</denflat>
+            </geodetic>
+        </horizsys>
+    </spref>
     <eainfo>
         <detailed>
             <enttyp>
@@ -242,7 +241,7 @@
                     <formname>Raster Digital Data Set Machine Accessible WCS Endpoint</formname>
                 </digtinfo>
                 <digtopt>
-                    <onlinopt> 
+                    <onlinopt>
                         <computer>
                             <networka>
                                 <networkr>http://geoserver.usanpn.org/geoserver/wcs?request=GetCapabilities</networkr>
