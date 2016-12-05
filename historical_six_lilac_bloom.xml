@@ -23,7 +23,7 @@
             </citeinfo>
         </citation>
         <descript>
-            <abstract>Historical values for the Extended Spring Index (SI-x) of First Bloom, lilac sub-model. Each pixel is assigned a day of year value for the First Bloom Index. The Extended Spring Indices are mathematical models that predict the "start of spring" (timing of leaf out or bloom for species active in early spring) at a particular location. This model was constructed using historical observations of the timing of first bloom in common lilac (Syringa vulgaris) and a cloned lilac cultivar (S. x chinensis 'Red Rothomagensis'). Primary inputs to the model are temperature events, beginning January 1 of each year. Layers are available for each year from 1981 to 2015. Input temperature data based on historical PRISM data at 4km resolution.</abstract>
+            <abstract>Historical values for the Extended Spring Index (SI-x) of First Bloom, lilac sub-model. Each pixel is assigned a day of year value for the First Bloom Index. The Extended Spring Indices are mathematical models that predict the "start of spring" (timing of leaf out or bloom for species active in early spring) at a particular location. This model was constructed using historical observations of the timing of first bloom in a cloned lilac cultivar (S. x chinensis 'Red Rothomagensis'). Primary inputs to the model are temperature events, beginning January 1 of each year. Layers are available for each year from 1981 to 2015. Input temperature data based on historical PRISM data at 4km resolution.</abstract>
             <purpose>The Extended Spring Indices have been used as an indicator of climate change by both the Environmental Protection Agency and the National Climate Assessment. The historical values of first leaf and first bloom support understanding of spatial patterns in the timing of spring.</purpose>
             <supplinf></supplinf>
         </descript>
@@ -168,7 +168,7 @@
             </enttyp>
             <attr>
                 <attrlabl>Value</attrlabl>
-                <attrdef>Extended Spring Index Value, predicting day of first bloom for Syringa vulgaris and Syringa x chinensis 'Red Rothomagensis'</attrdef>
+                <attrdef>Extended Spring Index Value, predicting day of first bloom for Syringa x chinensis 'Red Rothomagensis'</attrdef>
                 <attrdefs>Producer defined</attrdefs>
                 <attrdomv>
                     <rdom>
