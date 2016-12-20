@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8"?>
 <metadata>
     <idinfo>
         <citation>
             <citeinfo>
                 <origin>USA National Phenology Network</origin>
                 <pubdate>2016</pubdate>
-                <title>Historical Annual First Bloom Index, Contiguous United States, 1981-2015</title>
+                <title>Historical Arnold Red Honeysuckle First Bloom Index (NCEP), Contiguous United States, 2016 - Previous Year</title>
                 <geoform>Raster Digital Data Set</geoform>
                 <onlink>http://dx.doi.org/10.5066/F7XD0ZRK</onlink>
                 <lworkcit>
@@ -23,27 +23,27 @@
             </citeinfo>
         </citation>
         <descript>
-            <abstract>Historical values for the Extended Spring Index (SI-x) of First Bloom. Each pixel is assigned a day of year value for the First Bloom Index. The Extended Spring Indices are mathematical models that predict the "start of spring" (timing of leaf out or bloom for species active in early spring) at a particular location. This model was constructed using historical observations of the timing of first bloom in a cloned lilac cultivar (S. x chinensis 'Red Rothomagensis') and two cloned honeysuckle cultivars (Lonicera tatarica 'Arnold Red' and L. korolkowii 'Zabelii'). Primary inputs to the model are temperature events, beginning January 1 of each year. Layers are available for each year from 1981 to 2015. Input temperature data based on historical PRISM data at 4km resolution.</abstract>
-            <purpose>The Extended Spring Indices have been used as an indicator of climate change by both the Environmental Protection Agency and the National Climate Assessment. The historical values of first leaf and first bloom support understanding of spatial patterns in the timing of spring.</purpose>
+			<abstract>Historical values for the Extended Spring Index (SI-x) of First Bloom, Arnold Red honeysuckle sub-model. Each pixel is assigned a day of year value for the First Bloom Index. The Extended Spring Indices are mathematical models that predict the "start of spring" (timing of leaf out or bloom for species active in early spring) at a particular location. This model was constructed using historical observations of the timing of first bloom in a cloned honeysuckle cultivar (Lonicera tatarica 'Arnold Red'). Primary inputs to the model are temperature events, beginning January 1 of each year. Layers are available for each year from 2016 onward. Input temperature data based on NOAA National Centers for Environmental Prediction (NCEP) Unrestricted Mesoscale Analysis (URMA) Products</abstract>
+            <purpose>The Extended Spring Indices have been used as an indicator of climate change by both the Environmental Protection Agency and the National Climate Assessment. The historical values for first leaf and first bloom support understanding of spatial patterns in the timing of spring.</purpose>
             <supplinf></supplinf>
         </descript>
         <timeperd>
             <timeinfo>
                 <rngdates>
-                    <begdate>19800101</begdate>
-                    <enddate>20151231</enddate>
+                    <begdate>20160101</begdate>
+                    <enddate>PRESENT</enddate>
                 </rngdates>
             </timeinfo>
-            <current>publication date</current>
+            <current>ground condition</current>
         </timeperd>
         <status>
-            <progress>Complete</progress>
-            <update>Annually</update>
+            <progress>In work</progress>
+            <update>Daily</update>
         </status>
         <spdom>
             <bounding>
-                <westbc>-125.020833333</westbc>
-                <eastbc>-66.4791666667</eastbc>
+                <westbc>-125.0208333</westbc>
+                <eastbc>-66.4791667</eastbc>
                 <northbc>49.9375</northbc>
                 <southbc>24.0625</southbc>
             </bounding>
@@ -60,7 +60,7 @@
             </place>
         </keywords>
         <accconst>Public</accconst>
-        <useconst>Please cite these products as follows: USA National Phenology Network. Year of dataset access. Historical Annual First Bloom Index, Contiguous United States, 1981-2015, USA-NPN, Tucson, Arizona, USA. Data set accessed YYYY-MM-DD at http://dx.doi.org/10.5066/F7XD0ZRK</useconst>
+        <useconst>Please cite these products as follows: Historical Arnold Red Honeysuckle First Bloom Index (NCEP), Contiguous United States, 2016 - Previous Year, USA-NPN, Tucson, Arizona, USA. Data set accessed YYYY-MM-DD at http://dx.doi.org/10.5066/F7XD0ZRK</useconst>
         <ptcontac>
             <cntinfo>
                 <cntorgp>
@@ -101,37 +101,41 @@
             <srcinfo>
                 <srccite>
                     <citeinfo>
-                        <origin>PRISM Climate Group, Oregon State University</origin>
+                        <origin>NOAA National Centers for Environmental Prediction</origin>
                         <pubdate>2016</pubdate>
-                        <title>PRISM Recent Year Climate Data</title>
+                        <title>URMA - Contiguous United States - Grid 184 - Conus - 2.5km resolution</title>
                         <geoform>Raster Digital Data Set</geoform>
                         <pubinfo>
                             <pubplace>Internet</pubplace>
-                            <publish>Oregon State University</publish>
+                            <publish>NOAA National Centers for Environmental Prediction</publish>
                         </pubinfo>
-                        <onlink>http://prism.oregonstate.edu/</onlink>
+                        <onlink>http://www.nco.ncep.noaa.gov/pmb/products/rtma/#URMA</onlink>
                     </citeinfo>
                 </srccite>
                 <typesrc>Digital and/or Hardcopy Resources</typesrc>
                 <srctime>
                     <timeinfo>
                         <rngdates>
-                            <begdate>19810101</begdate>
-                            <enddate>20160901</enddate>
+                            <begdate>20160101</begdate>
+                            <enddate>PRESENT</enddate>
                         </rngdates>
                     </timeinfo>
-                    <srccurr>publication date</srccurr>
+                    <srccurr>ground condition</srccurr>
                 </srctime>
-                <srccitea>PRISM</srccitea>
-                <srccontr>Used as base climate data from which to calculate the Spring Index values.</srccontr>
+                <srccitea>URMA</srccitea>
+                <srccontr>Used as authoritative data source on previous day observational data</srccontr>
             </srcinfo>
             <procstep>
-                <procdesc>Download complete PRISM Tmax and Tmin datasets for 1980 - 2010.</procdesc>
-                <procdate>20160115</procdate>
+                <procdesc>NCEP URMA data (hourly temperatures) are retrieved on a 24-hour cycle over the course of the year.</procdesc>
+                <procdate>Not complete</procdate>
             </procstep>
             <procstep>
-                <procdesc>For each year, 1981 - 2015, loop through the available PRISM data and calcuate the Spring Index values.</procdesc>
-                <procdate>20160115</procdate>
+                <procdesc>Spring Index values are calculated across the raster each day of the year using above mentioned climate data.</procdesc>
+                <procdate>Not complete</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>After day 250 is complete, and the Spring Index values for the raster are no longer subject to change, then the final raster is archived as a data layer of this set.</procdesc>
+                <procdate>Not complete</procdate>
             </procstep>
         </lineage>
     </dataqual>
@@ -139,16 +143,16 @@
         <direct>Raster</direct>
         <rastinfo>
             <rasttype>Grid Cell</rasttype>
-            <rowcount>621</rowcount>
-            <colcount>1405</colcount>
+            <rowcount>1228</rowcount>
+            <colcount>2606</colcount>
             <vrtcount>1</vrtcount>
         </rastinfo>
     </spdoinfo>
     <spref>
         <horizsys>
             <geograph>
-                <latres>0.0416666666667</latres>
-                <longres>0.0416666666667</longres>
+                <latres>0.0210708469055</latres>
+                <longres>0.022464185188</longres>
                 <geogunit>Decimal seconds</geogunit>
             </geograph>
             <geodetic>
@@ -168,7 +172,7 @@
             </enttyp>
             <attr>
                 <attrlabl>Value</attrlabl>
-                <attrdef>Extended Spring Index Value, predicting day of first bloom</attrdef>
+                <attrdef>Extended Spring Index Value, predicting day of first bloom for Lonicera tatarica 'Arnold Red'</attrdef>
                 <attrdefs>Producer defined</attrdefs>
                 <attrdomv>
                     <rdom>
@@ -239,7 +243,7 @@
                     <formname>Raster Digital Data Set Machine Accessible WCS Endpoint</formname>
                 </digtinfo>
                 <digtopt>
-                    <onlinopt>
+                    <onlinopt> 
                         <computer>
                             <networka>
                                 <networkr>http://geoserver.usanpn.org/geoserver/wcs?request=GetCapabilities</networkr>
@@ -252,7 +256,7 @@
         </stdorder>
     </distinfo>
     <metainfo>
-        <metd>20160414</metd>
+        <metd>20161219</metd>
         <metc>
             <cntinfo>
                 <cntperp>
