@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <metadata>
     <idinfo>
         <citation>
             <citeinfo>
                 <origin>USA National Phenology Network</origin>
                 <pubdate>2016</pubdate>
-                <title>Historical Annual Lilac First Bloom Index (NCEP), Contiguous United States, 2016-Previous Year</title>
+                <title>Historical Annual Lilac First Bloom Index, Contiguous United States, 2016-Previous Year</title>
                 <geoform>Raster Digital Data Set</geoform>
                 <onlink>http://dx.doi.org/10.5066/F7XD0ZRK</onlink>
                 <lworkcit>
@@ -60,7 +60,7 @@
             </place>
         </keywords>
         <accconst>Public</accconst>
-        <useconst>Please cite these products as follows: USA National Phenology Network. Year of dataset access. Daily Contemporary Lilac First Bloom Index, Contiguous United States, Current Year, USA-NPN, Tucson, Arizona, USA. Data set accessed YYYY-MM-DD at http://dx.doi.org/10.5066/F7XD0ZRK</useconst>
+        <useconst>Please cite these products as follows: USA National Phenology Network. Year of dataset access. Historical Annual Lilac First Bloom Index, Contiguous United States, 2016-Previous Year, USA-NPN, Tucson, Arizona, USA. Data set accessed YYYY-MM-DD at http://dx.doi.org/10.5066/F7XD0ZRK</useconst>
         <ptcontac>
             <cntinfo>
                 <cntorgp>
@@ -243,7 +243,7 @@
                     <formname>Raster Digital Data Set Machine Accessible WCS Endpoint</formname>
                 </digtinfo>
                 <digtopt>
-                    <onlinopt> 
+                    <onlinopt>
                         <computer>
                             <networka>
                                 <networkr>http://geoserver.usanpn.org/geoserver/wcs?request=GetCapabilities</networkr>
