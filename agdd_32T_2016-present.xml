@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <metadata>
     <idinfo>
         <citation>
             <citeinfo>
                 <origin>USA National Phenology Network</origin>
                 <pubdate>2016</pubdate>
-                <title>Daily Contemporary and Forecasted Temperature Accumulations - 32 Base Temperature, Contiguous United States, Current Year</title>
+                <title>Daily Temperature Accumulations - 32 Base Temperature, Contiguous United States, 2016-Current Year</title>
                 <geoform>Raster Digital Data Set</geoform>
                 <onlink>http://dx.doi.org/10.5066/F7SN0723</onlink>
                 <lworkcit>
@@ -199,7 +199,7 @@
             <procstep>
                 <procdesc>Accumulated growing degree (AGDD) layers are populated from three days back (t-3) to six days into the future (t+6) using the Tmin/Tmax data from the previous steps. Preference of backing climate data in this step is to use URMA when available, then falling back to RTMA, and finally NDFD.</procdesc>
                 <procdate>Not complete</procdate>
-            </procstep>            
+            </procstep>
         </lineage>
     </dataqual>
     <spdoinfo>
@@ -306,7 +306,7 @@
                     <formname>Raster Digital Data Set Machine Accessible WCS Endpoint</formname>
                 </digtinfo>
                 <digtopt>
-                    <onlinopt> 
+                    <onlinopt>
                         <computer>
                             <networka>
                                 <networkr>http://geoserver.usanpn.org/geoserver/wcs?request=GetCapabilities</networkr>

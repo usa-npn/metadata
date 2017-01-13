@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <metadata>
     <idinfo>
         <citation>
             <citeinfo>
                 <origin>USA National Phenology Network</origin>
                 <pubdate>2016</pubdate>
-                <title>Daily Contemporary Zabelii Honeysuckle First Leaf Index, Contiguous United States, Current Year</title>
-                <geoform>Raster Digital Data Set</geoform>
+                <title>Zabelii Honeysuckle First Leaf Index, Contiguous United States, Current Year<geoform>Raster Digital Data Set</geoform>
+                </title>
                 <onlink>http://dx.doi.org/10.5066/F7XD0ZRK</onlink>
                 <lworkcit>
                     <citeinfo>
@@ -305,7 +305,7 @@
                     <formname>Raster Digital Data Set Machine Accessible WCS Endpoint</formname>
                 </digtinfo>
                 <digtopt>
-                    <onlinopt> 
+                    <onlinopt>
                         <computer>
                             <networka>
                                 <networkr>http://geoserver.usanpn.org/geoserver/wcs?request=GetCapabilities</networkr>
