@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <metadata>
     <idinfo>
         <citation>
             <citeinfo>
                 <origin>USA National Phenology Network</origin>
                 <pubdate>2016</pubdate>
-                <title>Historical Annual Arnold Red Honeysuckle First Bloom Index, Contiguous United States, 1981-2015</title>
+                <title>Historical Annual Arnold Red Honeysuckle First Bloom Index, Contiguous United States, 1981-Previous Year</title>
                 <geoform>Raster Digital Data Set</geoform>
                 <onlink>http://dx.doi.org/10.5066/F7XD0ZRK</onlink>
                 <lworkcit>
@@ -239,7 +239,7 @@
                     <formname>Raster Digital Data Set Machine Accessible WCS Endpoint</formname>
                 </digtinfo>
                 <digtopt>
-                    <onlinopt> 
+                    <onlinopt>
                         <computer>
                             <networka>
                                 <networkr>http://geoserver.usanpn.org/geoserver/wcs?request=GetCapabilities</networkr>

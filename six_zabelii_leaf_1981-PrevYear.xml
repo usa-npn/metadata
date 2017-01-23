@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <metadata>
     <idinfo>
         <citation>
             <citeinfo>
                 <origin>USA National Phenology Network</origin>
                 <pubdate>2016</pubdate>
-                <title>Historical Annual Lilac First Leaf Index, Contiguous United States, 1981-2015</title>
+                <title>Historical Annual Zabelii Honeysuckle First Leaf Index, Contiguous United States, 1981-Previous Year</title>
                 <geoform>Raster Digital Data Set</geoform>
                 <onlink>http://dx.doi.org/10.5066/F7XD0ZRK</onlink>
                 <lworkcit>
@@ -23,7 +23,7 @@
             </citeinfo>
         </citation>
         <descript>
-            <abstract>Historical values for the Extended Spring Index (SI-x) of First Leaf, lilac sub-model. Each pixel is assigned a day of year value for the First Leaf Index. The Extended Spring Indices are mathematical models that predict the "start of spring" (timing of leaf out or bloom for species active in early spring) at a particular location. This model was constructed using historical observations of the timing of first leaf in a cloned lilac cultivar (S. x chinensis 'Red Rothomagensis'). Primary inputs to the model are temperature events, beginning January 1 of each year. Layers are available for each year from 1981 to 2015. Input temperature data based on historical PRISM data at 4km resolution.</abstract>
+            <abstract>Historical values for the Extended Spring Index (SI-x) of First Leaf, Zabelii honeysuckle sub-model. Each pixel is assigned a day of year value for the First Leaf Index. The Extended Spring Indices are mathematical models that predict the "start of spring" (timing of leaf out or bloom for species active in early spring) at a particular location. This model was constructed using historical observations of the timing of first leaf in a cloned honeysuckle cultivar (L. korolkowii 'Zabelii'). Primary inputs to the model are temperature events, beginning January 1 of each year. Layers are available for each year from 1981 to 2015. Input temperature data based on historical PRISM data at 4km resolution.</abstract>
             <purpose>The Extended Spring Indices have been used as an indicator of climate change by both the Environmental Protection Agency and the National Climate Assessment. The historical values of first leaf and first bloom support understanding of spatial patterns in the timing of spring.</purpose>
             <supplinf></supplinf>
         </descript>
@@ -60,7 +60,7 @@
             </place>
         </keywords>
         <accconst>Public</accconst>
-        <useconst>Please cite these products as follows: USA National Phenology Network. Year of dataset access. Historical Annual Lilac First Leaf Index, Contiguous United States, 1981-2015, USA-NPN, Tucson, Arizona, USA. Data set accessed YYYY-MM-DD at http://dx.doi.org/10.5066/F7XD0ZRK</useconst>
+        <useconst>Please cite these products as follows: USA National Phenology Network. Year of dataset access. Historical Annual Zabelii Honeysuckle First Leaf Index, Contiguous United States, 1981-2015, USA-NPN, Tucson, Arizona, USA. Data set accessed YYYY-MM-DD at http://dx.doi.org/10.5066/F7XD0ZRK</useconst>
         <ptcontac>
             <cntinfo>
                 <cntorgp>
@@ -168,7 +168,7 @@
             </enttyp>
             <attr>
                 <attrlabl>Value</attrlabl>
-                <attrdef>Extended Spring Index Value, predicting day of first leaf for Syringa x chinensis 'Red Rothomagensis'</attrdef>
+                <attrdef>Extended Spring Index Value, predicting day of first leaf for Lonicera korolkowii 'Zabelii'</attrdef>
                 <attrdefs>Producer defined</attrdefs>
                 <attrdomv>
                     <rdom>
@@ -239,7 +239,7 @@
                     <formname>Raster Digital Data Set Machine Accessible WCS Endpoint</formname>
                 </digtinfo>
                 <digtopt>
-                    <onlinopt> 
+                    <onlinopt>
                         <computer>
                             <networka>
                                 <networkr>http://geoserver.usanpn.org/geoserver/wcs?request=GetCapabilities</networkr>
