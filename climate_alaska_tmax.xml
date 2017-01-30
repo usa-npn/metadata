@@ -1,17 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8"?>
 <metadata>
     <idinfo>
         <citation>
             <citeinfo>
                 <origin>USA National Phenology Network</origin>
                 <pubdate>2016</pubdate>
-                <title>Zabelii Honeysuckle First Leaf Index, Contiguous United States, Current Year</title>
-				<geoform>Raster Digital Data Set</geoform>
-                <onlink>http://dx.doi.org/10.5066/F7XD0ZRK</onlink>
+                <title>Daily Temperature Maximums, Alaska, 2017-Current Year</title>
+                <geoform>Raster Digital Data Set</geoform>                
                 <lworkcit>
                     <citeinfo>
                         <origin>USA National Phenology Network</origin>
-                        <pubdate>2016</pubdate>
+                        <pubdate>2017</pubdate>
                         <title>USA National Phenology Network, Gridded Data Product Suite</title>
                         <geoform>GIS Data Service</geoform>
                         <pubinfo>
@@ -23,14 +22,14 @@
             </citeinfo>
         </citation>
         <descript>
-            <abstract>Daily progression of the Extended Spring Index (SI-x) of First Leaf, Zabelii honeysuckle sub-model. Each pixel is assigned a day of year value once the requirements for the First Leaf Index have been met for that location. The Extended Spring Indices are mathematical models that predict the "start of spring" (timing of leaf out or bloom for species active in early spring) at a particular location. This model was constructed using historical observations of the timing of first leaf in a cloned honeysuckle cultivar (L. korolkowii 'Zabelii'). Primary inputs to the model are temperature events, beginning January 1 of each year. Layers are available for each day of the current year, plus six days into the future, at a 2.5km resolution. Input temperature data based on NOAA National Centers for Environmental Prediction (NCEP) Real-Time Mesoscale Analysis Products, NCEP Unrestricted Mesoscale Analysis Products; short-term temperature forecast products based on NOAA National Weather Service National Digital Forecast Database. Each night, the data are re-generated for the previous two days, the current day, and the next six days. This allows more stable data and better forecasts to be incorporated into each day's representation of the model. Because the short-term forecasts are adjusted daily, pixels values may vary from one day to the next.</abstract>
-            <purpose>The Extended Spring Indices have been used as an indicator of climate change by both the Environmental Protection Agency and the National Climate Assessment. The gridded forecasts of first leaf and first bloom support understanding of spatial patterns in the timing of spring, as well as short-term forecasts to support resource management.</purpose>
+            <abstract>Daily grids of temperature maximums in degrees Fahrenheit for every day of the current year up through the current day, plus forecasts for the coming six days. Data presented at 3km resolution. Values based on NOAA National Centers for Environmental Prediction (NCEP) Real-Time Mesoscale Analysis Products, NCEP Unrestricted Mesoscale Analysis Products; short-term temperature forecast products based on NOAA National Weather Service National Digital Forecast Database. Each night, the data are re-generated for the previous two days, the current day, and the next six days. Because the short-term forecasts are adjusted daily, pixels values may vary from one day to the next until the date in question has passed, and values are replaced with observed minimum temperature values.</abstract>
+            <purpose>These data were created to be used as input into various phenological and climatological models. However, they could be used for any general purpose.</purpose>
             <supplinf></supplinf>
         </descript>
         <timeperd>
             <timeinfo>
                 <rngdates>
-                    <begdate>20160101</begdate>
+                    <begdate>20170101</begdate>
                     <enddate>PRESENT</enddate>
                 </rngdates>
             </timeinfo>
@@ -41,18 +40,19 @@
             <update>Daily</update>
         </status>
         <spdom>
-            <bounding>
-                <westbc>-125.0208333</westbc>
-                <eastbc>-66.4791667</eastbc>
-                <northbc>49.9375</northbc>
-                <southbc>24.0625</southbc>
-            </bounding>
+			<bounding>
+				<westbc>-179.148909</westbc>
+				<eastbc>-129.97851777</eastbc>
+				<northbc>71.365162</northbc>
+				<southbc>51.20503422</southbc>
+			</bounding>
         </spdom>
         <keywords>
             <theme>
                 <themekt>USGS Thesaurus</themekt>
                 <themekey>phenology</themekey>
-                <themekey>ecology</themekey>
+                <themekey>air temperature</themekey>
+                <themekey>atmospheric and climatic processes</themekey>
             </theme>
             <place>
                 <placekt>Common geographic areas</placekt>
@@ -60,7 +60,7 @@
             </place>
         </keywords>
         <accconst>Public</accconst>
-        <useconst>Please cite these products as follows: USA National Phenology Network. Year of dataset access. Daily Contemporary Zabelii Honeysuckle First Leaf Index, Contiguous United States, Current Year, USA-NPN, Tucson, Arizona, USA. Data set accessed YYYY-MM-DD at http://dx.doi.org/10.5066/F7XD0ZRK</useconst>
+        <useconst>Please cite these products as follows: USA National Phenology Network. Year of dataset access. Daily Temperature Maximums, Alaska, 2017-Current Year, USA-NPN, Tucson, Arizona, USA. Data set accessed YYYY-MM-DD at http://dx.doi.org/10.5066/F73776TV</useconst>
         <ptcontac>
             <cntinfo>
                 <cntorgp>
@@ -102,8 +102,8 @@
                 <srccite>
                     <citeinfo>
                         <origin>NOAA National Centers for Environmental Prediction</origin>
-                        <pubdate>2016</pubdate>
-                        <title>RTMA - Contiguous United States Grid 184 - 2.5 km resolution</title>
+                        <pubdate>2017</pubdate>
+                        <title>RTMA - Alaska - Grid 91 - 3km resolution</title>
                         <geoform>Raster Digital Data Set</geoform>
                         <pubinfo>
                             <pubplace>Internet</pubplace>
@@ -116,7 +116,7 @@
                 <srctime>
                     <timeinfo>
                         <rngdates>
-                            <begdate>20160101</begdate>
+                            <begdate>20170101</begdate>
                             <enddate>PRESENT</enddate>
                         </rngdates>
                     </timeinfo>
@@ -129,8 +129,8 @@
                 <srccite>
                     <citeinfo>
                         <origin>NOAA National Centers for Environmental Prediction</origin>
-                        <pubdate>2016</pubdate>
-                        <title>URMA - Contiguous United States - Grid 184 - Conus - 2.5km resolution</title>
+                        <pubdate>2017</pubdate>
+                        <title>URMA - Alaska - Grid 91 - 3.0km resolution</title>
                         <geoform>Raster Digital Data Set</geoform>
                         <pubinfo>
                             <pubplace>Internet</pubplace>
@@ -143,7 +143,7 @@
                 <srctime>
                     <timeinfo>
                         <rngdates>
-                            <begdate>20160101</begdate>
+                            <begdate>20170101</begdate>
                             <enddate>PRESENT</enddate>
                         </rngdates>
                     </timeinfo>
@@ -156,7 +156,7 @@
                 <srccite>
                     <citeinfo>
                         <origin>National Weather Service</origin>
-                        <pubdate>2016</pubdate>
+                        <pubdate>2017</pubdate>
                         <title>NWS National Digital Forecast Database</title>
                         <geoform>Raster Digital Data Set</geoform>
                         <pubinfo>
@@ -170,7 +170,7 @@
                 <srctime>
                     <timeinfo>
                         <rngdates>
-                            <begdate>20160101</begdate>
+                            <begdate>20170101</begdate>
                             <enddate>PRESENT</enddate>
                         </rngdates>
                     </timeinfo>
@@ -192,39 +192,35 @@
                 <procdate>Not complete</procdate>
             </procstep>
             <procstep>
-                <procdesc>Daily Tmin/Tmax is generated for the previous four days from the retrieved URMA and RTMA hourly data. In this step URMA data is always given preference, and RTMA is only used for hours where URMA is not yet available.</procdesc>
-                <procdate>Not complete</procdate>
-            </procstep>
-            <procstep>
-                <procdesc>Spring Index layers are populated from three days back (t-3) to six days into the future (t+6) using the Tmin/Tmax data from the previous steps. Preference of backing climate data in this step is to use URMA when available, then falling back to RTMA, and finally NDFD.</procdesc>
+                <procdesc>Daily Tmin is generated for the previous four days from the retrieved URMA and RTMA hourly data. In this step URMA data is always given preference, and RTMA is only used for hours where URMA is not yet available.</procdesc>
                 <procdate>Not complete</procdate>
             </procstep>
         </lineage>
     </dataqual>
     <spdoinfo>
         <direct>Raster</direct>
-        <rastinfo>
-            <rasttype>Grid Cell</rasttype>
-            <rowcount>1228</rowcount>
-            <colcount>2606</colcount>
-            <vrtcount>1</vrtcount>
-        </rastinfo>
+		<rastinfo>
+			<rasttype>Grid Cell</rasttype>
+			<rowcount>754</rowcount>
+			<colcount>1839</colcount>
+			<vrtcount>1</vrtcount>
+		</rastinfo>
     </spdoinfo>
-    <spref>
-        <horizsys>
-            <geograph>
-                <latres>0.0210708469055</latres>
-                <longres>0.022464185188</longres>
-                <geogunit>Decimal seconds</geogunit>
-            </geograph>
-            <geodetic>
-                <horizdn>D_North_American_1983</horizdn>
-                <ellips>GRS_1980</ellips>
-                <semiaxis>6378137.0</semiaxis>
-                <denflat>298.257222101</denflat>
-            </geodetic>
-        </horizsys>
-    </spref>
+	<spref>
+		<horizsys>
+			<geograph>
+				<latres>0.02673757</latres>
+				<longres>0.02673757</longres>
+				<geogunit>Decimal seconds</geogunit>
+			</geograph>
+			<geodetic>
+				<horizdn>D_North_American_1983</horizdn>
+				<ellips>GRS_1980</ellips>
+				<semiaxis>6378137.0</semiaxis>
+				<denflat>298.257222101</denflat>
+			</geodetic>
+		</horizsys>
+	</spref>
     <eainfo>
         <detailed>
             <enttyp>
@@ -234,13 +230,13 @@
             </enttyp>
             <attr>
                 <attrlabl>Value</attrlabl>
-                <attrdef>Extended Spring Index Value, predicting day of first leaf for Lonicera korolkowii 'Zabelii'</attrdef>
+                <attrdef>Temperature Maximum</attrdef>
                 <attrdefs>Producer defined</attrdefs>
                 <attrdomv>
                     <rdom>
-                        <rdommin>1</rdommin>
-                        <rdommax>240</rdommax>
-                        <attrunit>day of year</attrunit>
+                        <rdommin>-150</rdommin>
+                        <rdommax>150</rdommax>
+                        <attrunit>Fahrenheit</attrunit>
                     </rdom>
                 </attrdomv>
             </attr>
@@ -280,7 +276,7 @@
                     <onlinopt>
                         <computer>
                             <networka>
-                                <networkr>http://dx.doi.org/10.5066/F7XD0ZRK</networkr>
+                                <networkr>http://dx.doi.org/10.5066/F7707ZHR</networkr>
                             </networka>
                         </computer>
                     </onlinopt>
@@ -305,7 +301,7 @@
                     <formname>Raster Digital Data Set Machine Accessible WCS Endpoint</formname>
                 </digtinfo>
                 <digtopt>
-                    <onlinopt>
+                    <onlinopt> 
                         <computer>
                             <networka>
                                 <networkr>http://geoserver.usanpn.org/geoserver/wcs?request=GetCapabilities</networkr>
@@ -318,7 +314,7 @@
         </stdorder>
     </distinfo>
     <metainfo>
-        <metd>20160418</metd>
+        <metd>20170126</metd>
         <metc>
             <cntinfo>
                 <cntperp>
