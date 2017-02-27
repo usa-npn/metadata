@@ -6,7 +6,7 @@
                 <origin>USA National Phenology Network</origin>
                 <pubdate>2016</pubdate>
                 <title>Zabelii Honeysuckle First Leaf Index, Contiguous United States, Current Year</title>
-				<geoform>Raster Digital Data Set</geoform>
+                <geoform>Raster Digital Data Set</geoform>
                 <onlink>http://dx.doi.org/10.5066/F7XD0ZRK</onlink>
                 <lworkcit>
                     <citeinfo>
@@ -23,7 +23,7 @@
             </citeinfo>
         </citation>
         <descript>
-            <abstract>Daily progression of the Extended Spring Index (SI-x) of First Leaf, Zabelii honeysuckle sub-model. Each pixel is assigned a day of year value once the requirements for the First Leaf Index have been met for that location. The Extended Spring Indices are mathematical models that predict the "start of spring" (timing of leaf out or bloom for species active in early spring) at a particular location. This model was constructed using historical observations of the timing of first leaf in a cloned honeysuckle cultivar (L. korolkowii 'Zabelii'). Primary inputs to the model are temperature events, beginning January 1 of each year. Layers are available for each day of the current year, plus six days into the future, at a 2.5km resolution. Input temperature data based on NOAA National Centers for Environmental Prediction (NCEP) Real-Time Mesoscale Analysis Products, NCEP Unrestricted Mesoscale Analysis Products; short-term temperature forecast products based on NOAA National Weather Service National Digital Forecast Database. Each night, the data are re-generated for the previous two days, the current day, and the next six days. This allows more stable data and better forecasts to be incorporated into each day's representation of the model. Because the short-term forecasts are adjusted daily, pixels values may vary from one day to the next.</abstract>
+            <abstract>Daily progression of the Extended Spring Index (SI-x) of First Leaf, Zabelii honeysuckle sub-model. Each pixel is assigned a day of year value once the requirements for the First Leaf Index have been met for that location. The Extended Spring Indices are mathematical models that predict the "start of spring" (timing of leaf out or bloom for species active in early spring) at a particular location. This model was constructed using historical observations of the timing of first leaf in a cloned honeysuckle cultivar (Lonicera korolkowii 'Zabelii'). Primary inputs to the model are temperature events, beginning January 1 of each year. Layers are available for each day of the current year, plus six days into the future, at a 2.5km resolution. Input temperature data based on NOAA National Centers for Environmental Prediction (NCEP) Real-Time Mesoscale Analysis Products, NCEP Unrestricted Mesoscale Analysis Products; short-term temperature forecast products based on NOAA National Weather Service National Digital Forecast Database. Each night, the data are re-generated for the previous two days, the current day, and the next six days. This allows more stable data and better forecasts to be incorporated into each day's representation of the model. Because the short-term forecasts are adjusted daily, pixels values may vary from one day to the next.</abstract>
             <purpose>The Extended Spring Indices have been used as an indicator of climate change by both the Environmental Protection Agency and the National Climate Assessment. The gridded forecasts of first leaf and first bloom support understanding of spatial patterns in the timing of spring, as well as short-term forecasts to support resource management.</purpose>
             <supplinf></supplinf>
         </descript>
@@ -60,7 +60,7 @@
             </place>
         </keywords>
         <accconst>Public</accconst>
-        <useconst>Please cite these products as follows: USA National Phenology Network. Year of dataset access. Daily Contemporary Zabelii Honeysuckle First Leaf Index, Contiguous United States, Current Year, USA-NPN, Tucson, Arizona, USA. Data set accessed YYYY-MM-DD at http://dx.doi.org/10.5066/F7XD0ZRK</useconst>
+        <useconst>Please cite these products as follows: USA National Phenology Network. Year of dataset access. Zabelii Honeysuckle First Leaf Index, Contiguous United States, Current Year, USA-NPN, Tucson, Arizona, USA. Data set accessed YYYY-MM-DD at http://dx.doi.org/10.5066/F7XD0ZRK</useconst>
         <ptcontac>
             <cntinfo>
                 <cntorgp>

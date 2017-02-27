@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <metadata>
     <idinfo>
         <citation>
@@ -6,7 +6,7 @@
                 <origin>USA National Phenology Network</origin>
                 <pubdate>2016</pubdate>
                 <title>Daily Temperature Maximums, Alaska, 2017-Current Year</title>
-                <geoform>Raster Digital Data Set</geoform>                
+                <geoform>Raster Digital Data Set</geoform>
                 <lworkcit>
                     <citeinfo>
                         <origin>USA National Phenology Network</origin>
@@ -22,7 +22,7 @@
             </citeinfo>
         </citation>
         <descript>
-            <abstract>Daily grids of temperature maximums in degrees Fahrenheit for every day of the current year up through the current day, plus forecasts for the coming six days. Data presented at 3km resolution. Values based on NOAA National Centers for Environmental Prediction (NCEP) Real-Time Mesoscale Analysis Products, NCEP Unrestricted Mesoscale Analysis Products; short-term temperature forecast products based on NOAA National Weather Service National Digital Forecast Database. Each night, the data are re-generated for the previous two days, the current day, and the next six days. Because the short-term forecasts are adjusted daily, pixels values may vary from one day to the next until the date in question has passed, and values are replaced with observed minimum temperature values.</abstract>
+            <abstract>Daily grids of temperature maximums in degrees Fahrenheit for every day of the year up through the current day, plus forecasts for the coming six days. Data presented at 3km resolution. Values based on NOAA National Centers for Environmental Prediction (NCEP) Real-Time Mesoscale Analysis Products, NCEP Unrestricted Mesoscale Analysis Products; short-term temperature forecast products based on NOAA National Weather Service National Digital Forecast Database. Each night, the data are re-generated for the previous two days, the current day, and the next six days. Because the short-term forecasts are adjusted daily, pixels values may vary from one day to the next until the date in question has passed, and values are replaced with observed maximum temperature values.</abstract>
             <purpose>These data were created to be used as input into various phenological and climatological models. However, they could be used for any general purpose.</purpose>
             <supplinf></supplinf>
         </descript>
@@ -40,12 +40,12 @@
             <update>Daily</update>
         </status>
         <spdom>
-			<bounding>
-				<westbc>-179.148909</westbc>
-				<eastbc>-129.97851777</eastbc>
-				<northbc>71.365162</northbc>
-				<southbc>51.20503422</southbc>
-			</bounding>
+            <bounding>
+                <westbc>-179.148909</westbc>
+                <eastbc>-129.97851777</eastbc>
+                <northbc>71.365162</northbc>
+                <southbc>51.20503422</southbc>
+            </bounding>
         </spdom>
         <keywords>
             <theme>
@@ -200,28 +200,28 @@
     </dataqual>
     <spdoinfo>
         <direct>Raster</direct>
-		<rastinfo>
-			<rasttype>Grid Cell</rasttype>
-			<rowcount>754</rowcount>
-			<colcount>1839</colcount>
-			<vrtcount>1</vrtcount>
-		</rastinfo>
+        <rastinfo>
+            <rasttype>Grid Cell</rasttype>
+            <rowcount>754</rowcount>
+            <colcount>1839</colcount>
+            <vrtcount>1</vrtcount>
+        </rastinfo>
     </spdoinfo>
-	<spref>
-		<horizsys>
-			<geograph>
-				<latres>0.02673757</latres>
-				<longres>0.02673757</longres>
-				<geogunit>Decimal seconds</geogunit>
-			</geograph>
-			<geodetic>
-				<horizdn>D_North_American_1983</horizdn>
-				<ellips>GRS_1980</ellips>
-				<semiaxis>6378137.0</semiaxis>
-				<denflat>298.257222101</denflat>
-			</geodetic>
-		</horizsys>
-	</spref>
+    <spref>
+        <horizsys>
+            <geograph>
+                <latres>0.02673757</latres>
+                <longres>0.02673757</longres>
+                <geogunit>Decimal seconds</geogunit>
+            </geograph>
+            <geodetic>
+                <horizdn>D_North_American_1983</horizdn>
+                <ellips>GRS_1980</ellips>
+                <semiaxis>6378137.0</semiaxis>
+                <denflat>298.257222101</denflat>
+            </geodetic>
+        </horizsys>
+    </spref>
     <eainfo>
         <detailed>
             <enttyp>
@@ -302,7 +302,7 @@
                     <formname>Raster Digital Data Set Machine Accessible WCS Endpoint</formname>
                 </digtinfo>
                 <digtopt>
-                    <onlinopt> 
+                    <onlinopt>
                         <computer>
                             <networka>
                                 <networkr>http://geoserver.usanpn.org/geoserver/wcs?request=GetCapabilities</networkr>
