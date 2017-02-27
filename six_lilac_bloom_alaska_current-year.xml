@@ -59,6 +59,7 @@
             <place>
                 <placekt>Common geographic areas</placekt>
                 <placekey>United States</placekey>
+				<placekey>Alaska</placekey>
             </place>
         </keywords>
         <accconst>Public</accconst>
