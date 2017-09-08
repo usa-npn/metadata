@@ -68,9 +68,9 @@
     </idinfo>
     <dataqual>
         <attracc>
-            <attraccr>Attribute accuracy tests are described in an information sheet: https://www.usanpn.org/files/shared/files/QA-QC_tech_info_sheet_v2.3.pdf</attraccr>
+            <attraccr>Attribute accuracy tests are described in an information sheet: https://www.usanpn.org/files/shared/files/QA-QC_tech_info_sheet_v2.4.pdf</attraccr>
         </attracc>
-        <logic>Logic tests are described in an information sheet: https://www.usanpn.org/files/shared/files/QA-QC_tech_info_sheet_v2.3.pdf</logic>
+        <logic>Logic tests are described in an information sheet: https://www.usanpn.org/files/shared/files/QA-QC_tech_info_sheet_v2.4.pdf</logic>
         <complete>Data provided as-is.</complete>
         <posacc>
             <horizpa>
