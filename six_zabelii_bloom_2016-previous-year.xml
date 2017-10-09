@@ -60,7 +60,7 @@
             </place>
         </keywords>
         <accconst>Public</accconst>
-        <useconst>Please cite these products as follows: USA National Phenology Network. Year of dataset access. Historical Annual Zabelii Honeysuckle First Bloom Index, Contiguous United States, 2016-Previous Year, USA-NPN, Tucson, Arizona, USA. Data set accessed YYYY-MM-DD at http://dx.doi.org/10.5066/F7XD0ZRK</useconst>
+        <useconst>Please cite these products as follows:  [Author] [Year Published] [Dataset Title] {as of [DOY] (for continuous daily data) | Year(s) [Year(s)] (for annual products) | Date [Date] (for daily products) } for Region [Coordinates]. [Parameterized URL for Data Download] [Data Owner][City/State] Dataset Accessed [Date of Access] at [DOI Link].Example for the Spring Indices: USA National Phenology Network. 2017. Spring Indices, Current Year - First Bloom - Spring Index Date 2017-08-02. Region: 49.9375°, -66.4791667° (UR); 24.0625°, -125.0208333° (LL) http://data.usanpn.org/geoserver request builder?service=wms&amp;layer=si x:average_bloom_ncep&amp;date=2017 08 02&amp;format=image/png&amp;projection=4269&amp;width=1700&amp;height=800&amp;colors=1 . USA-NPN, Tucson, Arizona, USA. Data set accessed 2017-8-2. http://doi.org/10.5066/F7XD0ZRK</useconst>
         <ptcontac>
             <cntinfo>
                 <cntorgp>

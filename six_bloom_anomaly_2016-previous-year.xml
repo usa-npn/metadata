@@ -23,9 +23,9 @@
             </citeinfo>
         </citation>
         <descript>
-			<abstract>Difference, in days, between the historical Extended Spring Index (SI-x) of First Bloom values for each year and the 30-year average for First Bloom Index values. The layers show how advanced or lagged the day of year of the leaf index is for the given  year, compared to long-term average conditions, such that negative values represent locations that reached the SI-x requirements earlier than average, and positive values represent locations that reached the SI-x requirements later than average. The Extended Spring Indices are mathematical models that predict the "start of spring" (timing of leaf out or bloom for species active in early spring) at a particular location. These models were constructed using historical observations of the timing of first leaf and first bloom in a cloned lilac cultivar (S. x chinensis 'Red Rothomagensis') and two cloned honeysuckle cultivars (Lonicera tatarica 'Arnold Red' and L. korolkowii 'Zabelii'). Primary inputs to the model are temperature events, beginning January 1 of each year. Layers are available for each year beginning with 2016. Input temperature data based on NOAA National Centers for Environmental Prediction (NCEP) Unrestricted Mesoscale Analysis Products.</abstract>
+            <abstract>Difference, in days, between the historical Extended Spring Index (SI-x) of First Bloom values for each year and the 30-year average for First Bloom Index values. The layers show how advanced or lagged the day of year of the leaf index is for the given  year, compared to long-term average conditions, such that negative values represent locations that reached the SI-x requirements earlier than average, and positive values represent locations that reached the SI-x requirements later than average. The Extended Spring Indices are mathematical models that predict the "start of spring" (timing of leaf out or bloom for species active in early spring) at a particular location. These models were constructed using historical observations of the timing of first leaf and first bloom in a cloned lilac cultivar (S. x chinensis 'Red Rothomagensis') and two cloned honeysuckle cultivars (Lonicera tatarica 'Arnold Red' and L. korolkowii 'Zabelii'). Primary inputs to the model are temperature events, beginning January 1 of each year. Layers are available for each year beginning with 2016. Input temperature data based on NOAA National Centers for Environmental Prediction (NCEP) Unrestricted Mesoscale Analysis Products.</abstract>
             <purpose>The Extended Spring Indices have been used as an indicator of climate change by both the Environmental Protection Agency and the National Climate Assessment. The gridded forecast anomalies of first leaf and first bloom support understanding of spatial patterns in the timing of spring.</purpose>
-            <supplinf></supplinf>		
+            <supplinf></supplinf>
         </descript>
         <timeperd>
             <timeinfo>
@@ -60,7 +60,7 @@
             </place>
         </keywords>
         <accconst>Public</accconst>
-        <useconst>Please cite these products as follows: USA National Phenology Network. Year of dataset access. Historical Annual First Bloom Index Anomaly, Contiguous United States, 2016-Previous Year, USA-NPN, Tucson, Arizona, USA. Data set accessed YYYY-MM-DD at http://dx.doi.org/10.5066/F7XD0ZRK</useconst>
+        <useconst>Please cite these products as follows:  [Author] [Year Published] [Dataset Title] {as of [DOY] (for continuous daily data) | Year(s) [Year(s)] (for annual products) | Date [Date] (for daily products) } for Region [Coordinates]. [Parameterized URL for Data Download] [Data Owner][City/State] Dataset Accessed [Date of Access] at [DOI Link].Example for the Spring Indices: USA National Phenology Network. 2017. Spring Indices, Current Year - First Bloom - Spring Index Date 2017-08-02. Region: 49.9375°, -66.4791667° (UR); 24.0625°, -125.0208333° (LL) http://data.usanpn.org/geoserver request builder?service=wms&amp;layer=si x:average_bloom_ncep&amp;date=2017 08 02&amp;format=image/png&amp;projection=4269&amp;width=1700&amp;height=800&amp;colors=1 . USA-NPN, Tucson, Arizona, USA. Data set accessed 2017-8-2. http://doi.org/10.5066/F7XD0ZRK</useconst>
         <ptcontac>
             <cntinfo>
                 <cntorgp>
@@ -136,7 +136,7 @@
             <procstep>
                 <procdesc>Spring Index anomaly values are calculated across the raster each day of the year comparing the above calculated Spring Index values and the 30-year average product.</procdesc>
                 <procdate>Not complete</procdate>
-            </procstep>			
+            </procstep>
             <procstep>
                 <procdesc>After day 250 is complete, and the Spring Index anomaly values for the raster are no longer subject to change, then the final raster is archived as a data layer of this set.</procdesc>
                 <procdate>Not complete</procdate>
