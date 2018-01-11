@@ -4,14 +4,14 @@
         <citation>
             <citeinfo>
                 <origin>USA National Phenology Network</origin>
-                <pubdate>2016</pubdate>
-                <title>Historical Annual Zabelii Honeysuckle First Bloom Index, Contiguous United States, 2016-Previous Year</title>
+                <pubdate>2017</pubdate>
+                <title>Historical Annual Lilac First Bloom Index, Alaska, 2017 - Previous Year</title>
                 <geoform>Raster Digital Data Set</geoform>
                 <onlink>http://dx.doi.org/10.5066/F7XD0ZRK</onlink>
                 <lworkcit>
                     <citeinfo>
                         <origin>USA National Phenology Network</origin>
-                        <pubdate>2016</pubdate>
+                        <pubdate>2017</pubdate>
                         <title>USA National Phenology Network, Gridded Data Product Suite</title>
                         <geoform>GIS Data Service</geoform>
                         <pubinfo>
@@ -23,14 +23,14 @@
             </citeinfo>
         </citation>
         <descript>
-            <abstract>Historical values for the Extended Spring Index (SI-x) of First Bloom, Zabelii honeysuckle sub-model. Each pixel is assigned a day of year value for the First Bloom Index. The Extended Spring Indices are mathematical models that predict the "start of spring" (timing of leaf out or bloom for species active in early spring) at a particular location. This model was constructed using historical observations of the timing of first bloom in a cloned honeysuckle cultivar (Lonicera korolkowii 'Zabelii'). Primary inputs to the model are temperature events, beginning January 1 of each year. Layers are available for each year from 2016 onward. Input temperature data based on NOAA National Centers for Environmental Prediction (NCEP) Unrestricted Mesoscale Analysis (URMA) Products.</abstract>
-            <purpose>Our NCEP-based contemporary products enable real-time information on leaf and bloom dates, before PRISM data are available. We continue to make these NCEP-based layers available from 2016 forward, to enable inter-comparison with PRISM products, and to provide continuity in data availability.  The Extended Spring Indices are used to understand spatiotemporal patterns in the onset of spring, and as an indicator of climate change by both the Environmental Protection Agency and the National Climate Assessment.</purpose>
+            <abstract>Historical values for the Extended Spring Index (SI-x) of First Bloom, lilac sub-model. Each pixel is assigned a day of year value for the First Bloom Index. The Extended Spring Indices are mathematical models that predict the "start of spring" (timing of leaf out or bloom for species active in early spring) at a particular location. This model was constructed using historical observations of the timing of first bloom in a cloned lilac cultivar (Syringa x chinensis 'Red Rothomagensis'). Primary inputs to the model are temperature events, beginning January 1 of each year. Layers are available for each year from 2017 onward. Input temperature data based on NOAA National Centers for Environmental Prediction (NCEP) Unrestricted Mesoscale Analysis (URMA) Products.</abstract>
+            <purpose>Our NCEP-based contemporary products enable real-time information on leaf and bloom dates, before PRISM data are available. We continue to make these NCEP-based layers available from 2017 forward, to enable inter-comparison with PRISM products, and to provide continuity in data availability.  The Extended Spring Indices are used to understand spatiotemporal patterns in the onset of spring, and as an indicator of climate change by both the Environmental Protection Agency and the National Climate Assessment. </purpose>
             <supplinf></supplinf>
         </descript>
         <timeperd>
             <timeinfo>
                 <rngdates>
-                    <begdate>20160101</begdate>
+                    <begdate>20170101</begdate>
                     <enddate>PRESENT</enddate>
                 </rngdates>
             </timeinfo>
@@ -42,10 +42,10 @@
         </status>
         <spdom>
             <bounding>
-                <westbc>-125.0208333</westbc>
-                <eastbc>-66.4791667</eastbc>
-                <northbc>49.9375</northbc>
-                <southbc>24.0625</southbc>
+                <westbc>-179.148909</westbc>
+                <eastbc>-129.97851777</eastbc>
+                <northbc>71.365162</northbc>
+                <southbc>51.20503422</southbc>
             </bounding>
         </spdom>
         <keywords>
@@ -57,6 +57,7 @@
             <place>
                 <placekt>Common geographic areas</placekt>
                 <placekey>United States</placekey>
+                <placekey>Alaska</placekey>
             </place>
         </keywords>
         <accconst>Public</accconst>
@@ -102,8 +103,8 @@
                 <srccite>
                     <citeinfo>
                         <origin>NOAA National Centers for Environmental Prediction</origin>
-                        <pubdate>2016</pubdate>
-                        <title>URMA - Contiguous United States - Grid 184 - Conus - 2.5km resolution</title>
+                        <pubdate>2017</pubdate>
+                        <title>URMA - Alaska - Grid 91 - 3.0km resolution</title>
                         <geoform>Raster Digital Data Set</geoform>
                         <pubinfo>
                             <pubplace>Internet</pubplace>
@@ -116,7 +117,7 @@
                 <srctime>
                     <timeinfo>
                         <rngdates>
-                            <begdate>20160101</begdate>
+                            <begdate>20170101</begdate>
                             <enddate>PRESENT</enddate>
                         </rngdates>
                     </timeinfo>
@@ -125,8 +126,9 @@
                 <srccitea>URMA</srccitea>
                 <srccontr>Used as authoritative data source on previous day observational data</srccontr>
             </srcinfo>
+
             <procstep>
-                <procdesc>NCEP URMA data (hourly temperatures) are retrieved on a 24-hour cycle over the course of the year.</procdesc>
+                <procdesc>NCEP URMA data (hourly temperatures) is retrieved for the past 24 hours.</procdesc>
                 <procdate>Not complete</procdate>
             </procstep>
             <procstep>
@@ -143,16 +145,16 @@
         <direct>Raster</direct>
         <rastinfo>
             <rasttype>Grid Cell</rasttype>
-            <rowcount>1228</rowcount>
-            <colcount>2606</colcount>
+            <rowcount>754</rowcount>
+            <colcount>1839</colcount>
             <vrtcount>1</vrtcount>
         </rastinfo>
     </spdoinfo>
     <spref>
         <horizsys>
             <geograph>
-                <latres>0.0210708469055</latres>
-                <longres>0.022464185188</longres>
+                <latres>0.02673757</latres>
+                <longres>0.02673757</longres>
                 <geogunit>Decimal seconds</geogunit>
             </geograph>
             <geodetic>
@@ -172,7 +174,7 @@
             </enttyp>
             <attr>
                 <attrlabl>Value</attrlabl>
-                <attrdef>Extended Spring Index Value, predicting day of first bloom for Lonicera korolkowii 'Zabelii'</attrdef>
+                <attrdef>Extended Spring Index Value, predicting day of first bloom for Syringa x chinensis 'Red Rothomagensis'</attrdef>
                 <attrdefs>Producer defined</attrdefs>
                 <attrdomv>
                     <rdom>
@@ -256,7 +258,7 @@
         </stdorder>
     </distinfo>
     <metainfo>
-        <metd>20161220</metd>
+        <metd>20180111</metd>
         <metc>
             <cntinfo>
                 <cntperp>
