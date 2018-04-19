@@ -30,7 +30,7 @@
         <timeperd>
             <timeinfo>
                 <rngdates>
-                    <begdate>20160101</begdate>
+                    <begdate>20170101</begdate>
                     <enddate>PRESENT</enddate>
                 </rngdates>
             </timeinfo>
@@ -102,7 +102,7 @@
                 <srccite>
                     <citeinfo>
                         <origin>NOAA National Centers for Environmental Prediction</origin>
-                        <pubdate>2016</pubdate>
+                        <pubdate>2017</pubdate>
                         <title>RTMA - Contiguous United States Grid 184 - 2.5 km resolution</title>
                         <geoform>Raster Digital Data Set</geoform>
                         <pubinfo>
@@ -116,7 +116,7 @@
                 <srctime>
                     <timeinfo>
                         <rngdates>
-                            <begdate>20160101</begdate>
+                            <begdate>20170101</begdate>
                             <enddate>PRESENT</enddate>
                         </rngdates>
                     </timeinfo>
@@ -143,7 +143,7 @@
                 <srctime>
                     <timeinfo>
                         <rngdates>
-                            <begdate>20160101</begdate>
+                            <begdate>20170101</begdate>
                             <enddate>PRESENT</enddate>
                         </rngdates>
                     </timeinfo>
@@ -156,7 +156,7 @@
                 <srccite>
                     <citeinfo>
                         <origin>National Weather Service</origin>
-                        <pubdate>2016</pubdate>
+                        <pubdate>2017</pubdate>
                         <title>NWS National Digital Forecast Database</title>
                         <geoform>Raster Digital Data Set</geoform>
                         <pubinfo>
@@ -170,7 +170,7 @@
                 <srctime>
                     <timeinfo>
                         <rngdates>
-                            <begdate>20160101</begdate>
+                            <begdate>20170101</begdate>
                             <enddate>PRESENT</enddate>
                         </rngdates>
                     </timeinfo>
