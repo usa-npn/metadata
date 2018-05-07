@@ -5,7 +5,7 @@
             <citeinfo>
                 <origin>USA National Phenology Network</origin>
                 <pubdate>2016</pubdate>
-                <title>30-Year Average for First Bloom Index, Contiguous United States, 1981 - 2010</title>
+                <title>30-Year Average for First Bloom Index, Contiguous United States, 1981 - 2010, 2.5km Resolution</title>
                 <geoform>Raster Digital Data Set</geoform>
                 <onlink>http://dx.doi.org/10.5066/F7XD0ZRK</onlink>
                 <lworkcit>
@@ -23,7 +23,7 @@
             </citeinfo>
         </citation>
         <descript>
-            <abstract>Progression of the Extended Spring Index (SI-x) of First Bloom, averaged over 30 years of data, 1981-2010. Each pixel is assigned a value representing the average day of year of the predicted onset of blooming. The Extended Spring Indices are mathematical models that predict the "start of spring" (timing of leaf out or bloom for species active in early spring) at a particular location. This model was constructed using historical observations of the timing of first bloom in a cloned lilac cultivar (S. x chinensis 'Red Rothomagensis') and two cloned honeysuckle cultivars (Lonicera tatarica 'Arnold Red' and L. korolkowii 'Zabelii'). Primary inputs to the model are temperature events, beginning January 1 of each year. Input temperature data based on historical PRISM data, at 4km resolution.</abstract>
+            <abstract>Progression of the Extended Spring Index (SI-x) of First Bloom, averaged over 30 years of data, 1981-2010. Each pixel is assigned a value representing the average day of year of the predicted onset of blooming. The Extended Spring Indices are mathematical models that predict the "start of spring" (timing of leaf out or bloom for species active in early spring) at a particular location. This model was constructed using historical observations of the timing of first bloom in a cloned lilac cultivar (S. x chinensis 'Red Rothomagensis') and two cloned honeysuckle cultivars (Lonicera tatarica 'Arnold Red' and L. korolkowii 'Zabelii'). Primary inputs to the model are temperature events, beginning January 1 of each year. Input temperature data based on historical PRISM data, at 4km resolution, which has been  bilinearly interpolated to 2.5km to make the data comparable to other products in the USA-National Phenology Network's gridded data suite.</abstract>
             <purpose>The Extended Spring Indices have been used as an indicator of climate change by both the Environmental Protection Agency and the National Climate Assessment. The gridded first leaf and first bloom 30 year averages support understanding of spatial and temporal patterns in the timing of spring to support resource management.</purpose>
             <supplinf>Please note that this product is based on day of year values, thus December 31st was excluded in calculations in leap years.
             Also note that users attempting to access this data via WMS/WCS must manipulate the 'elevation' variable in requests to the server to specify a day of year value, as 'day of year' is not a parameter accepted in the OGC standards.</supplinf>
@@ -134,6 +134,10 @@
                 <procdesc>Loop through each DOY, grabbing the Tmin/Tmax values for each year, and use them to calculate the Spring Index values for that year, and then average all such years values.</procdesc>
                 <procdate>20160115</procdate>
             </procstep>
+            <procstep>
+                <procdesc>Re-interpolate data, natively at a resolution of 4km, to 2.5km using a bilinear algorithm.</procdesc>
+                <procdate>20160115</procdate>
+            </procstep>				
         </lineage>
     </dataqual>
     <spdoinfo>

@@ -5,13 +5,13 @@
             <citeinfo>
                 <origin>USA National Phenology Network</origin>
                 <pubdate>2016</pubdate>
-                <title>30-Year Average for First Bloom Index, Contiguous United States, 1981 - 2010</title>
+                <title>Historical Annual First Leaf Index Anomaly, Contiguous United States, 1981-Previous Year</title>
                 <geoform>Raster Digital Data Set</geoform>
                 <onlink>http://dx.doi.org/10.5066/F7XD0ZRK</onlink>
                 <lworkcit>
                     <citeinfo>
                         <origin>USA National Phenology Network</origin>
-                        <pubdate>2016</pubdate>
+                        <pubdate>2018</pubdate>
                         <title>USA National Phenology Network, Gridded Data Product Suite</title>
                         <geoform>GIS Data Service</geoform>
                         <pubinfo>
@@ -23,23 +23,22 @@
             </citeinfo>
         </citation>
         <descript>
-            <abstract>Progression of the Extended Spring Index (SI-x) of First Bloom, averaged over 30 years of data, 1981-2010. Each pixel is assigned a value representing the average day of year of the predicted onset of blooming. The Extended Spring Indices are mathematical models that predict the "start of spring" (timing of leaf out or bloom for species active in early spring) at a particular location. This model was constructed using historical observations of the timing of first bloom in a cloned lilac cultivar (S. x chinensis 'Red Rothomagensis') and two cloned honeysuckle cultivars (Lonicera tatarica 'Arnold Red' and L. korolkowii 'Zabelii'). Primary inputs to the model are temperature events, beginning January 1 of each year. Input temperature data based on historical PRISM data, at 4km resolution.</abstract>
-            <purpose>The Extended Spring Indices have been used as an indicator of climate change by both the Environmental Protection Agency and the National Climate Assessment. The gridded first leaf and first bloom 30 year averages support understanding of spatial and temporal patterns in the timing of spring to support resource management.</purpose>
-            <supplinf>Please note that this product is based on day of year values, thus December 31st was excluded in calculations in leap years.
-            Also note that users attempting to access this data via WMS/WCS must manipulate the 'elevation' variable in requests to the server to specify a day of year value, as 'day of year' is not a parameter accepted in the OGC standards.</supplinf>
+            <abstract>Difference, in days, between the historical Extended Spring Index (SI-x) of First Leaf values for each year and the 30-year average for First Leaf Index values. The layers show how advanced or lagged the day of year of the leaf index is for the given year, compared to long-term average conditions, such that negative values represent locations that reached the SI-x requirements earlier than average, and positive values represent locations that reached the SI-x requirements later than average. The Extended Spring Indices are mathematical models that predict the "start of spring" (timing of leaf out or bloom for species active in early spring) at a particular location. These models were constructed using historical observations of the timing of first leaf and first bloom in a cloned lilac cultivar (S. x chinensis 'Red Rothomagensis') and two cloned honeysuckle cultivars (Lonicera tatarica 'Arnold Red' and L. korolkowii 'Zabelii'). Primary inputs to the model are temperature events, beginning January 1 of each year. Layers are available from each year beginning with 1981 until previous year. Input temperature data based on historical PRISM data at 4km resolution.</abstract>
+            <purpose>The Extended Spring Indices have been used as an indicator of climate change by both the Environmental Protection Agency and the National Climate Assessment. The gridded forecast anomalies of first leaf and first bloom support understanding of spatial patterns in the timing of spring.</purpose>
+            <supplinf></supplinf>
         </descript>
         <timeperd>
             <timeinfo>
                 <rngdates>
                     <begdate>19810101</begdate>
-                    <enddate>20101231</enddate>
+                    <enddate>20171231</enddate>
                 </rngdates>
             </timeinfo>
             <current>ground condition</current>
         </timeperd>
         <status>
             <progress>In work</progress>
-            <update>Daily</update>
+            <update>Annually</update>
         </status>
         <spdom>
             <bounding>
@@ -61,7 +60,7 @@
             </place>
         </keywords>
         <accconst>Public</accconst>
-        <useconst>Please cite these products as follows: Please cite these products as follows:  [Author] [Year Published] [Dataset Title] {as of [DOY] (for continuous daily data) | Year(s) [Year(s)] (for annual products) | Date [Date] (for daily products) } for Region [Coordinates]. [Parameterized URL for Data Download] [Data Owner][City/State] Dataset Accessed [Date of Access] at [DOI Link].Example for the Spring Indices: USA National Phenology Network. 2017. Spring Indices, Current Year - First Bloom - Spring Index Date 2017-08-02. Region: 49.9375°, -66.4791667° (UR); 24.0625°, -125.0208333° (LL) http://data.usanpn.org/geoserver request builder?service=wms&amp;layer=si x:average_bloom_ncep&amp;date=2017 08 02&amp;format=image/png&amp;projection=4269&amp;width=1700&amp;height=800&amp;colors=1 . USA-NPN, Tucson, Arizona, USA. Data set accessed 2017-8-2. http://doi.org/10.5066/F7XD0ZRK</useconst>
+        <useconst>Please cite these products as follows:  [Author] [Year Published] [Dataset Title] {as of [DOY] (for continuous daily data) | Year(s) [Year(s)] (for annual products) | Date [Date] (for daily products) } for Region [Coordinates]. [Parameterized URL for Data Download] [Data Owner][City/State] Dataset Accessed [Date of Access] at [DOI Link].Example for the Spring Indices: USA National Phenology Network. 2017. Spring Indices, Current Year - First Bloom - Spring Index Date 2017-08-02. Region: 49.9375°, -66.4791667° (UR); 24.0625°, -125.0208333° (LL) http://data.usanpn.org/geoserver request builder?service=wms&amp;layer=si x:average_bloom_ncep&amp;date=2017 08 02&amp;format=image/png&amp;projection=4269&amp;width=1700&amp;height=800&amp;colors=1 . USA-NPN, Tucson, Arizona, USA. Data set accessed 2017-8-2. http://doi.org/10.5066/F7XD0ZRK</useconst>
         <ptcontac>
             <cntinfo>
                 <cntorgp>
@@ -88,8 +87,8 @@
         <attracc>
             <attraccr>No formal attribute accuracy tests were conducted.</attraccr>
         </attracc>
-        <logic>Data is provided as-is. No logical accuracy tests are performed beyond that done by the original data publishers.</logic>
-        <complete>Data is provided as-is.</complete>
+        <logic>Data are provided as-is. No logical accuracy tests are performed beyond that done by the original data publishers.</logic>
+        <complete>Data are provided as-is.</complete>
         <posacc>
             <horizpa>
                 <horizpar>A formal accuracy assessment of the horizontal positional information in the data set has not been conducted.</horizpar>
@@ -118,23 +117,31 @@
                     <timeinfo>
                         <rngdates>
                             <begdate>19810101</begdate>
-                            <enddate>20150901</enddate>
+                            <enddate>20170901</enddate>
                         </rngdates>
                     </timeinfo>
                     <srccurr>publication date</srccurr>
                 </srctime>
                 <srccitea>PRISM</srccitea>
-                <srccontr>Used to calculate 30 year average SI-x values.</srccontr>
+                <srccontr>Used as base climate data from which to calculate the Spring Index values.</srccontr>
             </srcinfo>
             <procstep>
                 <procdesc>Download complete PRISM Tmax and Tmin datasets for 1980 - 2010.</procdesc>
                 <procdate>20160115</procdate>
             </procstep>
             <procstep>
-                <procdesc>Loop through each DOY, grabbing the Tmin/Tmax values for each year, and use them to calculate the Spring Index values for that year, and then average all such years values.</procdesc>
+                <procdesc>For each year, 1981 - 2015, loop through the available PRISM data and calcuate the Spring Index values.</procdesc>
                 <procdate>20160115</procdate>
             </procstep>
-        </lineage>
+            <procstep>
+                <procdesc>Spring Index anomaly values are calculated across the raster each day of the year comparing the above calculated Spring Index values and the 30-year average product.</procdesc>
+                <procdate>Not complete</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>After day 250 is complete, and the Spring Index anomaly values for the raster are no longer subject to change, then the final raster is archived as a data layer of this set.</procdesc>
+                <procdate>Not complete</procdate>
+            </procstep>			
+        </lineage>		
     </dataqual>
     <spdoinfo>
         <direct>Raster</direct>
@@ -169,13 +176,13 @@
             </enttyp>
             <attr>
                 <attrlabl>Value</attrlabl>
-                <attrdef>Averaged Extended Spring Index Value for predicted day of first bloom</attrdef>
+                <attrdef>Difference in Extended Spring Index values, predicted day of first leaf subtracted from 30-year average day of first leaf</attrdef>
                 <attrdefs>Producer defined</attrdefs>
                 <attrdomv>
                     <rdom>
-                        <rdommin>1</rdommin>
-                        <rdommax>240</rdommax>
-                        <attrunit>day of year</attrunit>
+                        <rdommin>-40</rdommin>
+                        <rdommax>40</rdommax>
+                        <attrunit>days</attrunit>
                     </rdom>
                 </attrdomv>
             </attr>
@@ -205,7 +212,7 @@
                 <cntemail>theresa@usanpn.org</cntemail>
             </cntinfo>
         </distrib>
-        <distliab>Unless otherwise stated, all data, metadata and related materials are considered to satisfy the quality standards relative to the purpose for which the data were collected. Although these data and associated metadata have been reviewed for accuracy and completeness and approved for release by the U.S. Geological Survey (USGS), no warranty expressed or implied is made regarding the display or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty.</distliab>
+        <distliab>These data are preliminary or provisional and are subject to revision. They are being provided to meet the need for timely best science. The data have not received final approval by the U.S. Geological Survey (USGS) and are provided on the condition that neither the USGS nor the U.S. Government shall be held liable for any damages resulting from the authorized or unauthorized use of the data.</distliab>
         <stdorder>
             <digform>
                 <digtinfo>
@@ -253,7 +260,7 @@
         </stdorder>
     </distinfo>
     <metainfo>
-        <metd>20160413</metd>
+        <metd>20180507</metd>
         <metc>
             <cntinfo>
                 <cntperp>

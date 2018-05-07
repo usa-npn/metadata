@@ -176,7 +176,7 @@
             </enttyp>
             <attr>
                 <attrlabl>Value</attrlabl>
-                <attrdef>Difference in Extended Spring Index values, predicted day of first leaf subtracted from 30-year average day of first leaf</attrdef>
+                <attrdef>Difference in Extended Spring Index values, predicted day of first bloom subtracted from 30-year average day of first bloom</attrdef>
                 <attrdefs>Producer defined</attrdefs>
                 <attrdomv>
                     <rdom>
