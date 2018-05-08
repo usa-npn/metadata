@@ -14,7 +14,7 @@
             <abstract>This suite of datasets consists of in-situ phenology data on over 1000 species of plants and animals (2009-present) and data on lilacs and honeysuckles (1956-present), across the United States. These data were collected by citizen and professional observers, and are archived and distributed by the USA National Phenology Network (www.usanpn.org). Protocols are available in Denny et al, 2014. Datum is WGS84.  This collection represents a suite of four data products: 1) Status and Intensity Data (phenophase status records of presence or absence of the phenophase, as well as information about the degree to which the phenophase was expressed for each individual plant or species of animal at a site, for each site visit), 2) Individual Phenometrics (estimates of the dates of all onsets and ends of a phenophase for individual plants and for animal species at a site during a user-defined time period), 3) Site Phenometrics (estimates of the dates of first onset and last end for a phenophase, averaged across individuals of the same species at a site, during a user-defined time period) and 4) Magnitude Phenometrics (a suite of eight metrics that describe the degree to which a phenophase is expressed across multiple individuals or sites, summarized for a given time interval). 
 </abstract>
             <purpose>Datasets were developed by the USA National Phenology Network to better understand the response of plant and animal species to environmental variation and climate change, and to develop a baseline against which future phenological change may be measured.</purpose>
-            <supplinf>Please find datafield metadata (entity and attribute information) at www.usanpn.org/files/metadata/all_datafield_descriptions.xlsx</supplinf>
+            <supplinf>Full description of data products in Open File Report https://doi.org/10.3133/ofr20181060 </supplinf>
         </descript>
         <timeperd>
             <timeinfo>
@@ -70,9 +70,9 @@ Example: USA National Phenology Network. 2017. Plant and Animal Phenology Data. 
     </idinfo>
     <dataqual>
         <attracc>
-            <attraccr>Attribute accuracy tests are described in an information sheet: https://www.usanpn.org/files/shared/files/QA-QC_tech_info_sheet_v2.4.pdf</attraccr>
+            <attraccr>Attribute accuracy tests are described in an Open File Report (Appendix 2): https://doi.org/10.3133/ofr20181060</attraccr>
         </attracc>
-        <logic>Logic tests are described in an information sheet: https://www.usanpn.org/files/shared/files/QA-QC_tech_info_sheet_v2.4.pdf</logic>
+        <logic>Logic tests are described in an Open File Report (Appendix 2): https://doi.org/10.3133/ofr20181060</logic>
         <complete>Data provided as-is.</complete>
         <posacc>
             <horizpa>
@@ -84,7 +84,7 @@ Example: USA National Phenology Network. 2017. Plant and Animal Phenology Data. 
         </posacc>
         <lineage>
             <procstep>
-                <procdesc>Processing is described in a forthcoming Techniques and Methods report.</procdesc>
+                <procdesc>Processing is described in an Open File Report: https://doi.org/10.3133/ofr20181060</procdesc>
                 <procdate>Ongoing</procdate>
             </procstep>
         </lineage>
@@ -99,7 +99,7 @@ Example: USA National Phenology Network. 2017. Plant and Animal Phenology Data. 
     </spdoinfo>
     <eainfo>
         <overview>
-            <eaover>Data dictionaries are temporarily available at www.usanpn.org/files/metadata/all_datafield_descriptions.xlsx and www.usanpn.org/files/metadata/ancillary_datafield_descriptions.xlsx and will be included in forthcoming  Techniques and Methods report.</eaover>
+            <eaover>Data dictionaries are available at https://pubs.usgs.gov/of/2018/1060/ofr20181060_appendix1tables.zip</eaover>
             <eadetcit>Citation pending.</eadetcit>
         </overview>
     </eainfo>
@@ -123,7 +123,7 @@ Example: USA National Phenology Network. 2017. Plant and Animal Phenology Data. 
                 <cntemail>theresa@usanpn.org</cntemail>
             </cntinfo>
         </distrib>
-        <distliab>These data are preliminary or provisional and are subject to revision. They are being provided to meet the need for timely best science. The data have not received final approval by the U.S. Geological Survey (USGS) and are provided on the condition that neither the USGS nor the U.S. Government shall be held liable for any damages resulting from the authorized or unauthorized use of the data.</distliab>
+        <distliab>Unless otherwise stated, all data, metadata and related materials are considered to satisfy the quality standards relative to the purpose for which the data were collected. Although these data and associated metadata have been reviewed for accuracy and completeness and approved for release by the U.S. Geological Survey (USGS), no warranty expressed or implied is made regarding the display or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty.</distliab>
         <stdorder>
             <digform>
                 <digtinfo>
