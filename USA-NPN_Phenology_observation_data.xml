@@ -183,12 +183,27 @@ Example: USA National Phenology Network. 2017. Plant and Animal Phenology Data. 
                         <accinstr>Instructions provided at: https://docs.google.com/document/d/1yNjupricKOAXn6tY1sI7-EwkcfwdGUZ7lxYv7fcPjO8/edit</accinstr>
                     </onlinopt>
                 </digtopt>
-            </digform>
+            </digform>			
+            <digform>
+                <digtinfo>
+                    <formname>Machine accessible JSON endpoint for Phenology Observation Data: Magnitude Phenometrics</formname>
+                </digtinfo>
+                <digtopt>
+                    <onlinopt>
+                        <computer>
+                            <networka>
+                                <networkr>http://www.usanpn.org/npn_portal/observations/getMagnitudeData.json </networkr>
+                            </networka>
+                        </computer>
+                        <accinstr>Instructions provided at: https://docs.google.com/document/d/1yNjupricKOAXn6tY1sI7-EwkcfwdGUZ7lxYv7fcPjO8/edit</accinstr>
+                    </onlinopt>
+                </digtopt>
+            </digform>						
             <fees>None.</fees>
         </stdorder>
     </distinfo>
     <metainfo>
-        <metd>20160801</metd>
+        <metd>20180510</metd>
         <metc>
             <cntinfo>
                 <cntperp>
