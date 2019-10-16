@@ -22,7 +22,7 @@
             </citeinfo>
         </citation>
         <descript>
-            <abstract>Daily grids of temperature maximums in degrees Fahrenheit for every day of the year up through the current day, plus forecasts for the coming six days. Data presented at 3km resolution. Values based on NOAA National Centers for Environmental Prediction (NCEP) Real-Time Mesoscale Analysis Products, NCEP Unrestricted Mesoscale Analysis Products; short-term temperature forecast products based on NOAA National Weather Service National Digital Forecast Database. Each night, the data are re-generated for the previous two days, the current day, and the next six days. Because the short-term forecasts are adjusted daily, pixels values may vary from one day to the next until the date in question has passed, and values are replaced with observed maximum temperature values.</abstract>
+            <abstract>Daily grids of temperature maximums in degrees Celsius for every day of the year up through the current day, plus forecasts for the coming six days. Data presented at 3km resolution. Values based on NOAA National Centers for Environmental Prediction (NCEP) Real-Time Mesoscale Analysis Products, NCEP Unrestricted Mesoscale Analysis Products; short-term temperature forecast products based on NOAA National Weather Service National Digital Forecast Database. Each night, the data are re-generated for the previous two days, the current day, and the next six days. Because the short-term forecasts are adjusted daily, pixels values may vary from one day to the next until the date in question has passed, and values are replaced with observed maximum temperature values.</abstract>
             <purpose>These data were created to be used as input into various phenological and climatological models. However, they could be used for any general purpose.</purpose>
             <supplinf></supplinf>
         </descript>
@@ -237,7 +237,7 @@
                     <rdom>
                         <rdommin>-150</rdommin>
                         <rdommax>150</rdommax>
-                        <attrunit>Fahrenheit</attrunit>
+                        <attrunit>Celsius</attrunit>
                     </rdom>
                 </attrdomv>
             </attr>
