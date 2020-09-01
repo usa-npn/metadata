@@ -1,0 +1,322 @@
+<?xml version="1.0" standalone="yes"?>
+<metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <origin>USA National Phenology Network</origin>
+                <pubdate>2020</pubdate>
+                <title>Spring Index Return Interval, First Bloom</title>
+                <geoform>Raster Digital Data Set</geoform>
+                <onlink>http://dx.doi.org/10.5066/F7707ZHR</onlink>
+                <onlink>http://dx.doi.org/10.5066/F7XD0ZRK</onlink>
+                <onlink/>
+                <lworkcit>
+                    <citeinfo>
+                        <origin>USA National Phenology Network</origin>
+                        <pubdate>2020</pubdate>
+                        <title>USA National Phenology Network, Gridded Data Product Suite</title>
+                        <geoform>GIS Data Service</geoform>
+                        <pubinfo>
+                            <pubplace>Internet</pubplace>
+                            <publish>USA National Phenology Network</publish>
+                        </pubinfo>
+                    </citeinfo>
+                </lworkcit>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>The Spring Index Return Interval for first bloom represents the frequency with which spring is as late or early as it is in the current year. It serves to contextualize the current year’s spring onset anomaly. For example, if the Daily Anomaly product shows first bloom 20 days earlier than average, for a given location, the Return Interval product shows how often that location has experienced first bloom at least 20 days early. To create this product, the current year Spring Index Anomaly value is compared to the anomaly value for each year from 1981 through the prior year. The frequency with which a spring was at least this early (or late) is calculated by taking the number of years in the record divided by the count of years that were earlier (or later) than the current year. Values of 0 represent average or “on time” springs. Negative values represent the frequency of early springs; positive values represent the frequency of late springs. The earliest spring on record is -100 while the latest is represented by 100.on rerd.</abstract>
+            <purpose>The Extended Spring Indices have been used as an indicator of climate change by both the Environmental Protection Agency and the National Climate Assessment.</purpose>
+            <supplinf/>
+        </descript>
+        <timeperd>
+            <timeinfo>
+                <rngdates>
+                    <begdate>20200101</begdate>
+                    <enddate>PRESENT</enddate>
+                </rngdates>
+            </timeinfo>
+            <current>ground condition</current>
+        </timeperd>
+        <status>
+            <progress>In work</progress>
+            <update>Biweekly</update>
+        </status>
+        <spdom>
+            <bounding>
+                <westbc>-125.0208333</westbc>
+                <eastbc>-66.4791667</eastbc>
+                <northbc>49.9375</northbc>
+                <southbc>24.0625</southbc>
+            </bounding>
+        </spdom>
+        <keywords>
+            <theme>
+                <themekt>USGS Thesaurus</themekt>
+                <themekey>phenology</themekey>
+                <themekey>ecology</themekey>
+            </theme>
+            <place>
+                <placekt>Common geographic areas</placekt>
+                <placekey>United States</placekey>
+            </place>
+        </keywords>
+        <accconst>Public</accconst>
+        <useconst>Please cite these products as follows: USA National Phenology Network. Year of dataset access. Spring Index Return Interval, First Bloom, Year, USA-NPN, Tucson, Arizona, USA. Data set accessed YYYY-MM-DD at http://dx.doi.org/10.5066/F7707ZHR</useconst>
+        <ptcontac>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>USA National Phenology Network</cntorg>
+                    <cntper>Theresa Crimmins</cntper>
+                </cntorgp>
+                <cntpos>Assistant Director</cntpos>
+                <cntaddr>
+                    <addrtype>Mailing and Physical</addrtype>
+                    <address>1311 E 4th St</address>
+                    <city>Tucson</city>
+                    <state>AZ</state>
+                    <postal>85719</postal>
+                    <country>USA</country>
+                </cntaddr>
+                <cntvoice>+1-520-626-3821</cntvoice>
+                <cntemail>theresa@usanpn.org</cntemail>
+            </cntinfo>
+        </ptcontac>
+        <datacred>United States Geological Survey</datacred>
+        <native>Operating System: Ubuntu 14.04.4 LTS (GNU/Linux 3.13.0-85-generic x86_64); WMS/WCS Implementation: Geoserver 2.8; Raster Data Housed in PostgreSQL 9.4.5</native>
+    </idinfo>
+    <dataqual>
+        <attracc>
+            <attraccr>No formal attribute accuracy tests were conducted.</attraccr>
+        </attracc>
+        <logic>Data is provided as-is. No logical accuracy tests are performed beyond that done by the original data publishers.</logic>
+        <complete>Data is provided as-is.</complete>
+        <posacc>
+            <horizpa>
+                <horizpar>A formal accuracy assessment of the horizontal positional information in the data set has not been conducted.</horizpar>
+            </horizpa>
+            <vertacc>
+                <vertaccr>A formal accuracy assessment of the vertical positional information in the data set has either not been conducted, or is not applicable.</vertaccr>
+            </vertacc>
+        </posacc>
+        <lineage>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <origin>National Center for Environmental Prediction</origin>
+                        <pubdate>2020</pubdate>
+                        <title>RTMA - Conterminous United States Grid 184 - 2.5 km resolution</title>
+                        <geoform>Raster Digital Data Set</geoform>
+                        <pubinfo>
+                            <pubplace>Internet</pubplace>
+                            <publish>National Center for Environmental Prediction</publish>
+                        </pubinfo>
+                        <onlink>http://www.nco.ncep.noaa.gov/pmb/products/rtma/</onlink>
+                    </citeinfo>
+                </srccite>
+                <typesrc>Digital and/or Hardcopy Resources</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <rngdates>
+                            <begdate>20160101</begdate>
+                            <enddate>PRESENT</enddate>
+                        </rngdates>
+                    </timeinfo>
+                    <srccurr>ground condition</srccurr>
+                </srctime>
+                <srccitea>NCEP RTMA</srccitea>
+                <srccontr>Used as intermediary data source between URMA and NDFD data sources</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <origin>National Center for Environmental Prediction</origin>
+                        <pubdate>2016</pubdate>
+                        <title>URMA - Conterminous United States - Grid 184 - Conus - 2.5km resolution</title>
+                        <geoform>Raster Digital Data Set</geoform>
+                        <pubinfo>
+                            <pubplace>Internet</pubplace>
+                            <publish>National Center for Environmental Prediction</publish>
+                        </pubinfo>
+                        <onlink>http://www.nco.ncep.noaa.gov/pmb/products/rtma/#URMA</onlink>
+                    </citeinfo>
+                </srccite>
+                <typesrc>Digital and/or Hardcopy Resources</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <rngdates>
+                            <begdate>20160101</begdate>
+                            <enddate>PRESENT</enddate>
+                        </rngdates>
+                    </timeinfo>
+                    <srccurr>ground condition</srccurr>
+                </srctime>
+                <srccitea>URMA</srccitea>
+                <srccontr>Used as authoritative data source on previous day observational data</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <origin>National Weather Service</origin>
+                        <pubdate>2016</pubdate>
+                        <title>NWS National Digital Forecast Database</title>
+                        <geoform>Raster Digital Data Set</geoform>
+                        <pubinfo>
+                            <pubplace>Internet</pubplace>
+                            <publish>National Weather Service</publish>
+                        </pubinfo>
+                        <onlink>http://www.nws.noaa.gov/ndfd/technical.htm</onlink>
+                    </citeinfo>
+                </srccite>
+                <typesrc>Digital and/or Hardcopy Resources</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <rngdates>
+                            <begdate>20160101</begdate>
+                            <enddate>PRESENT</enddate>
+                        </rngdates>
+                    </timeinfo>
+                    <srccurr>ground condition</srccurr>
+                </srctime>
+                <srccitea>NDFD</srccitea>
+                <srccontr>Provides current day and next six day temperature forecasts</srccontr>
+            </srcinfo>
+            <procstep>
+                <procdesc>NCEP NDFD forecast data is retrieved for current day and the forthcoming six days and is used to populate those days with temperature values.</procdesc>
+                <procdate>Not complete</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>NCEP RTMA data (hourly temperatures) is retrieved for the past 24 hours.</procdesc>
+                <procdate>Not complete</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>NCEP URMA data (hourly temperatures) is retrieved for the past 24 hours.</procdesc>
+                <procdate>Not complete</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>Daily Tmin is generated for the previous four days from the retrieved URMA and RTMA hourly data. In this step URMA data is always given preference, and RTMA is only used for hours where URMA is not yet available.</procdesc>
+                <procdate>Not complete</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>Spring Index layers are populated from three days back (t-3) to six days into the future (t+6) using the Tmin/Tmax data from the previous steps. Preference of backing climate data in this step is to use URMA when available, then falling back to RTMA, and finally NDFD.</procdesc>
+                <procdate>Not complete</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>Spring Index anomaly layers are created for the species averaged spring index layers populated in the previous step.</procdesc>
+                <procdate>Not complete</procdate>
+            </procstep>
+        </lineage>
+    </dataqual>
+    <spdoinfo>
+        <direct>Raster</direct>
+        <rastinfo>
+            <rasttype>Grid Cell</rasttype>
+            <rowcount>1228</rowcount>
+            <colcount>2606</colcount>
+            <vrtcount>1</vrtcount>
+        </rastinfo>
+    </spdoinfo>
+    <spref>
+        <horizsys>
+            <geograph>
+                <latres>0.0210708469055</latres>
+                <longres>0.022464185188</longres>
+                <geogunit>Decimal seconds</geogunit>
+            </geograph>
+            <geodetic>
+                <horizdn>D_North_American_1983</horizdn>
+                <ellips>GRS_1980</ellips>
+                <semiaxis>6378137.0</semiaxis>
+                <denflat>298.257222101</denflat>
+            </geodetic>
+        </horizsys>
+    </spref>
+    <eainfo>
+        <detailed>
+            <enttyp>
+                <enttypl>Attribute Table</enttypl>
+                <enttypd>Table containing attribute information associated with the data set.</enttypd>
+                <enttypds>Producer defined</enttypds>
+            </enttyp>
+            <attr>
+                <attrlabl>Value</attrlabl>
+                <attrdef>Frequency (in years) of a spring being as early or earlier (negative values) or as late or later (positive values) as the current year. 0 represents on time springs; 100 represents latest on record and -100 represents the earliest.</attrdef>
+                <attrdefs>Producer defined</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>-40</rdommin>
+                        <rdommax>40</rdommax>
+                        <attrunit>days</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+        </detailed>
+        <overview>
+            <eaover>The entity and attribute information provided here describes the tabular data associated with the data set. Please review the detailed descriptions that are provided (the individual attribute descriptions) for information on the values that appear as fields/table entries of the data set.</eaover>
+            <eadetcit>The entity and attribute information was generated by the individual and/or agency identified as the originator of the data set. Please review the rest of the metadata record for additional details and information.</eadetcit>
+        </overview>
+    </eainfo>
+    <distinfo>
+        <distrib>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>USA National Phenology Network</cntorg>
+                    <cntper>Theresa Crimmins</cntper>
+                </cntorgp>
+                <cntpos>Assistant Director</cntpos>
+                <cntaddr>
+                    <addrtype>Mailing and Physical</addrtype>
+                    <address>1311 E 4th St</address>
+                    <city>Tucson</city>
+                    <state>AZ</state>
+                    <postal>85719</postal>
+                    <country>USA</country>
+                </cntaddr>
+                <cntvoice>+1-520-626-3821</cntvoice>
+                <cntemail>theresa@usanpn.org</cntemail>
+            </cntinfo>
+        </distrib>
+        <distliab>These data are preliminary or provisional and are subject to revision. They are being provided to meet the need for timely best science. The data have not received final approval by the U.S. Geological Survey USGS and are provided on the condition that neither the USGS nor the U.S. Government shall be held liable for any damages resulting from the authorized or unauthorized use of the data.</distliab>
+        <stdorder>
+            <digform>
+                <digtinfo>
+                    <formname>Raster Digital Data Set</formname>
+                </digtinfo>
+                <digtopt>
+                    <onlinopt>
+                        <computer>
+                            <networka>
+                                <networkr>http://dx.doi.org/10.5066/F7707ZHR</networkr>
+                            </networka>
+                        </computer>
+                    </onlinopt>
+                </digtopt>
+            </digform>
+            <fees>None</fees>
+        </stdorder>
+    </distinfo>
+    <metainfo>
+        <metd>20160418</metd>
+        <metc>
+            <cntinfo>
+                <cntperp>
+                    <cntper>Lee Marsh</cntper>
+                    <cntorg>USA National Phenology Network</cntorg>
+                </cntperp>
+                <cntpos>IT Director</cntpos>
+                <cntaddr>
+                    <addrtype>Mailing and Physical</addrtype>
+                    <address>1311 E 4th St</address>
+                    <city>Tucson</city>
+                    <state>AZ</state>
+                    <postal>85719</postal>
+                    <country>USA</country>
+                </cntaddr>
+                <cntvoice>+1-520-626-3821</cntvoice>
+                <cntemail>lee@usanpn.org</cntemail>
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+    </metainfo>
+</metadata>
