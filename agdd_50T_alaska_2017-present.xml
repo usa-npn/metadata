@@ -84,7 +84,7 @@ Example for Accumulated Growing Degree Days: USA National Phenology Network. 201
             </cntinfo>
         </ptcontac>
         <datacred>United States Geological Survey</datacred>
-        <native>Operating System: Ubuntu 14.04.4 LTS (GNU/Linux 3.13.0-85-generic x86_64); WMS/WCS Implementation: Geoserver 2.8; Raster Data Housed in PostgreSQL 9.4.5</native>
+        <native>Operating System: Ubuntu 18.04.5 LTS (GNU/Linux 4.15.0-112-generic x86_64); WMS/WCS Implementation: Geoserver 2.16; Raster Data Housed in PostgreSQL 12.2</native>
     </idinfo>
     <dataqual>
         <attracc>
