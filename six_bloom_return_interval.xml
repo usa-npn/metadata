@@ -25,7 +25,7 @@
             </citeinfo>
         </citation>
         <descript>
-            <abstract>The Spring Index Return Interval for first bloom represents the frequency with which spring is as late or early as it is in the current year. It serves to contextualize the current year’s spring onset anomaly. For example, if the Daily Anomaly product shows first bloom occurring 20 days earlier than average, for a given location, the Return Interval product shows how often that location has experienced bloom at least 20 days early. To create this product, the current year Spring Index Anomaly value is compared to the anomaly value for the preceding decades (2019 and 2020 are compared preceding 38 and 39 years respectively; 2021 and subsequent years are compared to the preceding 40 years). The frequency with which a spring was at least this early (or late) is calculated by taking the number of years in the record divided by the count of years that were earlier (or later) than the current year. Values of 0 represent average or “on time” springs. Negative values represent the frequency of early springs; positive values represent the frequency of late springs. Values of 41 represent the earliest (-41) or latest (41) spring on record.</abstract>
+            <abstract>The Spring Index Return Interval for first bloom represents the frequency with which spring is as late or early as it is in the current year. It serves to contextualize the current year's spring onset anomaly. For example, if the Daily Anomaly product shows first bloom occurring 20 days earlier than average, for a given location, the Return Interval product shows how often that location has experienced bloom at least 20 days early. To create this product, the current year Spring Index Anomaly value is compared to the anomaly value for the preceding decades (2019 and 2020 are compared preceding 38 and 39 years respectively; 2021 and subsequent years are compared to the preceding 40 years). The frequency with which a spring was at least this early (or late) is calculated by taking the number of years in the record divided by the count of years that were earlier (or later) than the current year. Values of 0 represent average or "on time" springs. Negative values represent the frequency of early springs; positive values represent the frequency of late springs. Values of 41 represent the earliest (-41) or latest (41) spring on record.</abstract>
             <purpose>The Spring Index Return Interval contextualizes the current year's spring relative to the historical record, answering a key question about how typical an early or late spring is.</purpose>
             <supplinf/>
         </descript>
@@ -159,7 +159,7 @@
                 <procdate>Not complete</procdate>
             </procstep>
             <procstep>
-                <procdesc>Where the current year anomaly is 0, maintain that 0 through to the output raster. These pixels experienced an “on time” spring.</procdesc>
+                <procdesc>Where the current year anomaly is 0, maintain that 0 through to the output raster. These pixels experienced an "on time" spring.</procdesc>
                 <procdate>Not complete</procdate>
             </procstep>
             <procstep>
@@ -171,7 +171,7 @@
                 <procdate>Not complete</procdate>
             </procstep>
             <procstep>
-                <procdesc>Some pixels will be “NA” or “inf” as a result of dividing the number of years in the record by a count of 0. These represent unprecedented early or late springs. The are set to -41 for the earliest spring on record and 41 for the latest spring on record.</procdesc>
+                <procdesc>Some pixels will be "NA" or "inf" as a result of dividing the number of years in the record by a count of 0. These represent unprecedented early or late springs. The are set to -41 for the earliest spring on record and 41 for the latest spring on record.</procdesc>
                 <procdate>Not complete</procdate>
             </procstep>
         </lineage>
