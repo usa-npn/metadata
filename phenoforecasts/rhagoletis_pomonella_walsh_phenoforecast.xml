@@ -11,7 +11,7 @@
                     <citeinfo> 
                         <origin>USA National Phenology Network</origin>
                         <pubdate>2021</pubdate>
-                        <title>USA National Phenology Network, Phenoforecast Product Suite</title>
+                        <title>USA National Phenology Network, Pheno Forecast Product Suite</title>
                         <geoform>GIS Data Service</geoform>
                         <pubinfo>
                             <pubplace>Internet</pubplace>
@@ -22,8 +22,8 @@
             </citeinfo>
         </citation>
         <descript>
-            <abstract>Apple maggot larvae cause damage to ripening fruit. These insects primarily affect apple trees, but can also impact plum, apricot, pear, cherry and hawthorn trees. These values are based on published growing degree day (GDD) thresholds for key points in the life cycle of Apple Maggot. These key points typically represent life cycle stages when management actions are most effective. These maps are updated daily and available 6 days in the future. Detailed information on the underlying products to create these maps and the processing can be found in Crimmins et al. (2017, 2020)</abstract>
-            <purpose>These maps predict key life cycle stages in the Apple Maggot (Rhagoletis Pomonella Walsh) lifecycle, to improve management efficacy.</purpose>
+            <abstract>Description: Pheno Forecast maps predict key life cycle stages in a range of species to improve conservation and management outcomes. For insect pest species, Pheno Forecasts are based on published growing degree day (GDD) thresholds for key points in species life cycles. These key points typically represent life cycle stages when management actions are most effective. These maps are updated daily and available 6 days in the future. We forecast adult emergence in apple maggot at 900-1200 growing degree days (base 50F, start date: March 1, simple average GDD method). Apple maggot larvae cause damage to ripening fruit and are best controlled when adults begin to emerge.</abstract>
+            <purpose>These maps predict adult emergence for apple maggot, to improve management efficacy.</purpose>
             <supplinf></supplinf>
         </descript>
         <timeperd>
@@ -61,7 +61,7 @@
             </place>
         </keywords>
         <accconst>Public</accconst>
-        <useconst>Please cite these products as follows: USA National Phenology Network. [Year Published]. Apple Maggot Pheno Forecast for [date as of [Date]. USA-NPN, Tucson, Arizona, USA. Dataset Accessed [Date of Access] at www.usanpn.org/data/forecasts.</useconst>
+        <useconst>Please cite these products as follows: USA National Phenology Network. [Year Published]. Apple Maggot Pheno Forecast for [date as of [Date]. USA-NPN, Tucson, Arizona, USA. Dataset Accessed [Date of Access] at https://usanpn.org/data/forecasts/Apple_maggot.</useconst>
         <ptcontac>
             <cntinfo>
                 <cntorgp>
@@ -201,7 +201,7 @@
                 <procdate>Not complete</procdate>
             </procstep>			
             <procstep>
-                <procdesc>The response from the NodeJS service is then processed through a Geospatial filter which clips the data to the species' boundary and colors the data points based on the applicable species lifecycle for the given AGDD value. This is used to generate static graphics which are then made available for download and dispalyed on the USA NPN website. This process runs on a daily basis.</procdesc>
+                <procdesc>The response from the NodeJS service is then processed through a Geospatial filter which clips the data to the species' boundary and colors the data points based on the applicable species lifecycle for the given AGDD value. This is used to generate static graphics which are then made available for download and displayed on the USA NPN website. This process runs on a daily basis.</procdesc>
                 <procdate>Not complete</procdate>
             </procstep>			
 			
@@ -276,7 +276,7 @@
                 <cntemail>theresa@usanpn.org</cntemail>
             </cntinfo>
         </distrib>
-        <distliab>Unless otherwise stated, all data, metadata and related materials are considered to satisfy the quality standards relative to the purpose for which the data were collected. Although these data and associated metadata have been reviewed for accuracy and completeness and approved for release by the U.S. Geological Survey (USGS), no warranty expressed or implied is made regarding the display or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty.</distliab>
+        <distliab>See the USA-NPN Data Use policy: https://usanpn.org/terms#DataUse</distliab>
         <stdorder>
             <digform>
                 <digtinfo>
