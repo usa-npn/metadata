@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <origin>USA National Phenology Network</origin>
+                <pubdate>2021</pubdate>
+                <title>Bagworm, Contiguous United States, 2018-Current Year</title>
+                <geoform>Raster Digital Data Set</geoform>
+                <lworkcit>
+                    <citeinfo> 
+                        <origin>USA National Phenology Network</origin>
+                        <pubdate>2021</pubdate>
+                        <title>USA National Phenology Network, Pheno Forecast Product Suite</title>
+                        <geoform>GIS Data Service</geoform>
+                        <pubinfo>
+                            <pubplace>Internet</pubplace>
+                            <publish>USA National Phenology Network</publish>
+                        </pubinfo>
+                    </citeinfo>
+                </lworkcit>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>Pheno Forecast maps predict key life cycle stages in a range of species to improve conservation and management outcomes. For insect pest species, Pheno Forecasts are based on published growing degree day (GDD) thresholds for key points in species life cycles. These key points typically represent life cycle stages when management actions are most effective. These maps are updated daily and available 6 days in the future. We forecast caterpillar emergence in Bagworm at 600-900 growing degree days (base 50F, start date: March 1, simple average GDD method). Bagworm caterpillars defoliate over 50 families of evergreen and deciduous trees and shrubs, primarily arborvitae, juniper, pine, and spruce.</abstract>
+            <purpose>These maps predict caterpillar emergence for bagworm, to improve management efficacy.</purpose>
+            <supplinf></supplinf>
+        </descript>
+        <timeperd>
+            <timeinfo>
+                <rngdates>
+                    <begdate>2018</begdate>
+                    <enddate>PRESENT</enddate>
+                </rngdates>
+            </timeinfo>
+            <current>ground condition</current>
+        </timeperd>
+        <status>
+            <progress>In work</progress>
+            <update>Daily</update>
+        </status>
+        <spdom>
+            <bounding>
+                <westbc>-125.0208333</westbc>
+                <eastbc>-66.4791667</eastbc>
+                <northbc>49.9375</northbc>
+                <southbc>24.0625</southbc>
+            </bounding>
+        </spdom>
+        <keywords>
+            <theme>
+                <themekt>USGS Thesaurus</themekt>
+                <themekey>phenology</themekey>
+                <themekey>invasive species</themekey>
+				<themekey>pest management</themekey>
+                <themekey>atmospheric and climatic processes</themekey>
+            </theme>
+            <place>
+                <placekt>Common geographic areas</placekt>
+                <placekey>United States</placekey>
+            </place>
+        </keywords>
+        <accconst>Public</accconst>
+        <useconst>Please cite these products as follows: USA National Phenology Network. [Year Published]. Asian longhorned beetle Pheno Forecast for [date as of [Date]. USA-NPN, Tucson, Arizona, USA. Dataset Accessed [Date of Access] at https://usanpn.org/data/forecasts/Bagworm.</useconst>
+        <ptcontac>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>USA National Phenology Network</cntorg>
+                    <cntper>Theresa Crimmins</cntper>
+                </cntorgp>
+                <cntpos>Director</cntpos>
+                <cntaddr>
+                    <addrtype>Mailing and Physical</addrtype>
+                    <address>1311 E 4th St</address>
+                    <city>Tucson</city>
+                    <state>AZ</state>
+                    <postal>85721</postal>
+                    <country>USA</country>
+                </cntaddr>
+                <cntvoice>+1-520-621-8523</cntvoice>
+                <cntemail>theresa@usanpn.org</cntemail>
+            </cntinfo>
+        </ptcontac>
+        <datacred>United States Geological Survey</datacred>
+        <native>Operating System: Ubuntu 18.04.4 LTS (GNU/Linux 3.13.0-85-generic x86_64); WMS/WCS Implementation: Geoserver 2.8; Raster Data Housed in PostgreSQL 9.4.5; Software Stack: NodeJS 7.7.4, Swagger Express 0.7.0</native>
+    </idinfo>
+    <dataqual>
+        <attracc>
+            <attraccr>No formal attribute accuracy tests were conducted.</attraccr>
+        </attracc>
+        <logic>Data is provided as-is. No logical accuracy tests are performed beyond that done by the original data publishers.</logic>
+        <complete>Data is provided as-is.</complete>
+        <posacc>
+            <horizpa>
+                <horizpar>A formal accuracy assessment of the horizontal positional information in the data set has not been conducted.</horizpar>
+            </horizpa>
+            <vertacc>
+                <vertaccr>A formal accuracy assessment of the vertical positional information in the data set has either not been conducted, or is not applicable.</vertaccr>
+            </vertacc>
+        </posacc>
+        <lineage>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <origin>NOAA National Centers for Environmental Prediction</origin>
+                        <pubdate>2018</pubdate>
+                        <title>RTMA - Contiguous United States Grid 184 - 2.5 km resolution</title>
+                        <geoform>Raster Digital Data Set</geoform>
+                        <pubinfo>
+                            <pubplace>Internet</pubplace>
+                            <publish>NOAA National Centers for Environmental Prediction</publish>
+                        </pubinfo>
+                        <onlink>http://www.nco.ncep.noaa.gov/pmb/products/rtma/</onlink>
+                    </citeinfo>
+                </srccite>
+                <typesrc>Digital and/or Hardcopy Resources</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <rngdates>
+                            <begdate>20180101</begdate>
+                            <enddate>PRESENT</enddate>
+                        </rngdates>
+                    </timeinfo>
+                    <srccurr>ground condition</srccurr>
+                </srctime>
+                <srccitea>NCEP RTMA</srccitea>
+                <srccontr>Used as intermediary data source between URMA and NDFD data sources</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <origin>NOAA National Centers for Environmental Prediction</origin>
+                        <pubdate>2018</pubdate>
+                        <title>URMA - Contiguous United States - Grid 184 - Conus - 2.5km resolution</title>
+                        <geoform>Raster Digital Data Set</geoform>
+                        <pubinfo>
+                            <pubplace>Internet</pubplace>
+                            <publish>NOAA National Centers for Environmental Prediction</publish>
+                        </pubinfo>
+                        <onlink>http://www.nco.ncep.noaa.gov/pmb/products/rtma/#URMA</onlink>
+                    </citeinfo>
+                </srccite>
+                <typesrc>Digital and/or Hardcopy Resources</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <rngdates>
+                            <begdate>20180101</begdate>
+                            <enddate>PRESENT</enddate>
+                        </rngdates>
+                    </timeinfo>
+                    <srccurr>ground condition</srccurr>
+                </srctime>
+                <srccitea>URMA</srccitea>
+                <srccontr>Used as authoritative data source on previous day observational data</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <origin>National Weather Service</origin>
+                        <pubdate>2018</pubdate>
+                        <title>NWS National Digital Forecast Database</title>
+                        <geoform>Raster Digital Data Set</geoform>
+                        <pubinfo>
+                            <pubplace>Internet</pubplace>
+                            <publish>National Weather Service</publish>
+                        </pubinfo>
+                        <onlink>http://www.nws.noaa.gov/ndfd/technical.htm</onlink>
+                    </citeinfo>
+                </srccite>
+                <typesrc>Digital and/or Hardcopy Resources</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <rngdates>
+                            <begdate>20180101</begdate>
+                            <enddate>PRESENT</enddate>
+                        </rngdates>
+                    </timeinfo>
+                    <srccurr>ground condition</srccurr>
+                </srctime>
+                <srccitea>NDFD</srccitea>
+                <srccontr>Provides current day and next six day temperature forecasts</srccontr>
+            </srcinfo>
+            <procstep>
+                <procdesc>NCEP NDFD forecast data is retrieved for current day and the forthcoming six days and is used to populate those days with temperature values.</procdesc>
+                <procdate>Not complete</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>NCEP RTMA data (hourly temperatures) is retrieved for the past 24 hours.</procdesc>
+                <procdate>Not complete</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>NCEP URMA data (hourly temperatures) is retrieved for the past 24 hours.</procdesc>
+                <procdate>Not complete</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>Daily Tmin/Tmax is generated for the previous four days from the retrieved URMA and RTMA hourly data. In this step URMA data is always given preference, and RTMA is only used for hours where URMA is not yet available.</procdesc>
+                <procdate>Not complete</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>Requests are made to the NodeJS services using the appropriate calculation method, base temperature and upper threshold temperature values. These inputs are used to generate a dynamic raster layer displaying the number of AGDD units based on the input parameters.</procdesc>
+                <procdate>Not complete</procdate>
+            </procstep>			
+            <procstep>
+                <procdesc>The response from the NodeJS service is then processed through a Geospatial filter which clips the data to the species' boundary and colors the data points based on the applicable species lifecycle for the given AGDD value. This is used to generate static graphics which are then made available for download and displayed on the USA NPN website. This process runs on a daily basis.</procdesc>
+                <procdate>Not complete</procdate>
+            </procstep>			
+			
+        </lineage>
+    </dataqual>
+    <spdoinfo>
+        <direct>Raster</direct>
+        <rastinfo>
+            <rasttype>Grid Cell</rasttype>
+            <rowcount>1228</rowcount>
+            <colcount>2606</colcount>
+            <vrtcount>1</vrtcount>
+        </rastinfo>
+    </spdoinfo>
+    <spref>
+        <horizsys>
+            <geograph>
+                <latres>0.0210708469055</latres>
+                <longres>0.022464185188</longres>
+                <geogunit>Decimal seconds</geogunit>
+            </geograph>
+            <geodetic>
+                <horizdn>D_North_American_1983</horizdn>
+                <ellips>GRS_1980</ellips>
+                <semiaxis>6378137.0</semiaxis>
+                <denflat>298.257222101</denflat>
+            </geodetic>
+        </horizsys>
+    </spref>
+    <eainfo>
+        <detailed>
+            <enttyp>
+                <enttypl>Attribute Table</enttypl>
+                <enttypd>Table containing attribute information associated with the data set.</enttypd>
+                <enttypds>Producer defined</enttypds>
+            </enttyp>
+            <attr>
+                <attrlabl>Value</attrlabl>
+                <attrdef>Accumulated Growing Degree Days (AGDD). Values calculated as (((tmin + tmax)/2) - 50) where negative values are replaced with zero. Values are then accumulated for each day of the year.</attrdef>
+                <attrdefs>Producer defined</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>25000</rdommax>
+                        <attrunit>Fahrenheit</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+        </detailed>
+        <overview>
+            <eaover>The entity and attribute information provided here describes the tabular data associated with the data set. Please review the detailed descriptions that are provided (the individual attribute descriptions) for information on the values that appear as fields/table entries of the data set.</eaover>
+            <eadetcit>The entity and attribute information was generated by the individual and/or agency identified as the originator of the data set. Please review the rest of the metadata record for additional details and information.</eadetcit>
+        </overview>
+    </eainfo>
+    <distinfo>
+        <distrib>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>USA National Phenology Network</cntorg>
+                    <cntper>Theresa Crimmins</cntper>
+                </cntorgp>
+                <cntpos>Director</cntpos>
+                <cntaddr>
+                    <addrtype>Mailing and Physical</addrtype>
+                    <address>1311 E 4th St</address>
+                    <city>Tucson</city>
+                    <state>AZ</state>
+                    <postal>85721</postal>
+                    <country>USA</country>
+                </cntaddr>
+                <cntvoice>+1-520-621-8523</cntvoice>
+                <cntemail>theresa@usanpn.org</cntemail>
+            </cntinfo>
+        </distrib>
+        <distliab>See the USA-NPN Data Use policy: https://usanpn.org/terms#DataUse</distliab>
+        <stdorder>
+            <digform>
+                <digtinfo>
+                    <formname>Raster Digital Data Set Landing Page</formname>
+                </digtinfo>
+                <digtopt>
+                    <onlinopt>
+                        <computer>
+                            <networka>
+                                <networkr>https://www.usanpn.org/data/forecasts</networkr>
+                            </networka>
+                        </computer>
+                    </onlinopt>
+                </digtopt>
+            </digform>
+            <digform>
+                <digtinfo>
+                    <formname>RESTful Data Endpoint</formname>
+                </digtinfo>
+                <digtopt>
+                    <onlinopt>
+                        <computer>
+                            <networka>
+                                <networkr>https://data.usanpn.org/geoservices/v0/agdd/pestMap?species=Bagworm&amp;date=YYYY-mm-dd</networkr>
+                            </networka>
+                        </computer>
+                    </onlinopt>
+                </digtopt>
+            </digform>
+            <fees>None.</fees>
+        </stdorder>
+    </distinfo>
+    <metainfo>
+        <metd>20210215</metd>
+        <metc>
+            <cntinfo>
+                <cntperp>
+                    <cntper>Lee Marsh</cntper>
+                    <cntorg>USA National Phenology Network</cntorg>
+                </cntperp>
+                <cntpos>IT Director</cntpos>
+                <cntaddr>
+                    <addrtype>Mailing and Physical</addrtype>
+                    <address>1311 E 4th St</address>
+                    <city>Tucson</city>
+                    <state>AZ</state>
+                    <postal>85721</postal>
+                    <country>USA</country>
+                </cntaddr>
+                <cntvoice>+1-520-621-8523</cntvoice>
+                <cntemail>lee@usanpn.org</cntemail>
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+    </metainfo>
+</metadata>
