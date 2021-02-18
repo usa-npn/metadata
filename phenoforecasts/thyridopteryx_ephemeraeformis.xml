@@ -5,7 +5,7 @@
             <citeinfo>
                 <origin>USA National Phenology Network</origin>
                 <pubdate>2021</pubdate>
-                <title>Bagworm, Contiguous United States, 2018-Current Year</title>
+                <title>Bagworm Pheno Forecast, Contiguous United States, 2018-Current Year</title>
                 <geoform>Raster Digital Data Set</geoform>
                 <lworkcit>
                     <citeinfo> 
@@ -61,7 +61,7 @@
             </place>
         </keywords>
         <accconst>Public</accconst>
-        <useconst>Please cite these products as follows: USA National Phenology Network. [Year Published]. Asian longhorned beetle Pheno Forecast for [date as of [Date]. USA-NPN, Tucson, Arizona, USA. Dataset Accessed [Date of Access] at https://usanpn.org/data/forecasts/Bagworm.</useconst>
+        <useconst>Please cite these products as follows: USA National Phenology Network. [Year Published]. Bagworm Pheno Forecast for [date as of [Date]. USA-NPN, Tucson, Arizona, USA. Dataset Accessed [Date of Access] at https://usanpn.org/data/forecasts/Bagworm.</useconst>
         <ptcontac>
             <cntinfo>
                 <cntorgp>

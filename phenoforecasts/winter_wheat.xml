@@ -5,7 +5,7 @@
             <citeinfo>
                 <origin>USA National Phenology Network</origin>
                 <pubdate>2021</pubdate>
-                <title>Eastern Tent Caterpillar, Contiguous United States, 2018-Current Year</title>
+                <title>Winter Wheat Development Forecast, Contiguous United States, 2021-Current Year</title>
                 <geoform>Raster Digital Data Set</geoform>
                 <lworkcit>
                     <citeinfo> 
@@ -22,14 +22,16 @@
             </citeinfo>
         </citation>
         <descript>
-            <abstract>Pheno Forecast maps predict key life cycle stages in a range of species to improve conservation and management outcomes. For insect pest species, Pheno Forecasts are based on published growing degree day (GDD) thresholds for key points in species life cycles. These key points typically represent life cycle stages when management actions are most effective. These maps are updated daily and available 6 days in the future. We forecast caterpillar emergence in Eastern tent caterpillar at 90-190 growing degree days (base 50F, start date: March 1, simple average GDD method). Eastern Tent Caterpillars are a native moth and while they can defoliate trees, the trees rarely die as a consequence.</abstract>
-            <purpose>These maps predict caterpillar emergence for Eastern tent caterpillar, to improve management efficacy.</purpose>
+            <abstract>The USA-NPN winter wheat development forecast predicts the developmental stage of winter wheat from emergence through seed development in real-time. The USA-NPN winter wheat development forecast is based on the CERES-wheat model (Ritchie 1991), which predicts developmental stage using temperature, sun angle, and varietal inputs. The USA-NPN winter wheat development forecast approximates across varieties to provide a general forecast for winter wheat development and may reflect developmental stage in some varieties more closely than others.
+Winter wheat developmental stages are estimated as a function of accumulated growing degree days (GDDs). As described in Ritchie (1991), daily GDD accumulations are calculated using a Jan 1 start date, 35.6F base temperature, and the simple averaging method. Daily GDD accumulations are penalized based on whether vernalization requirements have been met and the number of hours of daylight at that location. Once accumulated GDDs in a pixel reach 752, a 32F base temp is used. All calculations and values are in Farenheit. 
+To determine the vernalization penalty for each pixel, first, vernalization days are calculated as follows. If the daily average temperature (Tavg) falls between 32-44.6F, the day is considered a full VD. If the daily average temperature falls between 44.6-64.4F, a fraction of a VD is calculated using the formula (approximated from Ritchie 1991, Fig 3-1): [Fraction VD = -0.06(Tavg) + 3.38]. The vernalization penalty for a location on a given day is a function of VDs, calculated using the formula (approximated from Ritchie 1991, Fig 3-2): [VDPenalty = 0.015(VDs) + 0.21]. Once a pixel reaches 50VDs, the vernalization penalty is no longer calculated. The photoperiod penalty for each pixel is calculated using the formula (approximated from Ritchie 1991, Fig 3-3): [PhotoperiodPenalty = 0.075(hours daylight) – 0.24]. The GDD accumulation for each pixel is penalized (reduced) for each pixel by multiplying it by either the VDPenalty or the PhotoperiodPenalty, whichever value is smaller.</abstract>
+            <purpose>The winter wheat development forecast can be used to determine whether plants at a particular location are likely to have suffered damage due to sub-freezing temperatures, based on their development stage.</purpose>
             <supplinf></supplinf>
         </descript>
         <timeperd>
             <timeinfo>
                 <rngdates>
-                    <begdate>2018</begdate>
+                    <begdate>2021</begdate>
                     <enddate>PRESENT</enddate>
                 </rngdates>
             </timeinfo>
@@ -51,8 +53,7 @@
             <theme>
                 <themekt>USGS Thesaurus</themekt>
                 <themekey>phenology</themekey>
-                <themekey>invasive species</themekey>
-				<themekey>pest management</themekey>
+                <themekey>agriculture</themekey>
                 <themekey>atmospheric and climatic processes</themekey>
             </theme>
             <place>
@@ -61,7 +62,7 @@
             </place>
         </keywords>
         <accconst>Public</accconst>
-        <useconst>Please cite these products as follows: USA National Phenology Network. [Year Published]. Eastern Tent Caterpillar Pheno Forecast for [date as of [Date]. USA-NPN, Tucson, Arizona, USA. Dataset Accessed [Date of Access] at https://usanpn.org/data/forecasts/Eastern_tent_caterpillar.</useconst>
+        <useconst>Please cite these products as follows: USA National Phenology Network. [Year Published]. Winter Wheat Development Forecast for [date as of [Date]. USA-NPN, Tucson, Arizona, USA. Dataset Accessed [Date of Access] at https://usanpn.org/data/forecasts/Winter_wheat.</useconst>
         <ptcontac>
             <cntinfo>
                 <cntorgp>
@@ -181,30 +182,21 @@
                 <srccontr>Provides current day and next six day temperature forecasts</srccontr>
             </srcinfo>
             <procstep>
-                <procdesc>NCEP NDFD forecast data is retrieved for current day and the forthcoming six days and is used to populate those days with temperature values.</procdesc>
+                <procdesc>Download NCEP NDFD forecast data for daily Tmin and Tmax raster products. </procdesc>
                 <procdate>Not complete</procdate>
             </procstep>
             <procstep>
-                <procdesc>NCEP RTMA data (hourly temperatures) is retrieved for the past 24 hours.</procdesc>
+                <procdesc>For each day, calculate the average daily temperature (Tavg), number of hours of daylight, and photoperiod penalties. Compute the vernalization days (VDs) at each pixel. Use VD accumulation to calculate vernalization penalties for each pixel. Compute the GDD for the day using the appropriate base temperature (<= 742 use a base of 35.6F otherwise, use 32F).</procdesc>
                 <procdate>Not complete</procdate>
             </procstep>
             <procstep>
-                <procdesc>NCEP URMA data (hourly temperatures) is retrieved for the past 24 hours.</procdesc>
+                <procdesc>Apply GDD penalties as follows: if accumulated VDs is < 50 and photoperiod penalty > VD penalty, then use the VD penalty. Otherwise use the photoperiod penalty. Multiply the GDDs by the penalty and add the GDD to the accumulated GDDs.</procdesc>
                 <procdate>Not complete</procdate>
             </procstep>
             <procstep>
-                <procdesc>Daily Tmin/Tmax is generated for the previous four days from the retrieved URMA and RTMA hourly data. In this step URMA data is always given preference, and RTMA is only used for hours where URMA is not yet available.</procdesc>
-                <procdate>Not complete</procdate>
-            </procstep>
-            <procstep>
-                <procdesc>Requests are made to the NodeJS services using the appropriate calculation method, base temperature and upper threshold temperature values. These inputs are used to generate a dynamic raster layer displaying the number of AGDD units based on the input parameters.</procdesc>
+                <procdesc>Write the forecast raster to disk for the day.</procdesc>
                 <procdate>Not complete</procdate>
             </procstep>			
-            <procstep>
-                <procdesc>The response from the NodeJS service is then processed through a Geospatial filter which clips the data to the species' boundary and colors the data points based on the applicable species lifecycle for the given AGDD value. This is used to generate static graphics which are then made available for download and displayed on the USA NPN website. This process runs on a daily basis.</procdesc>
-                <procdate>Not complete</procdate>
-            </procstep>			
-			
         </lineage>
     </dataqual>
     <spdoinfo>
@@ -240,7 +232,7 @@
             </enttyp>
             <attr>
                 <attrlabl>Value</attrlabl>
-                <attrdef>Accumulated Growing Degree Days (AGDD). Values calculated as (((tmin + tmax)/2) - 50) where negative values are replaced with zero. Values are then accumulated for each day of the year.</attrdef>
+                <attrdef>Accumulated Growing Degree Days (AGDD). These are adjusted (penalized) as described under processing above.</attrdef>
                 <attrdefs>Producer defined</attrdefs>
                 <attrdomv>
                     <rdom>
@@ -300,7 +292,7 @@
                     <onlinopt>
                         <computer>
                             <networka>
-                                <networkr>https://data.usanpn.org/geoservices/v0/agdd/pestMap?species=Eastern%20Tent%20Caterpillar&amp;date=YYYY-mm-dd</networkr>
+                                <networkr>https://data.usanpn.org/geoservices/v0/agdd/pestMap?species=Winter%20Wheat&amp;date=YYYY-mm-dd</networkr>
                             </networka>
                         </computer>
                     </onlinopt>

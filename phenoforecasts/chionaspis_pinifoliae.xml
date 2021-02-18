@@ -5,7 +5,7 @@
             <citeinfo>
                 <origin>USA National Phenology Network</origin>
                 <pubdate>2021</pubdate>
-                <title>Bronze Birch Borer, Contiguous United States, 2018-Current Year</title>
+                <title>Pine Needle Scale Pheno Forecast, Contiguous United States, 2018-Current Year</title>
                 <geoform>Raster Digital Data Set</geoform>
                 <lworkcit>
                     <citeinfo> 
@@ -22,8 +22,8 @@
             </citeinfo>
         </citation>
         <descript>
-            <abstract>Pheno Forecast maps predict key life cycle stages in a range of species to improve conservation and management outcomes. For insect pest species, Pheno Forecasts are based on published growing degree day (GDD) thresholds for key points in species life cycles. These key points typically represent life cycle stages when management actions are most effective. These maps are updated daily and available 6 days in the future. We forecast adult emergence in bronze birch borer at 450 growing degree days (base 50F, start date: January 1, double sine GDD method). Bronze birch borer frequently kills birch trees by boring into the wood.</abstract>
-            <purpose>These maps predict adult emergence for bronze birch borer, to improve management efficacy.</purpose>
+            <abstract>Pheno Forecast maps predict key life cycle stages in a range of species to improve conservation and management outcomes. For insect pest species, Pheno Forecasts are based on published growing degree day (GDD) thresholds for key points in species life cycles. These key points typically represent life cycle stages when management actions are most effective. These maps are updated daily and available 6 days in the future. We forecast crawler emergence in pine needle scale (Chionaspis pinifoliae) at 298-448F growing degree days (base 50F, start date: March 1, simple average GDD method). Pine needle scale insects pierce pine needles and consume sap. Treatments are often applied when crawlers emerge from their eggs and before they develop their protective waxy coating.</abstract>
+            <purpose>These maps predict crawler emergence for pine needle scale to improve management efficacy.</purpose>
             <supplinf></supplinf>
         </descript>
         <timeperd>
@@ -61,7 +61,7 @@
             </place>
         </keywords>
         <accconst>Public</accconst>
-        <useconst>Please cite these products as follows: USA National Phenology Network. [Year Published]. Asian longhorned beetle Pheno Forecast for [date as of [Date]. USA-NPN, Tucson, Arizona, USA. Dataset Accessed [Date of Access] at https://usanpn.org/data/forecasts/Bronze_birch_borer.</useconst>
+        <useconst>Please cite these products as follows: USA National Phenology Network. [Year Published]. Pine Needle Scale Pheno Forecast for [date as of [Date]. USA-NPN, Tucson, Arizona, USA. Dataset Accessed [Date of Access] at https://usanpn.org/data/forecasts/Pine_needle_scale.</useconst>
         <ptcontac>
             <cntinfo>
                 <cntorgp>
@@ -300,7 +300,7 @@
                     <onlinopt>
                         <computer>
                             <networka>
-                                <networkr>https://data.usanpn.org/geoservices/v0/agdd/pestMap?species=Bronze%20Birch%20Borer&amp;date=YYYY-mm-dd</networkr>
+                                <networkr>https://data.usanpn.org/geoservices/v0/agdd/pestMap?species=Pine%20Needle%20Scale&amp;date=YYYY-mm-dd</networkr>
                             </networka>
                         </computer>
                     </onlinopt>

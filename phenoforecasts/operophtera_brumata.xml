@@ -5,7 +5,7 @@
             <citeinfo>
                 <origin>USA National Phenology Network</origin>
                 <pubdate>2021</pubdate>
-                <title>Eastern Tent Caterpillar, Contiguous United States, 2018-Current Year</title>
+                <title>Winter Moth Pheno Forecast, Contiguous United States, 2018-Current Year</title>
                 <geoform>Raster Digital Data Set</geoform>
                 <lworkcit>
                     <citeinfo> 
@@ -22,8 +22,8 @@
             </citeinfo>
         </citation>
         <descript>
-            <abstract>Pheno Forecast maps predict key life cycle stages in a range of species to improve conservation and management outcomes. For insect pest species, Pheno Forecasts are based on published growing degree day (GDD) thresholds for key points in species life cycles. These key points typically represent life cycle stages when management actions are most effective. These maps are updated daily and available 6 days in the future. We forecast caterpillar emergence in Eastern tent caterpillar at 90-190 growing degree days (base 50F, start date: March 1, simple average GDD method). Eastern Tent Caterpillars are a native moth and while they can defoliate trees, the trees rarely die as a consequence.</abstract>
-            <purpose>These maps predict caterpillar emergence for Eastern tent caterpillar, to improve management efficacy.</purpose>
+            <abstract>Pheno Forecast maps predict key life cycle stages in a range of species to improve conservation and management outcomes. For insect pest species, Pheno Forecasts are based on published growing degree day (GDD) thresholds for key points in species life cycles. These key points typically represent life cycle stages when management actions are most effective. These maps are updated daily and available 6 days in the future. We forecast caterpillar emergence in winter moth (Operophtera brumata) at 20-350F growing degree days (base 50F, start date: January 1, simple average GDD method). The caterpillars can defoliate certain species of deciduous trees.  Some control measures are most effective when caterpillars emerge.</abstract>
+            <purpose>These maps predict caterpillar emergence for winter moth to improve management efficacy.</purpose>
             <supplinf></supplinf>
         </descript>
         <timeperd>
@@ -61,7 +61,7 @@
             </place>
         </keywords>
         <accconst>Public</accconst>
-        <useconst>Please cite these products as follows: USA National Phenology Network. [Year Published]. Eastern Tent Caterpillar Pheno Forecast for [date as of [Date]. USA-NPN, Tucson, Arizona, USA. Dataset Accessed [Date of Access] at https://usanpn.org/data/forecasts/Eastern_tent_caterpillar.</useconst>
+        <useconst>Please cite these products as follows: USA National Phenology Network. [Year Published]. Winter Moth Pheno Forecast for [date as of [Date]. USA-NPN, Tucson, Arizona, USA. Dataset Accessed [Date of Access] at https://usanpn.org/data/forecasts/Winter_moth.</useconst>
         <ptcontac>
             <cntinfo>
                 <cntorgp>
@@ -300,7 +300,7 @@
                     <onlinopt>
                         <computer>
                             <networka>
-                                <networkr>https://data.usanpn.org/geoservices/v0/agdd/pestMap?species=Eastern%20Tent%20Caterpillar&amp;date=YYYY-mm-dd</networkr>
+                                <networkr>https://data.usanpn.org/geoservices/v0/agdd/pestMap?species=Winter%20Moth&amp;date=YYYY-mm-dd</networkr>
                             </networka>
                         </computer>
                     </onlinopt>
