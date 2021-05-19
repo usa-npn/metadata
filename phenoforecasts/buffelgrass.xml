@@ -7,6 +7,7 @@
                 <pubdate>2019</pubdate>
                 <title>Buffelgrass Pheno Forecast, Arizona, 2019 - Current Year</title>
                 <geoform>Raster Digital Data Set</geoform>
+		<onlink>http://dx.doi.org/10.25422/azu.data.14273081.v1</onlink>
                 <lworkcit>
                     <citeinfo>
                         <origin>USA National Phenology Network</origin>
@@ -62,7 +63,7 @@
             </place>
         </keywords>
         <accconst>Public</accconst>
-        <useconst>Please cite these products as follows:  [Author] [Year Published] [Dataset Title] {as of [DOY] (for continuous daily data) | Year(s) [Year(s)] (for annual products) | Date [Date] (for daily products) } for Region [Coordinates]. [Parameterized URL for Data Download] [Data Owner][City/State] Dataset Accessed [Date of Access] at [DOI Link]. Example: USA National Phenology Network. 2019. Buffelgrass Pheno Forecast, Arizona 2019-03-02. Region: 37.00, -109.04 (UR); 31.33, -114.81 (LL). http://data.usanpn.org/geoserver-request-builder?service=wms&amp;layer=Precipitation:buffelgrass_prism&amp;date=2019-03-02&amp;format=image/png&amp;projection=4269&amp;width=1700&amp;height=800 . USA-NPN, Tucson, Arizona, USA. Data set accessed 2019-3-4.</useconst>
+        <useconst>Please cite these products as follows:  [Author] [Year Published] [Dataset Title] {as of [DOY] (for continuous daily data) | Year(s) [Year(s)] (for annual products) | Date [Date] (for daily products) } for Region [Coordinates]. [Parameterized URL for Data Download] [Data Owner][City/State] Dataset Accessed [Date of Access] at [DOI Link]. Example: USA National Phenology Network. 2019. Buffelgrass Pheno Forecast, Arizona 2019-03-02. Region: 37.00, -109.04 (UR); 31.33, -114.81 (LL). http://data.usanpn.org/geoserver-request-builder?service=wms&amp;layer=Precipitation:buffelgrass_prism&amp;date=2019-03-02&amp;format=image/png&amp;projection=4269&amp;width=1700&amp;height=800 . USA-NPN, Tucson, Arizona, USA. Data set accessed 2019-3-4 at http://dx.doi.org/10.25422/azu.data.14273081.v1.</useconst>
         <ptcontac>
             <cntinfo>
                 <cntorgp>
@@ -220,7 +221,7 @@
                     <onlinopt>
                         <computer>
                             <networka>
-                                <networkr>https://www.usanpn.org/data/forecasts</networkr>
+                                <networkr>http://dx.doi.org/10.25422/azu.data.14273081.v1</networkr>
                             </networka>
                         </computer>
                     </onlinopt>

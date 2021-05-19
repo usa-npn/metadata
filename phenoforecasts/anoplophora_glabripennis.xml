@@ -7,6 +7,7 @@
                 <pubdate>2021</pubdate>
                 <title>Asian longhorned beetle, Contiguous United States, 2018-Current Year</title>
                 <geoform>Raster Digital Data Set</geoform>
+		<onlink>http://dx.doi.org/10.25422/azu.data.14272571.v1</onlink>
                 <lworkcit>
                     <citeinfo> 
                         <origin>USA National Phenology Network</origin>
@@ -61,7 +62,7 @@
             </place>
         </keywords>
         <accconst>Public</accconst>
-        <useconst>Please cite these products as follows: USA National Phenology Network. [Year Published]. Asian longhorned beetle Pheno Forecast for [date as of [Date]. USA-NPN, Tucson, Arizona, USA. Dataset Accessed [Date of Access] at https://usanpn.org/data/forecasts/Asian_longhorned_beetle.</useconst>
+        <useconst>Please cite these products as follows: USA National Phenology Network. [Year Published]. Asian longhorned beetle Pheno Forecast for [date as of [Date]. USA-NPN, Tucson, Arizona, USA. Dataset Accessed [Date of Access] at http://dx.doi.org/10.25422/azu.data.14272571.v1.</useconst>
         <ptcontac>
             <cntinfo>
                 <cntorgp>
@@ -286,7 +287,7 @@
                     <onlinopt>
                         <computer>
                             <networka>
-                                <networkr>https://www.usanpn.org/data/forecasts</networkr>
+                                <networkr>http://dx.doi.org/10.25422/azu.data.14272571.v1</networkr>
                             </networka>
                         </computer>
                     </onlinopt>

@@ -7,6 +7,7 @@
                 <pubdate>2021</pubdate>
                 <title>Winter Wheat Development Forecast, Contiguous United States, 2021-Current Year</title>
                 <geoform>Raster Digital Data Set</geoform>
+		<onlink>http://dx.doi.org/10.25422/azu.data.14272703.v1</onlink>
                 <lworkcit>
                     <citeinfo> 
                         <origin>USA National Phenology Network</origin>
@@ -62,7 +63,7 @@
             </place>
         </keywords>
         <accconst>Public</accconst>
-        <useconst>Please cite these products as follows: USA National Phenology Network. [Year Published]. Winter Wheat Development Forecast for [date as of [Date]. USA-NPN, Tucson, Arizona, USA. Dataset Accessed [Date of Access] at https://usanpn.org/data/forecasts/Winter_wheat.</useconst>
+        <useconst>Please cite these products as follows: USA National Phenology Network. [Year Published]. Winter Wheat Development Forecast for [date as of [Date]. USA-NPN, Tucson, Arizona, USA. Dataset Accessed [Date of Access] at http://dx.doi.org/10.25422/azu.data.14272703.v1.</useconst>
         <ptcontac>
             <cntinfo>
                 <cntorgp>
@@ -278,7 +279,7 @@
                     <onlinopt>
                         <computer>
                             <networka>
-                                <networkr>https://www.usanpn.org/data/forecasts</networkr>
+                                <networkr>http://dx.doi.org/10.25422/azu.data.14272703.v1</networkr>
                             </networka>
                         </computer>
                     </onlinopt>
