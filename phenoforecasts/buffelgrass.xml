@@ -23,9 +23,9 @@
             </citeinfo>
         </citation>
         <descript>
-            <abstract>Pheno Forecast maps predict key life cycle stages in invasive and pest species, to improve management efficacy. The buffelgrass Pheno Forecast is based on known precipitation thresholds for triggering green-up to a level where management actions are most effective based on research presented in Wallace et al. 2016*. Daily values represent the 24 day prior precipitation accumulation. 24 day accumulated precipitation values are derived from PRISM daily precipitation data. These maps are updated daily and predict green-up one to two weeks in the future.
+            <abstract>Pheno Forecast maps predict key life cycle stages in invasive and pest species, to improve management efficacy. The buffelgrass Pheno Forecast is based on known precipitation thresholds for triggering green-up to a level where management actions are most effective based on research presented in Wallace et al. 2016*. Daily values represent the 24 day prior precipitation accumulation. 24 day accumulated precipitation values are derived from PRISM daily precipitation data. These maps are updated daily and predict green-up one to two weeks in the future. Precipitation totals by station derived from RainLog (www.rainlog.org) and NOAA-GHCN (https://www.ncdc.noaa.gov/ghcnd-data-access) are available as an additional feature overlay on the USA-NPN visualization tool (https://www.usanpn.org/data/visualizations).
 			* Wallace, C.S.A.; Walker, J.J.; Skirvin, S.M.; Patrick-Birdwell, C.; Weltzin, J.F.; Raichle, H. 2016. Mapping Presence and Predicting Phenological Status of Invasive Buffelgrass in Southern Arizona Using MODIS, Climate and Citizen Science Observation Data. Remote Sens. 8: 524.</abstract>
-            <purpose>These data were created to be used by land managers to helps efforts to control bufflegrass by predicting when species are most susceptible to treatment.</purpose>
+            <purpose>These data were created to be used by land managers to helps efforts to control buffelgrass by predicting when species are most susceptible to treatment.</purpose>
             <supplinf></supplinf>
         </descript>
         <timeperd>
