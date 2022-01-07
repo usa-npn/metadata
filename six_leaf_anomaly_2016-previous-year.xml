@@ -4,14 +4,14 @@
         <citation>
             <citeinfo>
                 <origin>USA National Phenology Network</origin>
-                <pubdate>2016</pubdate>
+                <pubdate>2022</pubdate>
                 <title>Historical Annual First Leaf Index Anomaly, Contiguous United States, 2016-Previous Year</title>
                 <geoform>Raster Digital Data Set</geoform>
                 <onlink>http://dx.doi.org/10.5066/F7XD0ZRK</onlink>
                 <lworkcit>
                     <citeinfo>
                         <origin>USA National Phenology Network</origin>
-                        <pubdate>2016</pubdate>
+                        <pubdate>2022</pubdate>
                         <title>USA National Phenology Network, Gridded Data Product Suite</title>
                         <geoform>GIS Data Service</geoform>
                         <pubinfo>
@@ -67,7 +67,7 @@
                     <cntorg>USA National Phenology Network</cntorg>
                     <cntper>Theresa Crimmins</cntper>
                 </cntorgp>
-                <cntpos>Assistant Director</cntpos>
+                <cntpos>Director</cntpos>
                 <cntaddr>
                     <addrtype>Mailing and Physical</addrtype>
                     <address>1311 E 4th St</address>
@@ -199,7 +199,7 @@
                     <cntorg>USA National Phenology Network</cntorg>
                     <cntper>Theresa Crimmins</cntper>
                 </cntorgp>
-                <cntpos>Assistant Director</cntpos>
+                <cntpos>Director</cntpos>
                 <cntaddr>
                     <addrtype>Mailing and Physical</addrtype>
                     <address>1311 E 4th St</address>
@@ -264,10 +264,10 @@
         <metc>
             <cntinfo>
                 <cntperp>
-                    <cntper>Lee Marsh</cntper>
+                    <cntper>Alyssa Rosemartin</cntper>
                     <cntorg>USA National Phenology Network</cntorg>
                 </cntperp>
-                <cntpos>IT Director</cntpos>
+                <cntpos>Partner & Application Specialist</cntpos>
                 <cntaddr>
                     <addrtype>Mailing and Physical</addrtype>
                     <address>1311 E 4th St</address>
@@ -277,7 +277,7 @@
                     <country>USA</country>
                 </cntaddr>
                 <cntvoice>+1-520-621-8523</cntvoice>
-                <cntemail>lee@usanpn.org</cntemail>
+                <cntemail>alyssa@usanpn.org</cntemail>
             </cntinfo>
         </metc>
         <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>

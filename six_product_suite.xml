@@ -66,7 +66,7 @@ Example for the Spring Indices: USA National Phenology Network. 2017. Spring Ind
                     <cntorg>USA National Phenology Network</cntorg>
                     <cntper>Theresa Crimmins</cntper>
                 </cntorgp>
-                <cntpos>Assistant Director</cntpos>
+                <cntpos>Director</cntpos>
                 <cntaddr>
                     <addrtype>Mailing and Physical</addrtype>
                     <address>1311 E 4th St</address>
@@ -238,7 +238,7 @@ Example for the Spring Indices: USA National Phenology Network. 2017. Spring Ind
                     <cntorg>USA National Phenology Network</cntorg>
                     <cntper>Theresa Crimmins</cntper>
                 </cntorgp>
-                <cntpos>Assistant Director</cntpos>
+                <cntpos>Director</cntpos>
                 <cntaddr>
                     <addrtype>Mailing and Physical</addrtype>
                     <address>1311 E 4th St</address>
@@ -303,10 +303,10 @@ Example for the Spring Indices: USA National Phenology Network. 2017. Spring Ind
         <metc>
             <cntinfo>
                 <cntperp>
-                    <cntper>Lee Marsh</cntper>
+                    <cntper>Alyssa Rosemartin</cntper>
                     <cntorg>USA National Phenology Network</cntorg>
                 </cntperp>
-                <cntpos>IT Director</cntpos>
+                <cntpos>Partner & Application Specialist</cntpos>
                 <cntaddr>
                     <addrtype>Mailing and Physical</addrtype>
                     <address>1311 E 4th St</address>
@@ -316,7 +316,7 @@ Example for the Spring Indices: USA National Phenology Network. 2017. Spring Ind
                     <country>USA</country>
                 </cntaddr>
                 <cntvoice>+1-520-621-8523</cntvoice>
-                <cntemail>lee@usanpn.org</cntemail>
+                <cntemail>alyssa@usanpn.org</cntemail>
             </cntinfo>
         </metc>
         <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>

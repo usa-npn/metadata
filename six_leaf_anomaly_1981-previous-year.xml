@@ -4,14 +4,14 @@
         <citation>
             <citeinfo>
                 <origin>USA National Phenology Network</origin>
-                <pubdate>2016</pubdate>
+                <pubdate>2022</pubdate>
                 <title>Historical Annual First Leaf Index Anomaly, Contiguous United States, 1981-Previous Year</title>
                 <geoform>Raster Digital Data Set</geoform>
                 <onlink>http://dx.doi.org/10.5066/F7XD0ZRK</onlink>
                 <lworkcit>
                     <citeinfo>
                         <origin>USA National Phenology Network</origin>
-                        <pubdate>2018</pubdate>
+                        <pubdate>2022</pubdate>
                         <title>USA National Phenology Network, Gridded Data Product Suite</title>
                         <geoform>GIS Data Service</geoform>
                         <pubinfo>
@@ -31,7 +31,7 @@
             <timeinfo>
                 <rngdates>
                     <begdate>19810101</begdate>
-                    <enddate>20171231</enddate>
+                    <enddate>PRESENT</enddate>
                 </rngdates>
             </timeinfo>
             <current>ground condition</current>
@@ -67,7 +67,7 @@
                     <cntorg>USA National Phenology Network</cntorg>
                     <cntper>Theresa Crimmins</cntper>
                 </cntorgp>
-                <cntpos>Assistant Director</cntpos>
+                <cntpos>Director</cntpos>
                 <cntaddr>
                     <addrtype>Mailing and Physical</addrtype>
                     <address>1311 E 4th St</address>
@@ -116,8 +116,8 @@
                 <srctime>
                     <timeinfo>
                         <rngdates>
-                            <begdate>19810101</begdate>
-                            <enddate>20170901</enddate>
+                            <begdate>19910101</begdate>
+                            <enddate>20201231</enddate>
                         </rngdates>
                     </timeinfo>
                     <srccurr>publication date</srccurr>
@@ -126,12 +126,12 @@
                 <srccontr>Used as base climate data from which to calculate the Spring Index values.</srccontr>
             </srcinfo>
             <procstep>
-                <procdesc>Download complete PRISM Tmax and Tmin datasets for 1980 - 2010.</procdesc>
-                <procdate>20160115</procdate>
+                <procdesc>Download complete PRISM Tmax and Tmin datasets for 1991 - 2020.</procdesc>
+                <procdate>20211215</procdate>
             </procstep>
             <procstep>
-                <procdesc>For each year, 1981 - 2015, loop through the available PRISM data and calcuate the Spring Index values.</procdesc>
-                <procdate>20160115</procdate>
+                <procdesc>For each year, 1981 - prior year, loop through the available PRISM data and calcuate the Spring Index values.</procdesc>
+                <procdate>20211215</procdate>
             </procstep>
             <procstep>
                 <procdesc>Spring Index anomaly values are calculated across the raster each day of the year comparing the above calculated Spring Index values and the 30-year average product.</procdesc>
@@ -199,7 +199,7 @@
                     <cntorg>USA National Phenology Network</cntorg>
                     <cntper>Theresa Crimmins</cntper>
                 </cntorgp>
-                <cntpos>Assistant Director</cntpos>
+                <cntpos>Director</cntpos>
                 <cntaddr>
                     <addrtype>Mailing and Physical</addrtype>
                     <address>1311 E 4th St</address>
@@ -264,10 +264,10 @@
         <metc>
             <cntinfo>
                 <cntperp>
-                    <cntper>Lee Marsh</cntper>
+                    <cntper>Alyssa Rosemartin</cntper>
                     <cntorg>USA National Phenology Network</cntorg>
                 </cntperp>
-                <cntpos>IT Director</cntpos>
+                <cntpos>Partner & Application Specialist</cntpos>
                 <cntaddr>
                     <addrtype>Mailing and Physical</addrtype>
                     <address>1311 E 4th St</address>
@@ -277,7 +277,7 @@
                     <country>USA</country>
                 </cntaddr>
                 <cntvoice>+1-520-621-8523</cntvoice>
-                <cntemail>lee@usanpn.org</cntemail>
+                <cntemail>alyssa@usanpn.org</cntemail>
             </cntinfo>
         </metc>
         <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>

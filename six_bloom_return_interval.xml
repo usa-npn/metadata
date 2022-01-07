@@ -4,7 +4,7 @@
         <citation>
             <citeinfo>
                 <origin>USA National Phenology Network</origin>
-                <pubdate>2020</pubdate>
+                <pubdate>2022</pubdate>
                 <title>Spring Index Return Interval, First Bloom</title>
                 <geoform>Raster Digital Data Set</geoform>
                 <onlink>http://dx.doi.org/10.5066/F7707ZHR</onlink>
@@ -13,7 +13,7 @@
                 <lworkcit>
                     <citeinfo>
                         <origin>USA National Phenology Network</origin>
-                        <pubdate>2020</pubdate>
+                        <pubdate>2022</pubdate>
                         <title>USA National Phenology Network, Gridded Data Product Suite</title>
                         <geoform>GIS Data Service</geoform>
                         <pubinfo>
@@ -25,7 +25,7 @@
             </citeinfo>
         </citation>
         <descript>
-            <abstract>The Spring Index Return Interval for first bloom represents the frequency with which spring is as late or early as it is in the current year. It serves to contextualize the current year's spring onset anomaly. For example, if the Daily Anomaly product shows first bloom occurring 20 days earlier than average, for a given location, the Return Interval product shows how often that location has experienced bloom at least 20 days early. To create this product, the current year Spring Index Anomaly value is compared to the anomaly value for the preceding decades (2019 and 2020 are compared preceding 38 and 39 years respectively; 2021 and subsequent years are compared to the preceding 40 years). The frequency with which a spring was at least this early (or late) is calculated by taking the number of years in the record divided by the count of years that were earlier (or later) than the current year. Values of 0 represent average or "on time" springs. Negative values represent the frequency of early springs; positive values represent the frequency of late springs. Values of 41 represent the earliest (-41) or latest (41) spring on record.</abstract>
+            <abstract>The Spring Index Return Interval for first bloom represents the frequency with which spring is as late or early as it is in the current year. It serves to contextualize the current year's spring onset anomaly. For example, if the Daily Anomaly product shows first bloom occurring 20 days earlier than average, for a given location, the Return Interval product shows how often that location has experienced bloom at least 20 days early. To create this product, the current year Spring Index Anomaly value is compared to the anomaly value for each of the prior forty years. The frequency with which a spring was at least this early (or late) is calculated by taking the number of years in the record divided by the count of years that were earlier (or later) than the current year. Values of 0 represent average or "on time" springs. Negative values represent the frequency of early springs; positive values represent the frequency of late springs. Values of 41 represent the earliest (-41) or latest (41) spring on record.</abstract>
             <purpose>The Spring Index Return Interval contextualizes the current year's spring relative to the historical record, answering a key question about how typical an early or late spring is.</purpose>
             <supplinf/>
         </descript>
@@ -40,7 +40,7 @@
         </timeperd>
         <status>
             <progress>In work</progress>
-            <update>Biweekly</update>
+            <update>Daily</update>
         </status>
         <spdom>
             <bounding>
@@ -269,20 +269,20 @@
         <metc>
             <cntinfo>
                 <cntperp>
-                    <cntper>Lee Marsh</cntper>
+                     <cntper>Alyssa Rosemartin</cntper>
                     <cntorg>USA National Phenology Network</cntorg>
                 </cntperp>
-                <cntpos>IT Director</cntpos>
+                <cntpos>Partner & Application Specialist</cntpos>
                 <cntaddr>
                     <addrtype>Mailing and Physical</addrtype>
                     <address>1311 E 4th St</address>
                     <city>Tucson</city>
                     <state>AZ</state>
-                    <postal>85719</postal>
+                    <postal>85721</postal>
                     <country>USA</country>
                 </cntaddr>
-                <cntvoice>+1-520-626-3821</cntvoice>
-                <cntemail>lee@usanpn.org</cntemail>
+                <cntvoice>+1-520-621-8523</cntvoice>
+                <cntemail>alyssa@usanpn.org</cntemail>
             </cntinfo>
         </metc>
         <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
