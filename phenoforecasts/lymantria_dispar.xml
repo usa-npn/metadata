@@ -5,7 +5,7 @@
             <citeinfo>
                 <origin>USA National Phenology Network</origin>
                 <pubdate>2021</pubdate>
-                <title>Gypsy Moth Pheno Forecast, Contiguous United States, 2018-Current Year</title>
+                <title>Spongy Moth Pheno Forecast, Contiguous United States, 2018-Current Year</title>
                 <geoform>Raster Digital Data Set</geoform>
 		<onlink>http://dx.doi.org/10.25422/azu.data.14272598.v1</onlink>
                 <lworkcit>
@@ -23,8 +23,8 @@
             </citeinfo>
         </citation>
         <descript>
-            <abstract>Pheno Forecast maps predict key life cycle stages in a range of species to improve conservation and management outcomes. For insect pest species, Pheno Forecasts are based on published growing degree day (GDD) thresholds for key points in species life cycles. These key points typically represent life cycle stages when management actions are most effective. These maps are updated daily and available 6 days in the future. We forecast caterpillar emergence in gypsy moth (Lymantria dispar) at 571 growing degree days (base 37.5F, upper threshold 104F, start date: January 1, double sine GDD method). Gypsy moth (Lymantria dispar) egg masses hatch in late spring and the caterpillars feed extensively on many types of trees. Certain control measures are most effective when caterpillars have recently emerged from their egg masses. </abstract>
-            <purpose>These maps predict caterpillar emergence for gypsy moth, to improve management efficacy.</purpose>
+            <abstract>Pheno Forecast maps predict key life cycle stages in a range of species to improve conservation and management outcomes. For insect pest species, Pheno Forecasts are based on published growing degree day (GDD) thresholds for key points in species life cycles. These key points typically represent life cycle stages when management actions are most effective. These maps are updated daily and available 6 days in the future. We forecast caterpillar emergence in spongy moth (Lymantria dispar) at 571 growing degree days (base 37.5F, upper threshold 104F, start date: January 1, double sine GDD method). Spongy moth (Lymantria dispar) egg masses hatch in late spring and the caterpillars feed extensively on many types of trees. Certain control measures are most effective when caterpillars have recently emerged from their egg masses. </abstract>
+            <purpose>These maps predict caterpillar emergence for spongy moth, to improve management efficacy.</purpose>
             <supplinf></supplinf>
         </descript>
         <timeperd>
@@ -62,7 +62,7 @@
             </place>
         </keywords>
         <accconst>Public</accconst>
-        <useconst>Please cite these products as follows: USA National Phenology Network. [Year Published]. Gypsy Moth Pheno Forecast for [date as of [Date]. USA-NPN, Tucson, Arizona, USA. Dataset Accessed [Date of Access] at http://dx.doi.org/10.25422/azu.data.14272598.v1.</useconst>
+        <useconst>Please cite these products as follows: USA National Phenology Network. [Year Published]. Spongy Moth Pheno Forecast for [date as of [Date]. USA-NPN, Tucson, Arizona, USA. Dataset Accessed [Date of Access] at http://dx.doi.org/10.25422/azu.data.14272598.v1.</useconst>
         <ptcontac>
             <cntinfo>
                 <cntorgp>
