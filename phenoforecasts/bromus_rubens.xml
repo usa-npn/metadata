@@ -288,7 +288,7 @@
                     <onlinopt>
                         <computer>
                             <networka>
-                                <networkr>https://data.usanpn.org/geoservices/v0/agdd/pestMap?species=red_brome_flowering&amp;date=YYYY-mm-dd</networkr>
+                                <networkr>https://data.usanpn.org/geoserver-request-builder/?service=wms&layer=gdd:red_brome_flowering&date=2023-01-31&format=image%2Fpng&projection=4269&width=1700&height=800&colors=1&state_border=1</networkr>
                             </networka>
                         </computer>
                     </onlinopt>
