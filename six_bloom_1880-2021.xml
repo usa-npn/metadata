@@ -5,7 +5,7 @@
             <citeinfo>
                 <origin>USA National Phenology Network</origin>
                 <pubdate>2016</pubdate>
-                <title>Historical Annual First Leaf Index, North-Western Hemisphere, 1880-2013</title>
+                <title>Historical Annual First Bloom Index, North-Western Hemisphere, 1880-2021</title>
                 <geoform>Raster Digital Data Set</geoform>
                 <onlink>http://dx.doi.org/10.5066/F7XD0ZRK</onlink>
                 <lworkcit>
@@ -23,7 +23,7 @@
             </citeinfo>
         </citation>
         <descript>
-            <abstract>Historical values for the Extended Spring Index (SI-x) of First Leaf. Each pixel is assigned a day of year value for the First Leaf Index. The Extended Spring Indices are mathematical models that predict the "start of spring" (timing of leaf out or bloom for species active in early spring) at a particular location. This model was constructed using historical observations of the timing of first leaf in a cloned lilac cultivar (S. x chinensis 'Red Rothomagensis') and two cloned honeysuckle cultivars (Lonicera tatarica 'Arnold Red' and L. korolkowii 'Zabelii'). Primary inputs to the model are temperature events, beginning January 1 of each year. Layers are available for each year from 1880 to 2013. Input temperature data are historical BEST data at 1 degree resolution.</abstract>
+            <abstract>Historical values for the Extended Spring Index (SI-x) of First Bloom. Each pixel is assigned a day of year value for the First Bloom Index. The Extended Spring Indices are mathematical models that predict the "start of spring" (timing of leaf out or bloom for species active in early spring) at a particular location. This model was constructed using historical observations of the timing of first bloom in a cloned lilac cultivar (S. x chinensis 'Red Rothomagensis') and two cloned honeysuckle cultivars (Lonicera tatarica 'Arnold Red' and L. korolkowii 'Zabelii'). Primary inputs to the model are temperature events, beginning January 1 of each year. Layers are available for each year from 1880 to 2021. Input temperature data are historical BEST data at 1 degree resolution.</abstract>
             <purpose>The Extended Spring Indices have been used as an indicator of climate change by both the Environmental Protection Agency and the National Climate Assessment. The historical values of first leaf and first bloom support understanding of spatial patterns in the timing of spring.</purpose>
             <supplinf></supplinf>
         </descript>
@@ -31,7 +31,7 @@
             <timeinfo>
                 <rngdates>
                     <begdate>18800101</begdate>
-                    <enddate>20131231</enddate>
+                    <enddate>20211231</enddate>
                 </rngdates>
             </timeinfo>
             <current>publication date</current>
@@ -119,7 +119,7 @@
                     <timeinfo>
                         <rngdates>
                             <begdate>18800101</begdate>
-                            <enddate>20131231</enddate>
+                            <enddate>20211231</enddate>
                         </rngdates>
                     </timeinfo>
                     <srccurr>publication date</srccurr>
@@ -128,11 +128,11 @@
                 <srccontr>Used as base climate data from which to calculate the Spring Index values.</srccontr>
             </srcinfo>
             <procstep>
-                <procdesc>Download complete BEST Tmax and Tmin datasets for 1880 - 2013.</procdesc>
+                <procdesc>Download complete BEST Tmax and Tmin datasets for 1880 - 2021.</procdesc>
                 <procdate>20161115</procdate>
             </procstep>
             <procstep>
-                <procdesc>For each year, 1880 - 2013, loop through the available BEST data and calcuate the Spring Index values.</procdesc>
+                <procdesc>For each year, 1880 - 2021, loop through the available BEST data and calcuate the Spring Index values.</procdesc>
                 <procdate>20160115</procdate>
             </procstep>
         </lineage>
@@ -170,7 +170,7 @@
             </enttyp>
             <attr>
                 <attrlabl>Value</attrlabl>
-                <attrdef>Extended Spring Index Value, predicting onset day of leafing</attrdef>
+                <attrdef>Extended Spring Index Value, predicting onset day of bloom</attrdef>
                 <attrdefs>Producer defined</attrdefs>
                 <attrdomv>
                     <rdom>
